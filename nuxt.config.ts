@@ -11,6 +11,11 @@ export default defineNuxtConfig({
   ],
   css:[
     '~/assets/sass/main.scss',
+    'vue-slick-carousel/dist/vue-slick-carousel.css'
+  ],
+  plugins: [
+    // { src: '~/plugins/vue-slick-carousel.js' },
+    // { src: '~/plugins/slide-menu.js', mode: 'client' }
   ],
   image: {
     screens: {

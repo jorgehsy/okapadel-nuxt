@@ -57,7 +57,7 @@
               </li>
             </ul>
           </div>
-          <ClientOnly>
+          <!-- <ClientOnly>
             <Slide right class="burger">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -107,7 +107,7 @@
                 </li>
               </ul>
             </Slide>
-          </ClientOnly>
+          </ClientOnly> -->
         </nav>
       </div>
     </header>
