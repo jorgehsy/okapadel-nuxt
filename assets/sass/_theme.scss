@@ -1,0 +1,63 @@
+@import '_variables';
+
+.header-okapadel{
+  background-color: $blue;
+}
+
+.lead{
+  margin-top: 0.5em;
+  font-size: 11pt;
+}
+
+.huge-margin{
+  margin: 8rem 0;
+}
+
+.text-link{
+  text-decoration: underline;
+  &.color-primary{
+    color: $primary!important;
+  }
+  &:hover{
+    color: $white;
+  }
+}
+
+
+/*--- Hero Backgrounds ---*/
+$darken: rgba(0, 0, 0, 0.4);
+.hero-bg{
+  &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-size: cover;
+  }
+  &.hero-home { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-home-min.jpg"); }}
+  &.hero-soluciones { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-soluciones-min.jpg");}}
+  &.hero-proyectos { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-proyectos-min.jpg"); }}
+  &.hero-calidad { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-calidad-min.jpg"); }}
+  &.hero-contacto { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-contacto-min.jpg"); }}
+  &.hero-instalaciones { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-instalaciones_de_padel-min.jpg"); }}
+  &.hero-okapadel { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-okapadel-min.jpg"); }}
+  &.hero-nosotros { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-nosotros-min.jpg"); }}
+
+  &.hero-cubiertas { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-cubiertas-min.jpg"); }}
+  &.hero-cubierta-single { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-cubierta-single-padel-min.jpg"); }}
+  &.hero-cubierta-multy { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-cubierta-multy-padel-min.jpg"); }}
+  &.hero-cubierta-arena { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-cubiertas-arena-padel-min.jpg"); }}
+  
+  &.hero-pistas { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-pistas-min.jpg"); }}
+  &.hero-pista-basic { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-modelo-basic-court-min.jpg"); }}
+  &.hero-pista-panoramic { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-modelo-panoramic-court-min.jpg"); }}
+}
+
+.footer{
+  text-align: center;
+}

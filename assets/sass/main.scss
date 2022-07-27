@@ -1,0 +1,172 @@
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+@import '_base';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "./fontawesome/scss/fontawesome.scss";
+@import "./fontawesome/scss/solid.scss";
+@import "./fontawesome/scss/brands.scss";
+@import '_variables';
+@import '_buttons';
+@import '_burger';
+@import '_theme';
+
+.navbar{
+  .navbar-nav{
+    .nav-item {
+      position: relative;
+      a{
+        color: $white;
+  
+        &.active{
+          color: $primary;
+          background-color: transparent;
+          font-weight: bold;
+        }
+  
+        &:hover{
+          color: $primary;
+          text-decoration: underline;
+        }
+      }
+      .navbar-submenu-mobile{
+        padding-left: 1rem;
+        font-size: smaller;
+        .nav-link{
+          padding: 0.5em 0;
+        }
+      }
+      &:hover > .nav-item-submenu{
+        visibility: visible;
+        opacity: 1;
+      }
+      .nav-item-submenu{
+        min-width: 200px;
+        transition: visibility 0s, opacity 0.3s linear;
+        opacity: 0;
+        visibility: hidden;
+        background-color: $white;
+        padding: 5px;
+        border-radius: 2px;
+        z-index: 9999;
+        position: absolute;
+
+        .nav-item a{
+          color: $blue!important;
+        }
+      }
+    }
+  
+    .dropdown-menu{
+      .dropdown-item{
+        color: $black;
+      }
+    }
+  
+    .show > .nav-link{
+      color: $primary;
+    }
+  }
+
+  .navbar-brand {
+    margin-right: 5rem;
+  }
+}
+section{
+  p{
+    line-height: 1.5em;
+  }
+}
+
+.widget-list{
+  .widget-list-item{
+    margin: 10px 0;
+  }
+}
+
+.bottom-bar {
+  .bottom-bar-link{
+    &.with-border{
+      border-right: 1px solid $white;;
+    }
+  }
+}
+
+.full-section{
+  padding: 5rem 0;
+  margin: auto;
+}
+
+.op-image-bg{
+  padding: 0 0 40vh;
+}
+
+.grid-project{
+  // margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  .item-project{
+    margin: 1rem 0;
+    width: 100%;
+
+    /*h3{
+      font-size: 1em;
+      font-weight: bold;
+    }*/
+    p, a{ 
+      font-size: 0.7em;
+    }
+    a{
+      color: $primary;
+    }
+  }
+}
+
+.carousel{
+  margin-bottom: 50px;
+  .carousel-indicators{
+    bottom: -50px;
+  }
+}
+
+
+footer{
+  padding: 5rem 0;
+  color: $white;
+}
+
+.bg-green{
+  background-color: $primary;
+}
+.bg-gray{
+  background-color: $light-gray;
+}
+
+.bg-dark-gray{
+  background-color: $light-gray;
+}
+
+.bg-variant{
+  background-color: $variant;
+}
+.color-primary{
+  color: $primary
+}
+.color-secondary{
+  color: $blue
+}
+
+.color-white{
+  color: $white
+}
+.font-small{
+  font-size: small;
+}
+
+.button-box{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@import '_responsive';
