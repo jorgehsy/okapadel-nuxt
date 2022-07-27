@@ -6,7 +6,8 @@
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">
-            <h1 class="hero-title">Bienvenido a <br> <strong>Okapadel</strong> by Okatent</h1>
+            <h1 class="hero-title" v-html="content.title"></h1>
+            <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
         <LanguageSelector />
@@ -18,10 +19,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <h2 class="color-primary">¿Qué es  <strong>Okapadel</strong>?</h2>
-            <p class="lead ">
-              El proyecto se inició debido al auge del pádel en muchas ciudades europeas. Gracias a nuestra experiencia de 15 años en el sector, descubrimos la necesidad que tenían muchos clubs de disponer de un partner que se ocupase de crear un espacio de pádel desde cero.
-            </p>
+            <div v-html="content.firstSection?.leftColumn"></div>
           </div>
 
           <div class="col-md-6 mt-3"><nuxt-img  src="/nosotros/que-es-okapadel--min.jpg" /></div>
@@ -36,12 +34,7 @@
             <nuxt-img  src="/nosotros/por-que-se-creo_okapadel.-min.jpg" />
           </div>
           <div class="col-md-6">
-            <h2 class="fw-section-title">
-              <strong>¿Por qué</strong> se creó Okapadel.
-            </h2>
-            <p class="lead">
-              El proyecto se inició debido al auge del pádel en muchas ciudades europeas. Gracias a nuestra experiencia de 15 años en el sector, descubrimos la necesidad que tenían muchos clubs de disponer de un partner que se ocupase de crear un espacio de pádel desde cero.
-            </p>
+            <div v-html="content.secondSection?.rightColumn"></div>
           </div>
         </div>
       </div>
@@ -66,10 +59,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <h2 class="">Y además, <br> encontramos <strong> patrocinio </strong> <br> para tu club</h2>
-            <p class="lead ">
-              Okapadel va más allá de la construcción, también te buscamos patrocinador para que tu proyecto te salga mucho más económico. Y no solo eso, también ofrecemos soluciones fi-nancieras de renting.
-            </p>
+            <div v-html="content.thirdSection?.leftColumn"></div>
           </div>
 
           <div class="col-md-6 mt-3"><nuxt-img  src="/nosotros/y-ademas-encontramos-patrocinio-para-tu-club-min.jpg" /></div>
@@ -77,20 +67,24 @@
       </div>
     </section>
 
-    <ContactForm
-      title="¿<strong>Quieres crear</strong> un club de pádel?"
-      subtitle="Si deseas instalar una pista de pádel cubierta y quieres que te ayudemos. No lo dudes, llámanos y te asesoraremos para que lo consigas."
-    />
+    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
 
     
 
   </div>
 </template>
 
-<script>
-export default {
-    metaInfo: {
-        title: "Nosotros"
-    },
-}
+<script setup lang="ts">
+import { computed } from 'vue'
+import type { DefaultContent } from '~/types'
+const { find } = useStrapi4()
+
+const { data } = await useAsyncData(
+  'nosotros-page',
+  () => find<DefaultContent>('nosotros-page', {locale: 'es'})
+)
+
+const content = computed (() => data.value.data.attributes)
+
 </script>
+

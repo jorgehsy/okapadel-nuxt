@@ -15,8 +15,8 @@
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 text-center w-text">
-            <h1 class="hero-title" v-html="title"></h1>
-            <p class="hero-subtitle" v-html="subtitle"></p>
+            <h1 class="hero-title" v-html="content.title"></h1>
+            <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
       </div>
@@ -24,42 +24,9 @@
     <section class="fw-section blue-bg d-flex align-items-center">
       <div class="container">
         <div class="row w-text">
-          <div class="col-md-6">
-            <h2 class="fw-section-title">
-              ¿Qué incluye este <strong>servicio integral?</strong>
-            </h2>
+          <div class="col-md-6" v-html="content.firstSection?.leftColumn">
           </div>
-          <div class="col-md-6 d-flex align-items-center">
-            <ul class="fa-ul">
-              <li>
-                <span class="fa-li g-text"
-                  ><i class="fa-solid fa-plus"></i
-                ></span>
-                <strong><em>Cubierta y pistas </em></strong>desde un mismo
-                fabricante
-              </li>
-              <li>
-                <span class="fa-li g-text"
-                  ><i class="fa-solid fa-plus"></i
-                ></span>
-                Instalación de cubiertas de
-                <strong><em> todos los tamaños</em></strong>
-              </li>
-              <li>
-                <span class="fa-li g-text"
-                  ><i class="fa-solid fa-plus"></i
-                ></span>
-                Montaje de <strong><em> pistas personalizadas </em></strong>para
-                cada cliente
-              </li>
-              <li>
-                <span class="fa-li g-text"
-                  ><i class="fa-solid fa-plus"></i
-                ></span>
-                Proyectos de <strong><em> pádel integrales </em></strong>desde
-                cero.
-              </li>
-            </ul>
+          <div class="col-md-6 d-flex align-items-center" v-html="content.firstSection?.rightColumn">
           </div>
         </div>
       </div>
@@ -68,48 +35,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 text-center">
-            <h2 class="fw-section-title">
-              <strong>Beneficios</strong><br />
-              de Okapadel
-            </h2>
+            <div v-html="content.secondSection?.leftColumn"></div>
             <nuxt-img 
               src="/home/beneficios-de-okapadel.svg"
               alt="beneficios de okapadel"
             />
           </div>
-          <div class="col-md-6 d-flex align-items-center">
-            <ul class="fa-ul">
-              <li>
-                <span class="fa-li g-text"
-                  ><i class="fa-solid fa-plus"></i></span
-                >Crea tu espacio pádel
-                <strong><em>llaves en mano</em></strong>
-              </li>
-              <li>
-                <span class="fa-li g-text"
-                  ><i class="fa-solid fa-plus"></i></span
-                ><strong><em>Despreocúpate</em></strong> de buscar múltiples
-                proveedores
-              </li>
-              <li>
-                <span class="fa-li g-text"
-                  ><i class="fa-solid fa-plus"></i></span
-                >Diseña tu espacio
-                <strong><em>a medida</em></strong>
-              </li>
-              <li>
-                <span class="fa-li g-text"
-                  ><i class="fa-solid fa-plus"></i></span
-                >Celebra competiciones deportivas de
-                <strong><em></em>alto nivel</strong>
-              </li>
-              <li>
-                <span class="fa-li g-text"
-                  ><i class="fa-solid fa-plus"></i></span
-                >Consigue <strong><em>patrocinadores</em> </strong> para tu
-                espacio
-              </li>
-            </ul>
+          <div class="col-md-6 d-flex align-items-center" v-html="content.secondSection?.rightColumn">
           </div>
         </div>
       </div>
@@ -122,18 +54,7 @@
               src="/home/somos-fabricantes-de-espacios-de-padel-min.jpg"
             />
           </div>
-          <div class="col-md-6">
-            <h2 class="fw-section-title">
-              <strong>Somos fabricantes</strong> de espacios de pádel.
-            </h2>
-            <p>
-              En nuestras
-              <strong>instalaciones diseñamos y desarrollamos</strong> todos los
-              elementos de construcción de una pista de pádel. Desde las
-              cubiertas modulares al césped de la pista, sin descuidar ningún
-              detalle como la pintura o la iluminación. Y además,
-              <strong>te lo llevamos y te lo montamos donde tu desees.</strong>
-            </p>
+          <div class="col-md-6" v-html="content.thirdSection?.rightColumn">
           </div>
         </div>
       </div>
@@ -150,18 +71,19 @@
         </div>
       </div>
     </section>
+
+    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { HomepageType } from '~/types'
-// import type { Strapi4Response } from '@nuxtjs/strapi'
+import type { DefaultContent } from '~/types'
 const { find } = useStrapi4()
 
-const { data, pending, refresh, error } = await useAsyncData(
+const { data } = await useAsyncData(
   'homepage',
-  () => find<HomepageType>('homepage', {locale: 'es'})
+  () => find<DefaultContent>('homepage', {locale: 'es'})
 )
 
 const projects = computed (() => [
@@ -184,7 +106,7 @@ const projects = computed (() => [
     subtitle: "",
   },
 ])
-const title = computed (() => data.value.data.attributes.title)
-const subtitle = computed (() => data.value.data.attributes.subtitle)
+
+const content = computed (() => data.value.data.attributes)
 
 </script>

@@ -6,7 +6,8 @@
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">
-            <h1 class="hero-title">Creamos pistas de <strong>campeonato</strong></h1>
+            <h1 class="hero-title" v-html="content.title"></h1>
+            <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
         <LanguageSelector />
@@ -31,12 +32,7 @@
             <nuxt-img  src="/pistas/modelo-basic-court-pista-convencional-para-un-deporte-innovador-min.jpg" alt="Fabricantes de pistas de pádel World Padel Tour - Okapadel"/>
           </div>
           <div class="col-md-6">
-            <h2 class="fw-section-title pb-0">Modelo <br> <strong>Basic Court</strong></h2>
-            <h3 class="color-primary">Pista convencional para un deporte innovador.</h3>
-            <p class="lead"><strong><em>El modelo básico</em></strong> es una pista de pádel clásica de fácil instalación y
-              mantenimiento. El modelo incluye la malla lateral continua y los vidrios están totalmente enrasados para
-              evitar desvíos de la pelota y
-              lesiones de los jugadores ¿Quieres saber más?<br></p>
+            <div v-html="content.firstSection?.leftColumn"></div>
             <div class="button-box">
               <NuxtLink class="btn btn-white" to="/pistas/modelo-basic-court" rel="next">Ver pista Basic</NuxtLink>
             </div>
@@ -51,12 +47,7 @@
             <nuxt-img  src="/pistas/modelo-panoramic-court-pista-transparente-para-captar-todas-las-miradas-min.jpg" />
           </div>
           <div class="col-md-6">
-            <h2 class="fw-section-title pb-0">Modelo <br><strong>Panoramic Court</strong></h2>
-            <h3 class="color-primary">Pista transparente para captar todas las miradas.</h3>
-            <p class="lead"><strong><em>El modelo Panoramic</em></strong> es una pista de pádel panorámica con acabados y detalles de
-              alta calidad. El rasgo principal de esta pista son los fondos panorámicos montados con cristales templados
-              que permiten una perfecta
-              visión del partido. ¿Quieres saber más?<br></p>
+            <div v-html="content.secondSection?.rightColumn"></div>
 
             <div class="button-box">
               <NuxtLink class="btn btn-white" to="/pistas/modelo-panoramic-court" rel="next">Ver pista Panoramic</NuxtLink>
@@ -100,16 +91,20 @@
       </div>
     </section>
 
-    <ContactForm 
-      title="¿Quieres construir una <strong>pista de pádel</strong>?" 
-      subtitle="Si deseas instalar una pista de pádel cubierta y quieres que te ayudemos. No lo dudes, llámanos y te asesoraremos para que lo consigas."/>
+    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: "Pistas",
-  },
-};
+<script setup lang="ts">
+import { computed } from 'vue'
+import type { DefaultContent } from '~/types'
+const { find } = useStrapi4()
+
+const { data } = await useAsyncData(
+  'pista-page',
+  () => find<DefaultContent>('pista-page', {locale: 'es'})
+)
+
+const content = computed (() => data.value.data.attributes)
+
 </script>

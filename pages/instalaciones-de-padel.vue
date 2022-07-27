@@ -56,13 +56,7 @@
             />
           </div>
           <div class="col-md-6 color-primary">
-            <h2 class="fw-section-title pt-0">
-              <strong>Alquila</strong> material deportivo en la carpa
-            </h2>
-            <p class="mb-4">
-              Tenemos carpas plegables ideales para crear espacios de alquiler
-              de material como raquetas, pelotas, toallas, etc.
-            </p>
+            <div v-html="content.firstSection?.rightColumn"></div>
           </div>
         </div>
       </div>
@@ -79,30 +73,27 @@
             />
           </div>
           <div class="col-md-6">
-            <h2 class="fw-section-title pt-0">
-              <strong>¿Qué quieres crear</strong> en tu espacio de pádel?
-            </h2>
-            <p class="mb-4">
-              Podemos ayudarte a construir cualquier instalación; desde un
-              gimnasio a una área de descanso o una zona de juegos. Cuéntanos tu
-              proyecto y te ayudaremos a hacerlo realidad.
-            </p>
+            <div v-html="content.secondSection?.rightColumn"></div>
           </div>
         </div>
       </div>
     </section>
 
-    <ContactForm
-      title="<strong>Contacta</strong><br> con nosotros"
-      subtitle="¿Quieres construir unas instalaciones de pádel? Si deseas instalar una pista de pádel cubierta en tu club y quieres que te ayudemos. No lo dudes, llámanos y te asesoraremos para que lo consigas."
-    />
+    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: "Instalaciones de Pádel",
-  },
-};
+<script setup lang="ts">
+import { computed } from 'vue'
+import type { DefaultContent } from '~/types'
+const { find } = useStrapi4()
+
+const { data } = await useAsyncData(
+  'instalaciones-page',
+  () => find<DefaultContent>('instalaciones-page', {locale: 'es'})
+)
+
+const content = computed (() => data.value.data.attributes)
+
 </script>
+

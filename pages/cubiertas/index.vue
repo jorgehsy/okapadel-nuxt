@@ -14,9 +14,8 @@
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">
-            <h1 class="hero-title">
-              Tus pistas estarán <strong> abiertas todos los días</strong>
-            </h1>
+            <h1 class="hero-title" v-html="content.title"></h1>
+            <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
         <LanguageSelector />
@@ -72,17 +71,7 @@
             />
           </div>
           <div class="col-md-6">
-            <h2 class="g-text fw-section-title pb-0 mb-0">
-              Cubierta<br /><strong>Single Pádel.</strong>
-            </h2>
-            <h3 class="fw-section-subtitle pt-1 pb-1">
-              Cubre una pista de muchas maneras posibles
-            </h3>
-            <p>
-              Pabellón modular para cubrir
-              <strong><em>pistas de pádel individuales.</em></strong> ¿Quieres
-              ver más sobre la cubierta Single Pádel?<br />
-            </p>
+            <div v-html="content.firstSection?.rightColumn"></div>
             <div class="button-box">
               <NuxtLink
                 class="btn btn-secondary"
@@ -100,17 +89,7 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
           <div class="col-md-6">
-            <h2 class="fw-section-title pb-0 mb-0">
-              Cubierta<br /><strong>Multy Pádel.</strong>
-            </h2>
-            <h3 class="fw-section-subtitle pt-1 pb-1">
-              Una cubierta, infinidad de posibilidades
-            </h3>
-            <p class="color-primary">
-              Estructura de tamaño medio para cubrir
-              <strong><em>dos pistas o más.</em></strong> ¿Te interesa la
-              cubierta Multy Pádel?
-            </p>
+            <div v-html="content.secondSection?.leftColumn"></div>
             <div class="button-box">
               <NuxtLink
                 class="btn btn-secondary"
@@ -140,17 +119,7 @@
             />
           </div>
           <div class="col-md-6">
-            <h2 class="g-text fw-section-title pb-0 mb-0">
-              Nave<br /><strong>Arena Pádel.</strong>
-            </h2>
-            <h3 class="fw-section-subtitle pt-1 pb-1">
-              Cubre múltiples pistas a lo grande
-            </h3>
-            <p>
-              Nave de grandes dimensiones para cubrir
-              <strong><em>más de 6 pistas de pádel.</em></strong> ¿Buscas
-              información sobre la cubierta Arena Pádel?
-            </p>
+           <div v-html="content.thirdSection?.rightColumn"></div>
             <div class="button-box">
               <NuxtLink
                 class="btn btn-secondary"
@@ -219,17 +188,20 @@
       </div>
     </section>
 
-    <ContactForm
-      title="<strong>¿Quieres cubrir</strong> tus pistas de pádel?"
-      subtitle="Quizás tengas una pista de pádel y desees cubrirla o tal vez quieres que te ayudemos a instalar una pista de pádel cubierta. Sea como sea, en Okapadel podemos crear la solución a medida que mejor se adapta a tu club. Cuéntanos tu proyecto sin compromiso y te ayudaremos a hacerlo realidad."
-    />
+    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: "Cubiertas",
-  },
-};
+<script setup lang="ts">
+import { computed } from 'vue'
+import type { DefaultContent } from '~/types'
+const { find } = useStrapi4()
+
+const { data } = await useAsyncData(
+  'cubierta-page',
+  () => find<DefaultContent>('cubierta-page', {locale: 'es'})
+)
+
+const content = computed (() => data.value.data.attributes)
+
 </script>

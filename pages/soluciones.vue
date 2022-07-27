@@ -17,7 +17,7 @@
           <div class="col-md-12 text-center w-text">
             <h1 class="hero-title" v-html="content.title">
             </h1>
-            <p class="hero-subtitle" v-html="content.subtitle">
+            <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle">
             </p>
           </div>
         </div>
