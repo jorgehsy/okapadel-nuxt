@@ -15,8 +15,8 @@
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 text-center w-text">
-            <h1 class="hero-title" v-html="content.title"></h1>
-            <p class="hero-subtitle" v-html="content.subtitle"></p>
+            <h1 class="hero-title" v-html="title"></h1>
+            <p class="hero-subtitle" v-html="subtitle"></p>
           </div>
         </div>
       </div>
@@ -153,42 +153,38 @@
   </div>
 </template>
 
-<script>
-export default {
-  
-  computed: {
-    content: () => ({
-      title: "Crea tu proyecto de pádel <br> <strong>con Okapadel</strong>",
-      subtitle: "Tus pistas de pádel estarán abiertas todo el año",
-    }),
-  },
-  data() {
-    return {
-      projects: [
-        {
-          image: "proyectos-de-padel-que-hemos-realizado-first-slide-min.jpg",
-          imageAlt: "proyectos-de-padel-que-hemos-realizado",
-          title: "",
-          subtitle: "",
-        },
-        {
-          image: "proyectos-de-padel-que-hemos-realizado-second-slide-min.jpg",
-          imageAlt: "proyectos-de-padel-que-hemos-realizado",
-          title: "",
-          subtitle: "",
-        },
-        {
-          image: "proyectos-de-padel-que-hemos-realizado-third-slide-min.jpg",
-          imageAlt: "proyectos-de-padel-que-hemos-realizado",
-          title: "",
-          subtitle: "",
-        },
-      ],
-    };
-  },
-};
-</script>
+<script setup lang="ts">
+import { computed } from 'vue'
+import type { HomepageType } from '~/types'
+// import type { Strapi4Response } from '@nuxtjs/strapi'
+const { find } = useStrapi4()
 
-<style>
-/*  */
-</style>
+const { data, pending, refresh, error } = await useAsyncData(
+  'homepage',
+  () => find<HomepageType>('homepage', {locale: 'es'})
+)
+
+const projects = computed (() => [
+  {
+    image: "proyectos-de-padel-que-hemos-realizado-first-slide-min.jpg",
+    imageAlt: "proyectos-de-padel-que-hemos-realizado",
+    title: "",
+    subtitle: "",
+  },
+  {
+    image: "proyectos-de-padel-que-hemos-realizado-second-slide-min.jpg",
+    imageAlt: "proyectos-de-padel-que-hemos-realizado",
+    title: "",
+    subtitle: "",
+  },
+  {
+    image: "proyectos-de-padel-que-hemos-realizado-third-slide-min.jpg",
+    imageAlt: "proyectos-de-padel-que-hemos-realizado",
+    title: "",
+    subtitle: "",
+  },
+])
+const title = computed (() => data.value.data.attributes.title)
+const subtitle = computed (() => data.value.data.attributes.subtitle)
+
+</script>

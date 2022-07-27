@@ -3,15 +3,18 @@ import { defineNuxtConfig } from 'nuxt'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   typescript: {
-    shim: false
+    shim: false,
   },
   modules: [
     '@nuxt/image-edge',
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/strapi',
   ],
+  strapi: {
+    url: 'http://localhost:1337'
+  },
   css:[
     '~/assets/sass/main.scss',
-    'vue-slick-carousel/dist/vue-slick-carousel.css'
   ],
   image: {
     screens: {

@@ -4,7 +4,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark py-4">
           <a class="navbar-brand" href="/" rel="">
-            <nuxt-img 
+            <nuxt-img
               src="/okapadel_mainlogo-alt.svg"
               width="150"
               alt="okapadel logo"
@@ -42,13 +42,19 @@
                 >
               </li>
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/calidad">Calidad</NuxtLink>
+                <NuxtLink class="nav-link" rel="" to="/calidad"
+                  >Calidad</NuxtLink
+                >
               </li>
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/nosotros">Nosotros</NuxtLink>
+                <NuxtLink class="nav-link" rel="" to="/nosotros"
+                  >Nosotros</NuxtLink
+                >
               </li>
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/contacto">Contacto</NuxtLink>
+                <NuxtLink class="nav-link" rel="" to="/contacto"
+                  >Contacto</NuxtLink
+                >
               </li>
               <li class="nav-item">
                 <NuxtLink class="nav-link" rel="" to="/plus-okapadel"

@@ -41,7 +41,6 @@
 </template>
 
 <script>
-import LanguageSelector from '../components/LanguageSelector.vue'
 export default {
     metaInfo: {
         title: "Proyectos"
@@ -61,6 +60,5 @@ export default {
             ]
         };
     },
-    components: { LanguageSelector }
 }
 </script>
