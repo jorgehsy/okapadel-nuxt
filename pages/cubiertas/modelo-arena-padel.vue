@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <section
       class="hero-section d-flex flex-column justify-content-center overlay-bg"
       id=""
@@ -41,7 +41,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <nuxt-img 
-              src="~/assets/img/cubiertas__modelo_arena_padel/sorprende-con-un-modelo-de-campeonato-min.jpg"
+              src="/cubiertas__modelo_arena_padel/sorprende-con-un-modelo-de-campeonato-min.jpg"
               alt="pabellón modular para cubrir de 2 a 6 pistas de pádel"
             />
           </div>
@@ -68,7 +68,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/cubiertas__modelo_arena_padel/completa-tu-pabellon-modular-con-los-cerramientos-del-arena-padel-min.jpg"
+              src="/cubiertas__modelo_arena_padel/completa-tu-pabellon-modular-con-los-cerramientos-del-arena-padel-min.jpg"
               alt="Completa tu pabellón modular con los cerramientos para cubiertas Arena Padel"
             />
           </div>
@@ -92,7 +92,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <nuxt-img 
-              src="~/assets/img/cubiertas__modelo_arena_padel/y-las-fijaciones-de-una-gran-cubierta-min.jpg"
+              src="/cubiertas__modelo_arena_padel/y-las-fijaciones-de-una-gran-cubierta-min.jpg"
               alt="Fijaciones firmes, seguras y garantizadas para tu pabellón Arena Padel"
             />
           </div>
@@ -159,7 +159,7 @@ una misma cubierta tu mejor elección es el modelo
 Arena Padel. Consulta tu caso sin compromiso:
 aprovecha nuestra larga experiencia en pistas de pádel."
     />
-  </Layout>
+  </div>
 </template>
 
 <script>

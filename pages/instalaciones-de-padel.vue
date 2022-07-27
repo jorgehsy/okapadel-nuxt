@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <section
       class="
         hero-section
@@ -39,7 +39,7 @@
               tienda donde se venda material de tu club o tu patrocinador.
             </p>
             <nuxt-img 
-              src="~/assets/img/vende-productos-de-padel-en-tu-propia-tienda-especializada.svg"
+              src="/vende-productos-de-padel-en-tu-propia-tienda-especializada.svg"
               alt="Proveedores material pádel"
             />
           </div>
@@ -52,7 +52,7 @@
         <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.jpg"
+              src="/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.jpg"
             />
           </div>
           <div class="col-md-6 color-primary">
@@ -75,7 +75,7 @@
         >
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.jpg"
+              src="/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.jpg"
             />
           </div>
           <div class="col-md-6">
@@ -96,7 +96,7 @@
       title="<strong>Contacta</strong><br> con nosotros"
       subtitle="¿Quieres construir unas instalaciones de pádel? Si deseas instalar una pista de pádel cubierta en tu club y quieres que te ayudemos. No lo dudes, llámanos y te asesoraremos para que lo consigas."
     />
-  </Layout>
+  </div>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <section
       class="hero-section d-flex flex-column justify-content-center overlay-bg"
       id=""
@@ -42,18 +42,18 @@
               Descubre nuestros pabellones.
             </p>
             <div class="button-box mb-3">
-              <g-link
+              <NuxtLink
                 class="btn btn-secondary"
                 rel="external"
                 to="https://okatent.com"
                 target="_blank"
                 >Ver pabellones
-              </g-link>
+              </NuxtLink>
             </div>
           </div>
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/okapadel/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
+              src="/okapadel/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
               alt="Cubierta para pistas de pádel individuales"
             />
           </div>
@@ -66,7 +66,7 @@
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/okapadel/enamorate-de-la-arquitectura-textil--min.jpg"
+              src="/okapadel/enamorate-de-la-arquitectura-textil--min.jpg"
               alt="Cubierta para pistas de pádel individuales"
             />
           </div>
@@ -82,12 +82,12 @@
               Arquitectura Textil?
             </p>
             <div class="button-box">
-              <g-link
+              <NuxtLink
                 class="btn btn-secondary"
                 rel="external"
                 to="https://okatent.com/"
                 >Ver Arquitectura textil
-              </g-link>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -114,17 +114,17 @@
               nuestras car-pas?
             </p>
             <div class="button-box">
-              <g-link
+              <NuxtLink
                 class="btn btn-secondary"
                 rel=""
                 to="https://okatent.com"
                 >Ver carpas plegables
-              </g-link>
+              </NuxtLink>
             </div>
           </div>
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/okapadel/descubre-la-calidad-de-nuestras-carpas-plegables-min.jpg"
+              src="/okapadel/descubre-la-calidad-de-nuestras-carpas-plegables-min.jpg"
               alt="Cubierta para pistas de pádel dobles"
             />
           </div>
@@ -136,7 +136,7 @@
       title="¿Quieres crear un <strong>espacio de pádel?</strong>"
       subtitle="Si deseas instalar una pista de pádel cubierta y quieres que te ayudemos. No lo dudes, llámanos y te asesoraremos para que lo consigas."
     />
-  </Layout>
+  </div>
 </template>
 
 <script>

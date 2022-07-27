@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <section
       class="
         hero-section
@@ -67,7 +67,7 @@
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/cubiertas/cubierta-single-padel-min.jpg"
+              src="/cubiertas/cubierta-single-padel-min.jpg"
               alt="Cubierta para pistas de pádel individuales"
             />
           </div>
@@ -84,12 +84,12 @@
               ver más sobre la cubierta Single Pádel?<br />
             </p>
             <div class="button-box">
-              <g-link
+              <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
                 to="/cubiertas/modelo-single-padel"
                 >Ver cubierta Single Pádel
-              </g-link>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -112,17 +112,17 @@
               cubierta Multy Pádel?
             </p>
             <div class="button-box">
-              <g-link
+              <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
                 to="/cubiertas/modelo-multy-padel"
                 >Ver cubierta Multy Pádel
-              </g-link>
+              </NuxtLink>
             </div>
           </div>
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/cubiertas/cubierta-multy-padel-min.jpg"
+              src="/cubiertas/cubierta-multy-padel-min.jpg"
               alt="Cubierta para pistas de pádel dobles"
             />
           </div>
@@ -135,7 +135,7 @@
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/cubiertas/nave-arena-padel-min.jpg"
+              src="/cubiertas/nave-arena-padel-min.jpg"
               alt="Montar nave de pádel, ideal para club de pádel indoor"
             />
           </div>
@@ -152,12 +152,12 @@
               información sobre la cubierta Arena Pádel?
             </p>
             <div class="button-box">
-              <g-link
+              <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
                 to="/cubiertas/modelo-arena-padel"
                 >Ver nave Arena Pádel
-              </g-link>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -212,7 +212,7 @@
           </div>
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
+              src="/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
             />
           </div>
         </div>
@@ -223,7 +223,7 @@
       title="<strong>¿Quieres cubrir</strong> tus pistas de pádel?"
       subtitle="Quizás tengas una pista de pádel y desees cubrirla o tal vez quieres que te ayudemos a instalar una pista de pádel cubierta. Sea como sea, en Okapadel podemos crear la solución a medida que mejor se adapta a tu club. Cuéntanos tu proyecto sin compromiso y te ayudaremos a hacerlo realidad."
     />
-  </Layout>
+  </div>
 </template>
 
 <script>

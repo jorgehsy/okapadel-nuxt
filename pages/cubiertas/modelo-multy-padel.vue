@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <section
       class="hero-section d-flex flex-column justify-content-center overlay-bg"
       id=""
@@ -37,7 +37,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <nuxt-img 
-              src="~/assets/img/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.jpg"
+              src="/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.jpg"
               alt="pabellón modular para cubrir de 2 a 6 pistas de pádel"
             />
           </div>
@@ -61,7 +61,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <nuxt-img 
-              src="~/assets/img/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.jpg"
+              src="/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.jpg"
               alt="Completa de forma personalizada la cubierta de tus pistas de pádel"
             />
           </div>
@@ -86,7 +86,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.jpg"
+              src="/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.jpg"
               alt="Sujeta sólidamente y sin complicaciones la cubierta de tu pista de pádel"
             />
           </div>
@@ -156,7 +156,7 @@ posibilidades de nuestros proyectos y cubiertas
 para pistas de pádel dobles, todas las
 necesidades las atiende Okapadel."
     />
-  </Layout>
+  </div>
 </template>
 
 <script>

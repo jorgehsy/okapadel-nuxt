@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <section
       class="
         hero-section
@@ -47,7 +47,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <nuxt-img 
-              src="~/assets/img/cubiertas__modelo_single_padel/permiten-una-instalacion-rapida-y-rentable-min.jpg"
+              src="/cubiertas__modelo_single_padel/permiten-una-instalacion-rapida-y-rentable-min.jpg"
               alt="carpa modular para pistas de pádel individuales"
             />
           </div>
@@ -72,7 +72,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <nuxt-img 
-              src="~/assets/img/cubiertas__modelo_single_padel/_descubre-los-cerramientos-del-single-padel-min.jpg"
+              src="/cubiertas__modelo_single_padel/_descubre-los-cerramientos-del-single-padel-min.jpg"
               alt="Completa la cubierta de tu pista de pádel a tu manera"
             />
           </div>
@@ -97,7 +97,7 @@
         <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
           <div class="col-md-6 ">
             <nuxt-img 
-              src="~/assets/img/cubiertas__modelo_single_padel/y-las-fijaciones-de-la-cubierta-individual-min.jpg"
+              src="/cubiertas__modelo_single_padel/y-las-fijaciones-de-la-cubierta-individual-min.jpg"
               alt="Sujeta sólidamente y sin complicaciones la cubierta de tu pista de pádel"
             />
           </div>
@@ -165,7 +165,7 @@
     <ContactForm title="¿Quieres una cubierta <br><strong>Single Pádel</strong>?" subtitle="Si deseas instalar una pista de pádel cubierta en tu
 club y quieres que te ayudemos. No lo dudes,
 llámanos y te asesoraremos para que lo consigas." />
-  </Layout>
+  </div>
 </template>
 
 <script>

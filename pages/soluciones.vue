@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <section
       class="
         hero-section
@@ -27,7 +27,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <nuxt-img  src="~/assets/img/soluciones/cubrimos-las-instalaciones-del-club-min.jpg" alt="cubierta pista de padel" />
+            <nuxt-img  src="/soluciones/cubrimos-las-instalaciones-del-club-min.jpg" alt="cubierta pista de padel" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-section-title color-primary">
@@ -37,7 +37,7 @@
               Diseñamos, fabricamos e instalamos cubiertas personalizadas para proteger las pistas de pádel y poder <strong><em> jugar los 365 días del año.</em></strong>
             </p>
             <div class="text-center">
-              <g-link class="btn btn-secondary" rel="" to="/cubiertas">Ver cubiertas</g-link>
+              <NuxtLink class="btn btn-secondary" rel="" to="/cubiertas">Ver cubiertas</NuxtLink>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <nuxt-img  src="~/assets/img/soluciones/instalacion-de-pistas-de-padel-min.jpg" alt="Instalación de pistas de pádel" />
+            <nuxt-img  src="/soluciones/instalacion-de-pistas-de-padel-min.jpg" alt="Instalación de pistas de pádel" />
           </div>
           <div class="col-md-6 order-md-1">
             <h2 class="fw-section-title">
@@ -57,7 +57,7 @@
               Disponemos de dos modelos de pista con un <strong><em>diseño adaptado.</em></strong> Nos encargamos del montaje de pistas de pádel con múltiples materiales, de las paredes de la pista, cristales para pistas de pádel y otros componentes de juego.
             </p>
             <div class="text-center">
-              <g-link class="btn btn-secondary" rel="" to="/pistas">Ver pistas</g-link>
+              <NuxtLink class="btn btn-secondary" rel="" to="/pistas">Ver pistas</NuxtLink>
             </div>
           </div>
 
@@ -68,7 +68,7 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
           <div class="col-md-6 ">
-            <nuxt-img  src="~/assets/img/soluciones/iluminacion-y-climatizacion-de-pistas-de-padel-min.jpg" alt="cubierta pista de padel" />
+            <nuxt-img  src="/soluciones/iluminacion-y-climatizacion-de-pistas-de-padel-min.jpg" alt="cubierta pista de padel" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-section-title color-primary">
@@ -84,7 +84,7 @@
     <ContactForm  
       title="<strong>¿Quieres construir</strong> una pista de pádel?" 
       subtitle="Si estás pensando en instalar una pista de pádel cubierta en tu club y quieres que te ayudemos. Contacta sin compromiso y te asesoraremos paso a paso para que tus pistas sean un éxito." />
-  </Layout>
+  </div>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <section
       class="
         hero-section
@@ -53,7 +53,7 @@
             </p>
           </div>
           <div class="col-md-6 two-col-section">
-            <nuxt-img  src="~/assets/img/pistas__modelo_panoramic_court/la-pista-de-padel-panoramic-court-min.jpg" alt="Pista de pádel panorámica diáfana de alta calidad" />
+            <nuxt-img  src="/pistas__modelo_panoramic_court/la-pista-de-padel-panoramic-court-min.jpg" alt="Pista de pádel panorámica diáfana de alta calidad" />
           </div>
         </div>
       </div>
@@ -137,7 +137,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <nuxt-img  src="~/assets/img/pistas__modelo_panoramic_court/sujecion-min.jpg" alt="Sujecciones y anclajes para las pistas panorámicas de Okapadel" />
+            <nuxt-img  src="/pistas__modelo_panoramic_court/sujecion-min.jpg" alt="Sujecciones y anclajes para las pistas panorámicas de Okapadel" />
           </div>
           <div class="col-md-6">
             <h2 class="color-primary"><strong>Sujeción</strong></h2>
@@ -158,7 +158,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12 pb-3">
-            <nuxt-img  src="~/assets/img/pistas__modelo_panoramic_court/vidrios-templados-min.jpg" alt="Vidrios templados para pistas panorámicas de pádel - Okapadel Panoramic Court" />
+            <nuxt-img  src="/pistas__modelo_panoramic_court/vidrios-templados-min.jpg" alt="Vidrios templados para pistas panorámicas de pádel - Okapadel Panoramic Court" />
           </div>
           <div class="col-md-6">
             <h2><strong>Vidrios </strong>templados</h2>
@@ -179,7 +179,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-              <nuxt-img  src="~/assets/img/pistas__modelo_panoramic_court/pintura-min.jpg" alt="Pinturas ecológicas de gran durabilidad"/>
+              <nuxt-img  src="/pistas__modelo_panoramic_court/pintura-min.jpg" alt="Pinturas ecológicas de gran durabilidad"/>
           </div>
           <div class="col-md-6 mt-4">
             <h2 class="color-primary mt-3"><strong>Pintura</strong></h2>
@@ -246,7 +246,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <nuxt-img  src="~/assets/img/pistas__modelo_panoramic_court/cesped-min.jpg" alt="Césped pistas de pádel panorámicas"/>
+            <nuxt-img  src="/pistas__modelo_panoramic_court/cesped-min.jpg" alt="Césped pistas de pádel panorámicas"/>
           </div>
           <div class="col-md-6">
             <h2 class="fw-section-title color-primary">
@@ -273,7 +273,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <nuxt-img  src="~/assets/img/pistas__modelo_panoramic_court/iluminacion-min.jpg" alt="Iluminación LED para pistas de pádel"/>
+            <nuxt-img  src="/pistas__modelo_panoramic_court/iluminacion-min.jpg" alt="Iluminación LED para pistas de pádel"/>
           </div>
           <div class="col-md-6">
             <h2 class="mt-4"><strong>Iluminación</strong></h2>
@@ -294,7 +294,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <nuxt-img  src="~/assets/img/personalizacion.svg" alt="Tu pista panorámica de pádel adaptada a tus necesidades e imagen." />
+            <nuxt-img  src="/personalizacion.svg" alt="Tu pista panorámica de pádel adaptada a tus necesidades e imagen." />
           </div>
           <div class="col-md-6">
             <h2 class="mt-3"><strong>Personalización</strong></h2>
@@ -313,7 +313,7 @@
     <ContactForm 
       title="Pide tu pista <br><strong>Panoramic Court</strong>" 
       subtitle="¿Quieres montar una pista de pádel panorámica? Si buscas instalar una pista de pádel cubierta con gran visibilidad y necesitas asesoramiento, nosotros te ayudamos. Tenemos una gran experiencia cubriendo pistas por toda Europa ¿Hablamos?" />
-  </Layout>
+  </div>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     
     <section class="hero-section d-flex flex-column justify-content-center overlay-bg hero-pistas" id="">
       <div class="hero-bg hero-pistas"></div>
@@ -28,7 +28,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <nuxt-img  src="~/assets/img/pistas/modelo-basic-court-pista-convencional-para-un-deporte-innovador-min.jpg" alt="Fabricantes de pistas de pádel World Padel Tour - Okapadel"/>
+            <nuxt-img  src="/pistas/modelo-basic-court-pista-convencional-para-un-deporte-innovador-min.jpg" alt="Fabricantes de pistas de pádel World Padel Tour - Okapadel"/>
           </div>
           <div class="col-md-6">
             <h2 class="fw-section-title pb-0">Modelo <br> <strong>Basic Court</strong></h2>
@@ -38,7 +38,7 @@
               evitar desvíos de la pelota y
               lesiones de los jugadores ¿Quieres saber más?<br></p>
             <div class="button-box">
-              <g-link class="btn btn-white" to="/pistas/modelo-basic-court" rel="next">Ver pista Basic</g-link>
+              <NuxtLink class="btn btn-white" to="/pistas/modelo-basic-court" rel="next">Ver pista Basic</NuxtLink>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6 ">
-            <nuxt-img  src="~/assets/img/pistas/modelo-panoramic-court-pista-transparente-para-captar-todas-las-miradas-min.jpg" />
+            <nuxt-img  src="/pistas/modelo-panoramic-court-pista-transparente-para-captar-todas-las-miradas-min.jpg" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-section-title pb-0">Modelo <br><strong>Panoramic Court</strong></h2>
@@ -59,7 +59,7 @@
               visión del partido. ¿Quieres saber más?<br></p>
 
             <div class="button-box">
-              <g-link class="btn btn-white" to="/pistas/modelo-panoramic-court" rel="next">Ver pista Panoramic</g-link>
+              <NuxtLink class="btn btn-white" to="/pistas/modelo-panoramic-court" rel="next">Ver pista Panoramic</NuxtLink>
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@
     <ContactForm 
       title="¿Quieres construir una <strong>pista de pádel</strong>?" 
       subtitle="Si deseas instalar una pista de pádel cubierta y quieres que te ayudemos. No lo dudes, llámanos y te asesoraremos para que lo consigas."/>
-  </Layout>
+  </div>
 </template>
 
 <script>

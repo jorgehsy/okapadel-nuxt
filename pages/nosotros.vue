@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
 
     <section class="hero-section d-flex flex-column justify-content-center overlay-bg hero-nosotros" id="">
       <div class="hero-bg hero-nosotros"></div>
@@ -24,7 +24,7 @@
             </p>
           </div>
 
-          <div class="col-md-6 mt-3"><nuxt-img  src="~/assets/img/nosotros/que-es-okapadel--min.jpg" /></div>
+          <div class="col-md-6 mt-3"><nuxt-img  src="/nosotros/que-es-okapadel--min.jpg" /></div>
         </div>
       </div>
     </section>
@@ -33,7 +33,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <nuxt-img  src="~/assets/img/nosotros/por-que-se-creo_okapadel.-min.jpg" />
+            <nuxt-img  src="/nosotros/por-que-se-creo_okapadel.-min.jpg" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-section-title">
@@ -72,7 +72,7 @@
             </p>
           </div>
 
-          <div class="col-md-6 mt-3"><nuxt-img  src="~/assets/img/nosotros/y-ademas-encontramos-patrocinio-para-tu-club-min.jpg" /></div>
+          <div class="col-md-6 mt-3"><nuxt-img  src="/nosotros/y-ademas-encontramos-patrocinio-para-tu-club-min.jpg" /></div>
         </div>
       </div>
     </section>
@@ -84,7 +84,7 @@
 
     
 
-  </Layout>
+  </div>
 </template>
 
 <script>

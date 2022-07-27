@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <section
       class="
         hero-section
@@ -54,7 +54,7 @@
           </div>
           <div class="col-md-6 two-col-section">
             <nuxt-img 
-              src="~/assets/img/pistas__modelo_basic_court/la-pista-de-padel-basic-court-min.jpg"
+              src="/pistas__modelo_basic_court/la-pista-de-padel-basic-court-min.jpg"
               alt="Pistas de pádel versátiles, de fácil instalación y mantenimiento"
             />
           </div>
@@ -140,7 +140,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/pistas__modelo_basic_court/sujecion-min.jpg"
+              src="/pistas__modelo_basic_court/sujecion-min.jpg"
               alt="Sujecciones para nuestra pistas de pádel Basic Court, fácil instalación y mantenimiento con total seguridad y garantía."
             />
           </div>
@@ -165,7 +165,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12 pb-3">
             <nuxt-img 
-              src="~/assets/img/pistas__modelo_basic_court/vidrios-templados-min.jpg"
+              src="/pistas__modelo_basic_court/vidrios-templados-min.jpg"
               alt="Vidrios para pistas de pádel – Pistas de pádel cristal"
             />
           </div>
@@ -189,7 +189,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <nuxt-img 
-              src="~/assets/img/pistas__modelo_basic_court/pintura-min.jpg"
+              src="/pistas__modelo_basic_court/pintura-min.jpg"
               alt="Pintura ecológica sin VOCs para pistas de pádel"
             />
           </div>
@@ -258,7 +258,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <nuxt-img  src="~/assets/img/pistas__modelo_basic_court/cesped-min.jpg" alt="cesped de cancha de padel" />
+            <nuxt-img  src="/pistas__modelo_basic_court/cesped-min.jpg" alt="cesped de cancha de padel" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-section-title color-primary">
@@ -280,7 +280,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <nuxt-img  src="~/assets/img/pistas__modelo_basic_court/iluminacion-min.jpg" alt="focos pista de pádel - Iluminación led para pistas de pádel" />
+            <nuxt-img  src="/pistas__modelo_basic_court/iluminacion-min.jpg" alt="focos pista de pádel - Iluminación led para pistas de pádel" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-section-title">
@@ -300,7 +300,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <nuxt-img  src="~/assets/img/personalizacion.svg" />
+            <nuxt-img  src="/personalizacion.svg" />
           </div>
           <div class="col-md-6">
             <h2 class="mt-3"><strong>Personalización</strong></h2>
@@ -322,7 +322,7 @@ adapta a ti. Contáctanos, te ayudaremos instalar tu
 pista de pádel y te acompañaremos durante todo el
 proceso asesorándote en cada momento.
 ¿Nos cuentas tu proyecto?" />
-  </Layout>
+  </div>
 </template>
 
 <script>

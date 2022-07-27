@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <section
       class="
         hero-section
@@ -28,7 +28,7 @@
       <div class="container">
         <div class="grid-project"  v-if="projects.length">
           <div class="item-project" v-for="project in projects" :key="project.id">
-            <nuxt-img  :src="require(`!!assets-loader!@proyectos/${project.image}`)" />
+            <nuxt-img  :src="project.image" />
             <h3 class="cards-title">{{ project.name }}</h3>
           </div>
         </div>
@@ -37,7 +37,7 @@
 
 
     <ContactForm />
-  </Layout>
+  </div>
 </template>
 
 <script>
@@ -49,15 +49,15 @@ export default {
     data() {
         return {
             projects: [
-                { id: 1, image: "proyectos-arena-padel-milan-min.jpg", name: "Arena Padel Milán", description: "..." },
-                { id: 2, image: "proyectos-multy-padel-baskonia-victoria-spain-min.jpg", name: "Multy Padel Baskonia Victoria España", description: "..." },
-                { id: 3, image: "proyectos-multy-padel-dunk-min.jpg", name: "Multy Padel Dunk", description: "..." },
-                { id: 4, image: "proyectos-multy-padel-lagrajera-logrono-spain-min.jpg", name: "Multy Padel Lagrajera Logrono España", description: "..." },
-                { id: 5, image: "proyectos-multy-padel-odrimont-belgium-min.jpg", name: "Multy Padel Odrimont Bélgica", description: "..." },
-                { id: 6, image: "proyectos-multy-padel-toulouse-france-min.jpg", name: "Multy Padel Toulouse Francia", description: "..." },
-                { id: 7, image: "proyectos-multy-padel-wolouwe-belgium-min.jpg", name: "Multy Padel Wolouwe Bélgica", description: "..." },
-                { id: 8, image: "proyectos-single-padel-jodoine-belgium-min.jpg", name: "Single Padel Jodoine Bélgica", description: "..." },
-                { id: 9, image: "proyectos-single-padel-tremblay-france-min.jpg", name: "Single Padel Tremblay Francia", description: "..." },
+                { id: 1, image: "proyectos/proyectos-arena-padel-milan-min.jpg", name: "Arena Padel Milán", description: "..." },
+                { id: 2, image: "proyectos/proyectos-multy-padel-baskonia-victoria-spain-min.jpg", name: "Multy Padel Baskonia Victoria España", description: "..." },
+                { id: 3, image: "proyectos/proyectos-multy-padel-dunk-min.jpg", name: "Multy Padel Dunk", description: "..." },
+                { id: 4, image: "proyectos/proyectos-multy-padel-lagrajera-logrono-spain-min.jpg", name: "Multy Padel Lagrajera Logrono España", description: "..." },
+                { id: 5, image: "proyectos/proyectos-multy-padel-odrimont-belgium-min.jpg", name: "Multy Padel Odrimont Bélgica", description: "..." },
+                { id: 6, image: "proyectos/proyectos-multy-padel-toulouse-france-min.jpg", name: "Multy Padel Toulouse Francia", description: "..." },
+                { id: 7, image: "proyectos/proyectos-multy-padel-wolouwe-belgium-min.jpg", name: "Multy Padel Wolouwe Bélgica", description: "..." },
+                { id: 8, image: "proyectos/proyectos-single-padel-jodoine-belgium-min.jpg", name: "Single Padel Jodoine Bélgica", description: "..." },
+                { id: 9, image: "proyectos/proyectos-single-padel-tremblay-france-min.jpg", name: "Single Padel Tremblay Francia", description: "..." },
             ]
         };
     },

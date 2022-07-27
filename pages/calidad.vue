@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
 
     <section class="hero-section d-flex flex-column justify-content-center overlay-bg" id="">
       <div class="hero-bg hero-calidad"></div>
@@ -17,7 +17,7 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6 ">
-            <nuxt-img  src="~/assets/img/calidad/con-okapadel-ganamos-todos-min.jpg" alt="Fabricantes de pistas de pádel sostenibles y ecofriendly" />
+            <nuxt-img  src="/calidad/con-okapadel-ganamos-todos-min.jpg" alt="Fabricantes de pistas de pádel sostenibles y ecofriendly" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-section-title">
@@ -42,17 +42,17 @@
               Creamos instalaciones de pádel que además de ser buenas porque son respetuosas con el planeta, son buenas porque están fabricadas con los máximos estándares. Todas nuestras piezas de aluminio, lonas y otros materiales, están supervisados bajo rigurosos procesos de calidad ¿Quieres comprobarlo? Haz clic y descubre los certificados.
             </p>
             <div class="button-box">
-              <g-link
+              <NuxtLink
                 class="btn btn-secondary mt-4"
                 rel="external"
                 target="_blank"
                 to="https://okatent.com/certificados/"
                 >Ver Certificados
-              </g-link>
+              </NuxtLink>
             </div>
           </div>
           <div class="col-md-6">
-            <nuxt-img  src="~/assets/img/calidad/certificados-para-tu-club-de-padel-min.jpg" />
+            <nuxt-img  src="/calidad/certificados-para-tu-club-de-padel-min.jpg" />
           </div>
         </div>
       </div>
@@ -62,12 +62,12 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
-            <nuxt-img  src="~/assets/img/calidad/politicas-de-calidad-okapadel-min.jpg" alt="Fabricantes de pistas de pádel World Padel Tour - Okapadel"/></div>
+            <nuxt-img  src="/calidad/politicas-de-calidad-okapadel-min.jpg" alt="Fabricantes de pistas de pádel World Padel Tour - Okapadel"/></div>
           <div class="col-md-6 mt-3">
             <h2>Políticas de <strong>calidad</strong> Okapadel</h2>
             <p class="lead">Aquí tienes nuestra política de calidad, donde podrás descubrir cómo trabajamos para mejorar nuestra compañía y hacer que tu experiencia, en el mundo del pádel, sea mejor cada día.</p>
             <div class="button-box">
-              <g-link class="btn btn-white" to="https://okatent.com/pdfs/calidad-es.pdf" target="_blank" rel="external">Ver Política de calidad</g-link>
+              <NuxtLink class="btn btn-white" to="https://okatent.com/pdfs/calidad-es.pdf" target="_blank" rel="external">Ver Política de calidad</NuxtLink>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@
 
 
 
-  </Layout>
+  </div>
 </template>
 
 <script>
