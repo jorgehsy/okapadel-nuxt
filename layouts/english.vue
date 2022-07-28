@@ -127,7 +127,7 @@
               <NuxtLink class="" rel="" to="/en/">
                 <li class="widget-list-item">Home</li>
               </NuxtLink>
-              <NuxtLink class="" rel="" to="/en/Contact us">
+              <NuxtLink class="" rel="" to="/en/contact-us">
                 <li class="widget-list-item">Contact us</li>
               </NuxtLink>
               <NuxtLink class="" rel="" to="https://okatent.com/blog-3/">
