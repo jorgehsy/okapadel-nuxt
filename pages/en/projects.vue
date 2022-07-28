@@ -26,7 +26,7 @@
       <div class="container">
         <div class="grid-project"  v-if="projects.length">
           <div class="item-project" v-for="project in projects" :key="project.id">
-            <nuxt-img  :src="project.image" />
+            <img  :src="project.image" />
             <h3 class="cards-title">{{ project.name }}</h3>
           </div>
         </div>

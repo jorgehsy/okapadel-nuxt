@@ -38,8 +38,8 @@
               Podemos construir una cubierta fija o temporal para que tengas tu
               tienda donde se venda material de tu club o tu patrocinador.
             </p>
-            <nuxt-img 
-              src="/vende-productos-de-padel-en-tu-propia-tienda-especializada.svg"
+            <img 
+              src="~/assets/images/vende-productos-de-padel-en-tu-propia-tienda-especializada.svg"
               alt="Proveedores material pádel"
             />
           </div>
@@ -51,8 +51,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
           <div class="col-md-6">
-            <nuxt-img 
-              src="/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.jpg"
+            <img 
+              src="~/assets/images/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.jpg"
             />
           </div>
           <div class="col-md-6 color-primary">
@@ -68,8 +68,8 @@
           class="row d-flex align-items-center flex-column-reverse flex-md-row"
         >
           <div class="col-md-6">
-            <nuxt-img 
-              src="/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.jpg"
+            <img 
+              src="~/assets/images/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.jpg"
             />
           </div>
           <div class="col-md-6">

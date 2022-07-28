@@ -7,7 +7,7 @@
         v-for="(item, index) in items"
         :key="index"
         >
-        <nuxt-img 
+        <img 
           class="d-block w-100"
           :src="require(`!!assets-loader!@slides/${item.image}`)"
           :alt="item.imageAlt"

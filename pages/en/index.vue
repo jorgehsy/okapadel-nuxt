@@ -37,8 +37,8 @@
         <div class="row">
           <div class="col-md-6 text-center">
             <div v-html="content.secondSection?.leftColumn"></div>
-            <nuxt-img 
-              src="/home/beneficios-de-okapadel.svg"
+            <img 
+              src="~/assets/images/home/beneficios-de-okapadel.svg"
               alt="beneficios de okapadel"
             />
           </div>
@@ -51,8 +51,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <nuxt-img 
-              src="/home/somos-fabricantes-de-espacios-de-padel-min.jpg"
+            <img 
+              src="~/assets/images/home/somos-fabricantes-de-espacios-de-padel-min.jpg"
             />
           </div>
           <div class="col-md-6" v-html="content.thirdSection?.rightColumn">

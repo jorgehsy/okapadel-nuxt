@@ -65,8 +65,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
-            <nuxt-img 
-              src="/cubiertas/cubierta-single-padel-min.jpg"
+            <img 
+              src="~/assets/images/cubiertas/cubierta-single-padel-min.jpg"
               alt="Cubierta para pistas de pádel individuales"
             />
           </div>
@@ -100,8 +100,8 @@
             </div>
           </div>
           <div class="col-md-6">
-            <nuxt-img 
-              src="/cubiertas/cubierta-multy-padel-min.jpg"
+            <img 
+              src="~/assets/images/cubiertas/cubierta-multy-padel-min.jpg"
               alt="Cubierta para pistas de pádel dobles"
             />
           </div>
@@ -113,8 +113,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
-            <nuxt-img 
-              src="/cubiertas/nave-arena-padel-min.jpg"
+            <img 
+              src="~/assets/images/cubiertas/nave-arena-padel-min.jpg"
               alt="Montar nave de pádel, ideal para club de pádel indoor"
             />
           </div>
@@ -180,8 +180,8 @@
             </ul>
           </div>
           <div class="col-md-6">
-            <nuxt-img 
-              src="/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
+            <img 
+              src="~/assets/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
             />
           </div>
         </div>
