@@ -1,16 +1,10 @@
 <template>
   <div>
     <section
-      class="
-        hero-section
-        d-flex
-        flex-column
-        justify-content-center
-        overlay-bg
-      "
+      class="hero-section d-flex flex-column justify-content-center overlay-bg"
       id=""
     >
-    <div class="hero-bg hero-cubierta-single"></div>
+      <div class="hero-bg hero-cubierta-single"></div>
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">
@@ -46,7 +40,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <nuxt-img 
+            <nuxt-img
               src="/cubiertas__modelo_single_padel/permiten-una-instalacion-rapida-y-rentable-min.jpg"
               alt="carpa modular para pistas de pádel individuales"
             />
@@ -71,7 +65,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <nuxt-img 
+            <nuxt-img
               src="/cubiertas__modelo_single_padel/_descubre-los-cerramientos-del-single-padel-min.jpg"
               alt="Completa la cubierta de tu pista de pádel a tu manera"
             />
@@ -94,9 +88,11 @@
     </section>
     <section class="two-col-section">
       <div class="container">
-        <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
-          <div class="col-md-6 ">
-            <nuxt-img 
+        <div
+          class="row d-flex align-items-center flex-column-reverse flex-md-row"
+        >
+          <div class="col-md-6">
+            <nuxt-img
               src="/cubiertas__modelo_single_padel/y-las-fijaciones-de-la-cubierta-individual-min.jpg"
               alt="Sujeta sólidamente y sin complicaciones la cubierta de tu pista de pádel"
             />
@@ -120,7 +116,8 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2 class="fw-section-title pt-0">
-              ¿Qué cubierta de Single Padel <strong>es la tuya?</strong></h2>
+              ¿Qué cubierta de Single Padel <strong>es la tuya?</strong>
+            </h2>
             <Carousel :items="projects" />
           </div>
         </div>
@@ -162,40 +159,45 @@
       </div>
     </section>
 
-    <ContactForm lang="en" title="¿Quieres una cubierta <br><strong>Single Pádel</strong>?" subtitle="Si deseas instalar una pista de pádel cubierta en tu
+    <ContactForm
+      lang="en"
+      title="¿Quieres una cubierta <br><strong>Single Pádel</strong>?"
+      subtitle="Si deseas instalar una pista de pádel cubierta en tu
 club y quieres que te ayudemos. No lo dudes,
-llámanos y te asesoraremos para que lo consigas." />
+llámanos y te asesoraremos para que lo consigas."
+    />
   </div>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: "Modelo Single Padel",
+<script setup lang="ts">
+import { computed } from "vue";
+import type { DefaultContent } from "~/types";
+const { find } = useStrapi4();
+
+const { data } = await useAsyncData("cubierta-single-padel-page", () =>
+  find<DefaultContent>("cubierta-single-padel-page", { locale: "en" })
+);
+
+const projects = computed(() => [
+  {
+    image: "que-cubierta-de-single-padel-es-la-tuya-first-slide-min.jpg",
+    imageAlt: "cubierta-de-single-padel-que-hemos-realizado",
+    title: "",
+    subtitle: "",
   },
-  data(){
-    return {
-      projects:[
-        {
-          image: 'que-cubierta-de-single-padel-es-la-tuya-first-slide-min.jpg',
-          imageAlt: 'cubierta-de-single-padel-que-hemos-realizado',
-          title: '',
-          subtitle: ''
-        },
-        {
-          image: 'que-cubierta-de-single-padel-es-la-tuya-second-slide-min.jpg',
-          imageAlt: 'cubierta-de-single-padel-que-hemos-realizado',
-          title: '',
-          subtitle: ''
-        },
-        {
-          image: 'que-cubierta-de-single-padel-es-la-tuya-third-slide-min.jpg',
-          imageAlt: 'cubierta-de-single-padel-que-hemos-realizado',
-          title: '',
-          subtitle: ''
-        },
-      ]
-    }
-  }
-};
+  {
+    image: "que-cubierta-de-single-padel-es-la-tuya-second-slide-min.jpg",
+    imageAlt: "cubierta-de-single-padel-que-hemos-realizado",
+    title: "",
+    subtitle: "",
+  },
+  {
+    image: "que-cubierta-de-single-padel-es-la-tuya-third-slide-min.jpg",
+    imageAlt: "cubierta-de-single-padel-que-hemos-realizado",
+    title: "",
+    subtitle: "",
+  },
+]);
+
+const content = computed(() => data.value.data.attributes);
 </script>

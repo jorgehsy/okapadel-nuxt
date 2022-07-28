@@ -34,7 +34,7 @@
           <div class="col-md-6">
             <div v-html="content.firstSection?.leftColumn"></div>
             <div class="button-box">
-              <NuxtLink class="btn btn-white" to="/pistas/modelo-basic-court" rel="next">Ver pista Basic</NuxtLink>
+              <NuxtLink class="btn btn-white" to="/es/pistas/modelo-basic-court" rel="next">Ver pista Basic</NuxtLink>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@
             <div v-html="content.secondSection?.rightColumn"></div>
 
             <div class="button-box">
-              <NuxtLink class="btn btn-white" to="/pistas/modelo-panoramic-court" rel="next">Ver pista Panoramic</NuxtLink>
+              <NuxtLink class="btn btn-white" to="/es/pistas/modelo-panoramic-court" rel="next">Ver pista Panoramic</NuxtLink>
             </div>
           </div>
         </div>

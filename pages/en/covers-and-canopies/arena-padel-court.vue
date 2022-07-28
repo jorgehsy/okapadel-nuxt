@@ -40,7 +40,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <nuxt-img 
+            <nuxt-img
               src="/cubiertas__modelo_arena_padel/sorprende-con-un-modelo-de-campeonato-min.jpg"
               alt="pabellón modular para cubrir de 2 a 6 pistas de pádel"
             />
@@ -67,7 +67,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <nuxt-img 
+            <nuxt-img
               src="/cubiertas__modelo_arena_padel/completa-tu-pabellon-modular-con-los-cerramientos-del-arena-padel-min.jpg"
               alt="Completa tu pabellón modular con los cerramientos para cubiertas Arena Padel"
             />
@@ -91,14 +91,15 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <nuxt-img 
+            <nuxt-img
               src="/cubiertas__modelo_arena_padel/y-las-fijaciones-de-una-gran-cubierta-min.jpg"
               alt="Fijaciones firmes, seguras y garantizadas para tu pabellón Arena Padel"
             />
           </div>
           <div class="col-md-6 color-white">
             <h2 class="fw-section-title pt-0">
-              Y las fijaciones de una <strong>gran cubierta</strong></h2>
+              Y las fijaciones de una <strong>gran cubierta</strong>
+            </h2>
             <p class="lead">
               Debido a la gran envergadura de este tipo de pabellones se
               calculan cimentaciones mediante solera, riostra corrida o zapatas
@@ -137,7 +138,8 @@
               <div class="row bg-dark-gray">
                 <div class="col-md-12 p-3 color-secondary text-center">
                   <h2>
-                    ¡Tenemos <strong>más de 5 diseños</strong> Arena esperando!<br />
+                    ¡Tenemos <strong>más de 5 diseños</strong> Arena
+                    esperando!<br />
                   </h2>
                   <p class="lead text-center">
                     Pero si ninguno de estos encaja con tu proyecto,
@@ -151,7 +153,8 @@
         </div>
       </div>
     </section>
-    <ContactForm lang="en"
+    <ContactForm
+      lang="en"
       title="¿Quieres una cubierta<br> <strong>Arena Pádel</strong>?"
       subtitle="Somos tu proveedor todo en uno para instalaciones de
 pádel multipista. Si quieres cubrir más de 6 pistas bajo
@@ -162,34 +165,35 @@ aprovecha nuestra larga experiencia en pistas de pádel."
   </div>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: "Modelo Arena Padel",
+<script setup lang="ts">
+import { computed } from "vue";
+import type { DefaultContent } from "~/types";
+const { find } = useStrapi4();
+
+const { data } = await useAsyncData("cubierta-arena-padel-page", () =>
+  find<DefaultContent>("cubierta-arena-padel-page", { locale: "en" })
+);
+
+const projects = computed(() => [
+  {
+    image: "que-cubierta-arena-padel-eliges-first-slide--min.jpg",
+    imageAlt: "cubierta-de-arena-padel-que-hemos-realizado",
+    title: "",
+    subtitle: "",
   },
-  data() {
-    return {
-      projects: [
-        {
-          image: "que-cubierta-arena-padel-eliges-first-slide--min.jpg",
-          imageAlt: "cubierta-de-arena-padel-que-hemos-realizado",
-          title: "",
-          subtitle: "",
-        },
-        {
-          image: "que-cubierta-arena-padel-eliges-second-slide--min.jpg",
-          imageAlt: "cubierta-de-arena-padel-que-hemos-realizado",
-          title: "",
-          subtitle: "",
-        },
-        {
-          image: "que-cubierta-arena-padel-eliges-third-slide--min.jpg",
-          imageAlt: "cubierta-de-arena-padel-que-hemos-realizado",
-          title: "",
-          subtitle: "",
-        },
-      ],
-    };
+  {
+    image: "que-cubierta-arena-padel-eliges-second-slide--min.jpg",
+    imageAlt: "cubierta-de-arena-padel-que-hemos-realizado",
+    title: "",
+    subtitle: "",
   },
-};
+  {
+    image: "que-cubierta-arena-padel-eliges-third-slide--min.jpg",
+    imageAlt: "cubierta-de-arena-padel-que-hemos-realizado",
+    title: "",
+    subtitle: "",
+  },
+]);
+
+const content = computed(() => data.value.data.attributes);
 </script>

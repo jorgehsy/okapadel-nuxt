@@ -36,7 +36,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <nuxt-img 
+            <nuxt-img
               src="/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.jpg"
               alt="pabellón modular para cubrir de 2 a 6 pistas de pádel"
             />
@@ -60,7 +60,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <nuxt-img 
+            <nuxt-img
               src="/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.jpg"
               alt="Completa de forma personalizada la cubierta de tus pistas de pádel"
             />
@@ -85,14 +85,15 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <nuxt-img 
+            <nuxt-img
               src="/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.jpg"
               alt="Sujeta sólidamente y sin complicaciones la cubierta de tu pista de pádel"
             />
           </div>
           <div class="col-md-6">
             <h2 class="fw-section-title pt-0">
-              Y las fijaciones de la <strong>cubierta doble.</strong></h2>
+              Y las fijaciones de la <strong>cubierta doble.</strong>
+            </h2>
             <p class="lead">
               Para el anclaje de los pabellones Multy es necesario la
               realización de zapatas individuales o riostra continua y éstas
@@ -149,7 +150,8 @@
         </div>
       </div>
     </section>
-    <ContactForm lang="en"
+    <ContactForm
+      lang="en"
       title="¿Quieres una cubierta <br><strong>Multy Pádel</strong>?"
       subtitle="Consulta sin compromiso las oportunidades y
 posibilidades de nuestros proyectos y cubiertas
@@ -159,34 +161,35 @@ necesidades las atiende Okapadel."
   </div>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: "Modelo Multy Padel",
+<script setup lang="ts">
+import { computed } from "vue";
+import type { DefaultContent } from "~/types";
+const { find } = useStrapi4();
+
+const { data } = await useAsyncData("cubierta-multy-padel-page", () =>
+  find<DefaultContent>("cubierta-multy-padel-page", { locale: "en" })
+);
+
+const projects = computed(() => [
+  {
+    image: "que-cubierta-de-multy-padel-te-gusta-first-slide-min.jpg",
+    imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
+    title: "",
+    subtitle: "",
   },
-  data() {
-    return {
-      projects: [
-        {
-          image: "que-cubierta-de-multy-padel-te-gusta-first-slide-min.jpg",
-          imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
-          title: "",
-          subtitle: "",
-        },
-        {
-          image: "que-cubierta-de-multy-padel-te-gusta-second-slide-min.jpg",
-          imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
-          title: "",
-          subtitle: "",
-        },
-        {
-          image: "que-cubierta-de-multy-padel-te-gusta-third-slide-min.jpg",
-          imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
-          title: "",
-          subtitle: "",
-        },
-      ],
-    };
+  {
+    image: "que-cubierta-de-multy-padel-te-gusta-second-slide-min.jpg",
+    imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
+    title: "",
+    subtitle: "",
   },
-};
+  {
+    image: "que-cubierta-de-multy-padel-te-gusta-third-slide-min.jpg",
+    imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
+    title: "",
+    subtitle: "",
+  },
+]);
+
+const content = computed(() => data.value.data.attributes);
 </script>

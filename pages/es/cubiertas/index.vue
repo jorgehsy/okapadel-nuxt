@@ -76,7 +76,7 @@
               <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
-                to="/cubiertas/modelo-single-padel"
+                to="/es/cubiertas/modelo-single-padel"
                 >Ver cubierta Single Pádel
               </NuxtLink>
             </div>
@@ -94,7 +94,7 @@
               <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
-                to="/cubiertas/modelo-multy-padel"
+                to="/es/cubiertas/modelo-multy-padel"
                 >Ver cubierta Multy Pádel
               </NuxtLink>
             </div>
@@ -124,7 +124,7 @@
               <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
-                to="/cubiertas/modelo-arena-padel"
+                to="/es/cubiertas/modelo-arena-padel"
                 >Ver nave Arena Pádel
               </NuxtLink>
             </div>
