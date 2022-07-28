@@ -11,11 +11,12 @@ export default defineNuxtConfig({
     '@nuxtjs/strapi',
   ],
   strapi: {
-    url: 'http://localhost:1337'
+    url: process.env.API_URL
   },
   css:[
     '~/assets/sass/main.scss',
   ],
+  target: 'static',
   image: {
     screens: {
       xs: 320,
@@ -27,5 +28,11 @@ export default defineNuxtConfig({
       '2xl': 1536
     },
     dir: 'assets/images'
-  }
+  },
+  router: {
+    middleware: ['default']
+  },
+  publicRuntimeConfig: {
+    DEFAULT_LANGUAGE: process.env.DEFAULT_LANGUAGE
+  },
 })
