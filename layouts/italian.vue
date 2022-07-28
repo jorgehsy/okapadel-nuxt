@@ -130,7 +130,7 @@
               <NuxtLink class="" rel="" to="/it/contatti">
                 <li class="widget-list-item">Contatti</li>
               </NuxtLink>
-              <NuxtLink class="" rel="" to="hit/ttps://okatent.com/blog-3/">
+              <NuxtLink class="" rel="" to="https://okatent.com/blog-3/">
                 <li class="widget-list-item">Blog</li>
               </NuxtLink>
             </ul>
