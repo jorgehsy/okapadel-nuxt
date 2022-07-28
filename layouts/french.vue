@@ -33,7 +33,7 @@
               </li>
               <li class="nav-item">
                 <NuxtLink class="nav-link" rel="" to="/fr/installations-de-padel">
-                  >Installations de Padel</NuxtLink
+                  Installations de Padel</NuxtLink
                 >
               </li>
               <li class="nav-item">
@@ -84,8 +84,8 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <NuxtLink class="nav-link" rel="" to="/fr/installations-de-padel"
-                    >Installations de Padel
+                  <NuxtLink class="nav-link" rel="" to="/fr/installations-de-padel">
+                    Installations de Padel
                   </NuxtLink>
                 </li>
                 <li class="nav-item">
@@ -181,3 +181,12 @@
     </footer>
   </div>
 </template>
+
+
+<script setup>
+useHead({
+  htmlAttrs:{
+    lang: 'fr'
+  }
+})
+</script>

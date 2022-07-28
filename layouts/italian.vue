@@ -181,3 +181,11 @@
     </footer>
   </div>
 </template>
+
+<script setup>
+useHead({
+  htmlAttrs:{
+    lang: 'it'
+  }
+})
+</script>
