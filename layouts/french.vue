@@ -3,7 +3,7 @@
     <header class="header-okapadel">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark py-4">
-          <a class="navbar-brand" href="/" rel="">
+          <a class="navbar-brand" href="/fr" rel="">
             <nuxt-img
               src="/okapadel_mainlogo-alt.svg"
               width="150"

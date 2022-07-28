@@ -15,4 +15,15 @@
             background: $light-gray;
         }
     }
+    &.btn-link{
+        background: transparent;
+        color: $white;
+        &:hover{
+            background: transparent;
+        }
+        border: none;
+        padding: 0;
+        margin: 0;
+
+    }
 }

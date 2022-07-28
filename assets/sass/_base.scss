@@ -278,23 +278,24 @@ body {
     align-items: center;
     justify-content: center; */
     font-weight: 600;
+    button {
+      color: white;
+    }
+    li {
+      border-right: 2px solid #fff !important;
+      &.list-group-item {
+        background-color: transparent;
+        border: none;
+        border-radius: 0px;
+        padding: 0px 10px;
+      }
+    }
+    .list-group{
+      li:last-child{
+        border-right: 0px !important;
+      }
+    }
   }
-  
-  .lang-selector a {
-    color: white;
-  }
-  
-  .lang-selector li.list-group-item {
-    background-color: transparent;
-    border: none;
-    border-radius: 0px;
-    padding: 0px 10px;
-  }
-  
-  .lang-selector .border-right {
-    border-right: 2px solid #fff !important;
-  }
-  
   
   
   .list-group-horizontal .list-group-item:last-child {

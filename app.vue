@@ -8,24 +8,23 @@
 
 <script setup>
 const route = useRoute()
-var layout = "default";
+var layout = "spanish";
 
 const language = route.path.split('/')[1];
-console.log(language);
 
 switch (language) {
   case "en":
-    layout = "enLayout";
+    layout = "english";
     break;
   case "it":
-    layout = "itLayout";
+    layout = "italian";
     break;
   case "fr":
-    layout = "frLayout";
+    layout = "french";
     break;
 
   default:
-    layout = "default";
+    layout = "spanish";
     break;
 }
 // You might choose this based on an API call or logged-in status

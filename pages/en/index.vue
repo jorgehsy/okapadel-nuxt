@@ -65,7 +65,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2 class="fw-section-title">
-              <strong>Proyectos</strong> de pádel que hemos realizado
+              <strong>Padel court projects</strong> that we have carried out.
             </h2>
             <Carousel :items="projects" />
           </div>
@@ -73,7 +73,7 @@
       </div>
     </section>
 
-    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
+    <ContactForm lang="en" :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
 </template>
 
@@ -84,7 +84,7 @@ const { find } = useStrapi4()
 
 const { data } = await useAsyncData(
   'homepage',
-  () => find<DefaultContent>('homepage', {locale: 'es'})
+  () => find<DefaultContent>('homepage', {locale: 'en'})
 )
 
 const projects = computed (() => [

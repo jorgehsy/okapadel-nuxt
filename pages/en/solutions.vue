@@ -33,7 +33,7 @@
           <div class="col-md-6">
             <div class="mb-3" v-html="content.firstSection?.rightColumn"></div>
             <div class="text-center">
-              <NuxtLink class="btn btn-secondary" rel="" to="/cubiertas">Ver cubiertas</NuxtLink>
+              <NuxtLink class="btn btn-secondary" rel="" to="/en/covers-and-canopies">Ver cubiertas</NuxtLink>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
           <div class="col-md-6 order-md-1">
             <div class="mb-3" v-html="content.secondSection?.leftColumn"></div>
             <div class="text-center">
-              <NuxtLink class="btn btn-secondary" rel="" to="/pistas">Ver pistas</NuxtLink>
+              <NuxtLink class="btn btn-secondary" rel="" to="/en/courts">Ver pistas</NuxtLink>
             </div>
           </div>
 
@@ -67,7 +67,7 @@
         </div>
       </div>
     </section>
-    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
+    <ContactForm lang="en" :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
 </template>
 
@@ -79,7 +79,7 @@ const { find } = useStrapi4()
 
 const { data } = await useAsyncData(
   'soluciones-page',
-  () => find<DefaultContent>('soluciones-page', {locale: 'es'})
+  () => find<DefaultContent>('soluciones-page', {locale: 'en'})
 )
 
 const content = computed (() => data.value.data.attributes)
