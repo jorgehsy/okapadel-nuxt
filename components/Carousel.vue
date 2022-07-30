@@ -20,7 +20,7 @@
       </div>
     </VueSlickCarousel> -->
     <div class="mt-5">
-        <NuxtLink class="btn btn-white" to="/es/proyectos" rel="">Ver más</NuxtLink>
+        <NuxtLink class="btn btn-white" to="/es/proyectos/" rel="">Ver más</NuxtLink>
     </div>
   </div>
 </template>

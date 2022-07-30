@@ -13,18 +13,21 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/es/soluciones">
+                <NuxtLink class="nav-link" rel="" to="/es/soluciones/"
+                >
                   Soluciones
                 </NuxtLink>
                 <div class="nav-item-submenu">
                   <ul>
                     <li class="nav-item">
-                      <NuxtLink class="nav-link" rel="" to="/es/pistas">
+                      <NuxtLink class="nav-link" rel="" to="/es/pistas/"
+                      >
                         <i class="fa-fw fa-solid fa-plus g-text"></i>Pistas
                       </NuxtLink>
                     </li>
                     <li class="nav-item">
-                      <NuxtLink class="nav-link" rel="" to="/es/cubiertas">
+                      <NuxtLink class="nav-link" rel="" to="/es/cubiertas/"
+                      >
                         <i class="fa-fw fa-solid fa-plus g-text"></i>Cubiertas
                       </NuxtLink>
                     </li>
@@ -32,32 +35,32 @@
                 </div>
               </li>
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/es/instalaciones-de-padel"
+                <NuxtLink class="nav-link" rel="" to="/es/instalaciones-de-padel/"
                   >Instalaciones de Pádel</NuxtLink
                 >
               </li>
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/es/proyectos"
+                <NuxtLink class="nav-link" rel="" to="/es/proyectos/"
                   >Proyectos</NuxtLink
                 >
               </li>
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/es/calidad"
+                <NuxtLink class="nav-link" rel="" to="/es/calidad/"
                   >Calidad</NuxtLink
                 >
               </li>
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/es/nosotros"
+                <NuxtLink class="nav-link" rel="" to="/es/nosotros/"
                   >Nosotros</NuxtLink
                 >
               </li>
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/es/contacto"
+                <NuxtLink class="nav-link" rel="" to="/es/contacto/"
                   >Contacto</NuxtLink
                 >
               </li>
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/es/plus-okapadel"
+                <NuxtLink class="nav-link" rel="" to="/es/plus-okapadel/"
                   ><i class="fa-fw fa-solid fa-plus g-text"></i>Okapadel
                 </NuxtLink>
               </li>
@@ -67,47 +70,49 @@
             <Slide right class="burger">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <NuxtLink class="nav-link" rel="" to="/es/soluciones"
+                  <NuxtLink class="nav-link" rel="" to="/es/soluciones/"
                     >Soluciones</NuxtLink
                   >
                   <ul class="navbar-submenu-mobile">
                     <li class="nav-item">
-                      <NuxtLink class="nav-link" rel="" to="/es/pistas"
+                      <NuxtLink class="nav-link" rel="" to="/es/pistas/"
                         ><i class="fa-fw fa-solid fa-plus g-text"></i>Pistas
                       </NuxtLink>
                     </li>
                     <li class="nav-item">
-                      <NuxtLink class="nav-link" rel="" to="/es/cubiertas">
+                      <NuxtLink class="nav-link" rel="" to="/es/cubiertas/"
+                      >
                         <i class="fa-fw fa-solid fa-plus g-text"></i>Cubiertas
                       </NuxtLink>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <NuxtLink class="nav-link" rel="" to="/es/instalaciones-de-padel"
+                  <NuxtLink class="nav-link" rel="" to="/es/instalaciones-de-padel/"
                     >Instalaciones de Pádel
                   </NuxtLink>
                 </li>
                 <li class="nav-item">
-                  <NuxtLink class="nav-link" rel="" to="/es/proyectos"
+                  <NuxtLink class="nav-link" rel="" to="/es/proyectos/"
                     >Proyectos</NuxtLink
                   >
                 </li>
                 <li class="nav-item">
-                  <NuxtLink class="nav-link" rel="" to="/es/calidad">Calidad</NuxtLink>
+                  <NuxtLink class="nav-link" rel="" to="/es/calidad/
+                  ">Calidad</NuxtLink>
                 </li>
                 <li class="nav-item">
-                  <NuxtLink class="nav-link" rel="" to="/es/nosotros"
+                  <NuxtLink class="nav-link" rel="" to="/es/nosotros/"
                     >Nosotros</NuxtLink
                   >
                 </li>
                 <li class="nav-item">
-                  <NuxtLink class="nav-link" rel="" to="/es/contacto"
+                  <NuxtLink class="nav-link" rel="" to="/es/contacto/"
                     >Contacto</NuxtLink
                   >
                 </li>
                 <li class="nav-item">
-                  <NuxtLink class="nav-link" rel="" to="/es/plus-okapadel"
+                  <NuxtLink class="nav-link" rel="" to="/es/plus-okapadel/"
                     >+Okapadel</NuxtLink
                   >
                 </li>
@@ -124,10 +129,12 @@
           <div class="col-12 col-lg-3 text-md-center mb-4">
             <h5><strong>Okapadel</strong></h5>
             <ul class="widget-list">
-              <NuxtLink class="" rel="" to="/es/">
+              <NuxtLink class="" rel="" to="/es/"
+              >
                 <li class="widget-list-item">Home</li>
               </NuxtLink>
-              <NuxtLink class="" rel="" to="/es/contacto">
+              <NuxtLink class="" rel="" to="/es/contacto/"
+              >
                 <li class="widget-list-item">Contacto</li>
               </NuxtLink>
               <NuxtLink external class="" rel="" to="https://okatent.com/blog-3/">

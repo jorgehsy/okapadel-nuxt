@@ -76,7 +76,7 @@
               <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
-                to="/it/coperture/single-padel"
+                to="/it/coperture/single-padel/"
                 >Ver cubierta Single Pádel
               </NuxtLink>
             </div>
@@ -94,7 +94,7 @@
               <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
-                to="/it/coperture/multy-padel"
+                to="/it/coperture/multy-padel/"
                 >Ver cubierta Multy Pádel
               </NuxtLink>
             </div>
@@ -124,7 +124,7 @@
               <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
-                to="/it/coperture/arena-padel"
+                to="/it/coperture/arena-padel/"
                 >Ver nave Arena Pádel
               </NuxtLink>
             </div>
