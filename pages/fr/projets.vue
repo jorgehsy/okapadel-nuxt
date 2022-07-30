@@ -45,20 +45,20 @@ const { find } = useStrapi4()
 
 const { data } = await useAsyncData(
   'proyecto-page',
-  () => find<DefaultContent>('proyecto-page', {locale: 'en'})
+  () => find<DefaultContent>('proyecto-page', {locale: 'fr'})
 )
 
 const content = computed (() => data.value.data.attributes)
 const projects = computed (() => [
-    { id: 1, image: "proyectos/proyectos-arena-padel-milan-min.jpg", name: "Arena Padel Milán", description: "..." },
-    { id: 2, image: "proyectos/proyectos-multy-padel-baskonia-victoria-spain-min.jpg", name: "Multy Padel Baskonia Victoria España", description: "..." },
-    { id: 3, image: "proyectos/proyectos-multy-padel-dunk-min.jpg", name: "Multy Padel Dunk", description: "..." },
-    { id: 4, image: "proyectos/proyectos-multy-padel-lagrajera-logrono-spain-min.jpg", name: "Multy Padel Lagrajera Logrono España", description: "..." },
-    { id: 5, image: "proyectos/proyectos-multy-padel-odrimont-belgium-min.jpg", name: "Multy Padel Odrimont Bélgica", description: "..." },
-    { id: 6, image: "proyectos/proyectos-multy-padel-toulouse-france-min.jpg", name: "Multy Padel Toulouse Francia", description: "..." },
-    { id: 7, image: "proyectos/proyectos-multy-padel-wolouwe-belgium-min.jpg", name: "Multy Padel Wolouwe Bélgica", description: "..." },
-    { id: 8, image: "proyectos/proyectos-single-padel-jodoine-belgium-min.jpg", name: "Single Padel Jodoine Bélgica", description: "..." },
-    { id: 9, image: "proyectos/proyectos-single-padel-tremblay-france-min.jpg", name: "Single Padel Tremblay Francia", description: "..." },
+    { id: 1, image: "/_nuxt/assets/images/proyectos/proyectos-arena-padel-milan-min.jpg", name: "Arena Padel Milán", description: "..." },
+    { id: 2, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-baskonia-victoria-spain-min.jpg", name: "Multy Padel Baskonia Victoria España", description: "..." },
+    { id: 3, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-dunk-min.jpg", name: "Multy Padel Dunk", description: "..." },
+    { id: 4, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-lagrajera-logrono-spain-min.jpg", name: "Multy Padel Lagrajera Logrono España", description: "..." },
+    { id: 5, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-odrimont-belgium-min.jpg", name: "Multy Padel Odrimont Bélgica", description: "..." },
+    { id: 6, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-toulouse-france-min.jpg", name: "Multy Padel Toulouse Francia", description: "..." },
+    { id: 7, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-wolouwe-belgium-min.jpg", name: "Multy Padel Wolouwe Bélgica", description: "..." },
+    { id: 8, image: "/_nuxt/assets/images/proyectos/proyectos-single-padel-jodoine-belgium-min.jpg", name: "Single Padel Jodoine Bélgica", description: "..." },
+    { id: 9, image: "/_nuxt/assets/images/proyectos/proyectos-single-padel-tremblay-france-min.jpg", name: "Single Padel Tremblay Francia", description: "..." },
 ])
 
 </script>

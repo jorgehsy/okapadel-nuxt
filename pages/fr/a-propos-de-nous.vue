@@ -81,7 +81,7 @@ const { find } = useStrapi4()
 
 const { data } = await useAsyncData(
   'nosotros-page',
-  () => find<DefaultContent>('nosotros-page', {locale: 'en'})
+  () => find<DefaultContent>('nosotros-page', {locale: 'fr'})
 )
 
 const content = computed (() => data.value.data.attributes)

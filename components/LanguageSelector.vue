@@ -30,23 +30,27 @@
 </template>
 
 <script>
-export default {
-  data() {
+export default{
+  setup() {
+    const route = useRoute()
+  
+    const currentLang = computed(() => {
+      return route.path.split('/')[1];
+    });
+  
+    const basePath = computed(() => {
+      return route.path.split('/')[1];
+    });
+  
+    const changeLanguage = (lang) => {
+      const url = `/${lang}/`;
+      window.location.href = url;
+    }
+  
     return {
-      language: "es",
+      currentLang,
+      changeLanguage,
     };
-  },
-  computed: {
-    currentLang() {
-      return this.$route.path.split('/')[1];
-    },
-  },
-  methods: {
-    changeLanguage(lang) {
-      this.language = lang;
-      window.location.href = `/${lang}/`;
-      // this.$router.push(`/${lang}/`);
-    },
-  },
-};
+  }
+}
 </script>

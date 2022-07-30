@@ -84,7 +84,7 @@ const { find } = useStrapi4()
 
 const { data } = await useAsyncData(
   'homepage',
-  () => find<DefaultContent>('homepage', {locale: 'en'})
+  () => find<DefaultContent>('homepage', {locale: 'fr'})
 )
 
 const projects = computed (() => [
