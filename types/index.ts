@@ -45,6 +45,16 @@ export type DefaultContent = {
             contact?: {
                 title: string
                 subtitle: string
+            },
+            seo?: {
+                metaTitle?: string
+                metaDescription?: string
+                keywords?: string
+                metaRobots?: string
+                structuredData?: string
+                metaViewport?: string
+                canonicalURL?: string
+                DC?: string
             }
         }
     }

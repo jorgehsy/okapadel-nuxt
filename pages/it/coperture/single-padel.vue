@@ -173,4 +173,17 @@ const pages = computed (() => ({
   fr: '/fr/couvertures/single-padel',
   it: '/it/coperture/single-padel',
 }))
+useHead({
+  title: data.value.data.attributes.seo.metaTitle,
+  meta:[
+    { name: 'description', content: data.value.data.attributes.seo.metaDescription},
+    { name: 'keywords', content: data.value.data.attributes.seo.keywords},
+    { name: 'robots', content: data.value.data.attributes.seo.metaRobots},
+    { name: 'title', content: data.value.data.attributes.seo.metaTitle},
+  ],
+  link:[
+    { rel: 'canonical', href: data.value.data.attributes.seo.canonicalURL},
+  ],
+  viewport: data.value.data.attributes.seo.metaViewport,
+});
 </script>
