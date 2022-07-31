@@ -1,15 +1,14 @@
 .burger{
-    .bm-burger-button {
-       position: fixed;
-       width: 36px;
-       height: 30px;
-       left: 36px;
-       top: 36px;
-       cursor: pointer;
-     }
-     .bm-burger-bars {
-       background-color: #ffffff;
-     }
+    .bm-icon{
+      position: fixed;
+      width: 36px;
+      height: 30px;
+      right: 36px;
+      top: 26px;
+      cursor: pointer;
+      font-size: 2rem;
+      color: #ffffff;
+    }
      .line-style {
        position: absolute;
        height: 20%;
