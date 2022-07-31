@@ -1,5 +1,6 @@
 @import 'bootstrap/scss/bootstrap.scss';
 @import 'bootstrap-vue/src/index.scss';
+@import 'vue3-carousel/dist/carousel.css';
 @import '_base';
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import "./fontawesome/scss/fontawesome.scss";
@@ -8,6 +9,7 @@
 @import '_variables';
 @import '_buttons';
 @import '_burger';
+@import '_carousel';
 @import '_theme';
 
 .navbar{
@@ -120,13 +122,6 @@ section{
     a{
       color: $primary;
     }
-  }
-}
-
-.carousel{
-  margin-bottom: 50px;
-  .carousel-indicators{
-    bottom: -50px;
   }
 }
 
