@@ -8,9 +8,8 @@
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">
-            <h1 class="hero-title">
-              Pabellón modular <br /><strong>Multy Padel</strong>
-            </h1>
+            <h1 class="hero-title" v-html="content.title"></h1>
+            <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
         <LanguageSelector />
@@ -42,15 +41,7 @@
             />
           </div>
           <div class="col-md-6 order-md-12">
-            <h2 class="fw-section-title pt-0">
-              <strong>Un formato estándar</strong> que se adapta
-            </h2>
-            <p class="color-primary">
-              El modelo Multy está pensado para cubrir cualquier espacio de
-              forma simple. Además, al ser una estructura modular se puede
-              <strong><em> ampliar de forma longitudinal.</em></strong> Si en el
-              futuro necesitas ampliar tu espacio de pádel este es tu modelo.
-            </p>
+            <div v-html="content.firstSection?.rightColumn"></div>
           </div>
         </div>
       </div>
@@ -66,17 +57,7 @@
             />
           </div>
           <div class="col-md-6">
-            <h2 class="fw-section-title pt-0">
-              Descubre los cerramientos del <br />
-              <strong>Multy Padel.</strong>
-            </h2>
-            <p class="lead">
-              Al cubrir más de dos pistas es importante tener en cuenta las
-              condiciones de juego. Por eso, disponemos de techos presurizados,
-              lonas translúcidas u opacas, faldones antireflejos, cortinas
-              microperforadas, abatibles o laterales fijos de panel sándwich.
-              <strong><em>Puedes elegir hasta el color.</em></strong>
-            </p>
+            <div v-html="content.secondSection?.leftColumn"></div>
           </div>
         </div>
       </div>
@@ -91,16 +72,7 @@
             />
           </div>
           <div class="col-md-6">
-            <h2 class="fw-section-title pt-0">
-              Y las fijaciones de la <strong>cubierta doble.</strong>
-            </h2>
-            <p class="lead">
-              Para el anclaje de los pabellones Multy es necesario la
-              realización de zapatas individuales o riostra continua y éstas
-              dependerán del tamaño de la cubierta. Habitualmente la conexión
-              entre la estructura y las cimentaciones se realiza mediante taco
-              químico.
-            </p>
+            <div v-html="content.thirdSection?.rightColumn"></div>
           </div>
         </div>
       </div>
@@ -110,7 +82,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2>¿Qué cubierta de Multy Padel <strong>te gusta?</strong></h2>
-            <Carousel :items="projects" to="/en/projects/" button="See More" />
+            <Carousel :items="projects" to="/es/proyectos/" />
           </div>
         </div>
       </div>
@@ -150,14 +122,8 @@
         </div>
       </div>
     </section>
-    <ContactForm
-      lang="en"
-      title="¿Quieres una cubierta <br><strong>Multy Pádel</strong>?"
-      subtitle="Consulta sin compromiso las oportunidades y
-posibilidades de nuestros proyectos y cubiertas
-para pistas de pádel dobles, todas las
-necesidades las atiende Okapadel."
-    />
+
+    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
 </template>
 

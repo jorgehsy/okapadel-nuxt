@@ -8,9 +8,8 @@
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">
-            <h1 class="hero-title">
-              Carpa modular <br /><strong>Single Padel</strong>
-            </h1>
+            <h1 class="hero-title" v-html="content.title"></h1>
+            <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
         <LanguageSelector />
@@ -46,16 +45,7 @@
             />
           </div>
           <div class="col-md-6 order-md-12">
-            <h2 class="fw-section-title">
-              Permiten una instalación <strong>rápida y rentable.</strong>
-            </h2>
-            <p class="lead">
-              Las carpas de pequeño formato necesitan menos material y la
-              instalación de las estructuras se puede
-              <strong><em>realizar en 72 horas.</em></strong> Gracias a nuestra
-              experiencia podemos reducir costes y aconsejarte como sacarle el
-              mayor rendimiento.<br />
-            </p>
+            <div v-html="content.firstSection?.rightColumn"></div>
           </div>
         </div>
       </div>
@@ -71,17 +61,7 @@
             />
           </div>
           <div class="col-md-6 order-md-1">
-            <h2 class="fw-section-title">
-              Descubre los cerramientos del <br />
-              <strong>Single Padel.</strong>
-            </h2>
-            <p class="lead">
-              Para jugar en las mejores condiciones disponemos de techos
-              presurizados, lonas translúcidas u opacas, faldones antireflejos,
-              cortinas microperforadas, abatibles o laterales fijos de panel
-              sándwich. <strong><em>Puedes elegir hasta el color.</em></strong
-              ><br />
-            </p>
+            <div v-html="content.secondSection?.leftColumn"></div>
           </div>
         </div>
       </div>
@@ -98,15 +78,7 @@
             />
           </div>
           <div class="col-md-6">
-            <h2 class="fw-section-title pt-0">
-              Y las fijaciones de la <strong>cubierta individual.</strong>
-            </h2>
-            <p class="color-primary">
-              Las estructuras Single se sujetan con distintos sistemas de
-              fijación. Al ser naves de poca envergadura no precisan
-              cimentaciones de gran formato y suelen utilizarse tacos de
-              expansión mecánicos para su conexión entre estructura y solera.<br />
-            </p>
+            <div v-html="content.thirdSection?.rightColumn"></div>
           </div>
         </div>
       </div>
@@ -118,7 +90,7 @@
             <h2 class="fw-section-title pt-0">
               ¿Qué cubierta de Single Padel <strong>es la tuya?</strong>
             </h2>
-            <Carousel :items="projects" to="/en/projects/" button="See More" />
+            <Carousel :items="projects" to="/es/proyectos/" />
           </div>
         </div>
       </div>
@@ -159,13 +131,8 @@
       </div>
     </section>
 
-    <ContactForm
-      lang="en"
-      title="¿Quieres una cubierta <br><strong>Single Pádel</strong>?"
-      subtitle="Si deseas instalar una pista de pádel cubierta en tu
-club y quieres que te ayudemos. No lo dudes,
-llámanos y te asesoraremos para que lo consigas."
-    />
+
+    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
 </template>
 

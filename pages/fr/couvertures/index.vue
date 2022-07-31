@@ -199,7 +199,7 @@ const { find } = useStrapi4()
 
 const { data } = await useAsyncData(
   'cubierta-page',
-  () => find<DefaultContent>('cubierta-page', {locale: 'fr'})
+  () => find<DefaultContent>('cubierta-page', {locale: "fr"})
 )
 
 const content = computed (() => data.value.data.attributes)

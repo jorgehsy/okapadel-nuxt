@@ -8,9 +8,8 @@
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">
-            <h1 class="hero-title">
-              Pabellón modular <br /><strong>Arena Padel</strong>
-            </h1>
+            <h1 class="hero-title" v-html="content.title"></h1>
+            <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
         <LanguageSelector />
@@ -46,18 +45,7 @@
             />
           </div>
           <div class="col-md-6">
-            <h2 class="fw-section-title color-primary pb-0">
-              Sorprende con un modelo de <strong>campeonato</strong>
-            </h2>
-            <p class="lead">
-              El modelo Arena es el modelo de mayor envergadura y prestaciones.
-              Su diseño abovedado, unido a su tamaño consiguen instalaciones
-              deslumbrantes. Además de cubrir las pistas de tu club de pádel, la
-              estructura es un gran reclamo para atraer nuevos jugadores y
-              patrocinios. Añade nuestras pistas
-              <strong><em>World Padel Tour</em></strong> y ya tienes unas
-              inmejorables instalaciones de pá-del.
-            </p>
+            <div v-html="content.firstSection?.leftColumn"></div>
           </div>
         </div>
       </div>
@@ -73,16 +61,7 @@
             />
           </div>
           <div class="col-md-6">
-            <h2 class="fw-section-title pb-0">
-              Completa tu pabellón modular con los cerramientos del <br />
-              <strong>Arena Padel</strong>
-            </h2>
-            <p class="lead">
-              Para conseguir el mayor confort y las mejores condiciones de juego
-              disponemos de techos presurizados, lonas translúcidas u opacas,
-              faldones antirreflejos, cortinas microperforadas, abatibles o
-              laterales fijos de panel sándwich. Puedes elegir hasta el color.
-            </p>
+            <div v-html="content.secondSection?.rightColumn"></div>
           </div>
         </div>
       </div>
@@ -97,15 +76,7 @@
             />
           </div>
           <div class="col-md-6 color-white">
-            <h2 class="fw-section-title pt-0">
-              Y las fijaciones de una <strong>gran cubierta</strong>
-            </h2>
-            <p class="lead">
-              Debido a la gran envergadura de este tipo de pabellones se
-              calculan cimentaciones mediante solera, riostra corrida o zapatas
-              individuales acorde a las medidas de cada estructura y teniendo en
-              cuenta su ubicación.
-            </p>
+            <div v-html="content.thirdSection?.leftColumn"></div>
           </div>
         </div>
       </div>
@@ -115,7 +86,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2>¿Qué cubierta Arena Padel <strong>eliges?</strong></h2>
-            <Carousel :items="projects" to="/en/projects/" button="See More" />
+            <Carousel :items="projects" to="/es/proyectos/" />
           </div>
         </div>
       </div>
@@ -153,15 +124,8 @@
         </div>
       </div>
     </section>
-    <ContactForm
-      lang="en"
-      title="¿Quieres una cubierta<br> <strong>Arena Pádel</strong>?"
-      subtitle="Somos tu proveedor todo en uno para instalaciones de
-pádel multipista. Si quieres cubrir más de 6 pistas bajo
-una misma cubierta tu mejor elección es el modelo
-Arena Padel. Consulta tu caso sin compromiso:
-aprovecha nuestra larga experiencia en pistas de pádel."
-    />
+
+    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
 </template>
 
