@@ -23,7 +23,7 @@
         </template>
       </Carousel>
     <div class="mt-5">
-    <NuxtLink class="btn btn-white" to="/es/proyectos/" rel="">Ver más</NuxtLink>
+      <a class="btn btn-white" :href="to" rel="">{{ button }}</a>
     </div>
   </div>
 </template>
@@ -37,6 +37,14 @@ export default defineComponent({
       type: Array,
       required: true
     },
+    to:{
+      type: String,
+      required: true
+    },
+    button:{
+      type: String,
+      default: "Ver más"
+    }
   },
   data() {
     return {

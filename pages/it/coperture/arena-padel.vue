@@ -115,7 +115,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2>¿Qué cubierta Arena Padel <strong>eliges?</strong></h2>
-            <Carousel :items="projects" />
+            <Carousel :items="projects" to="/it/progetti/" button="Guarda di più" />
           </div>
         </div>
       </div>
