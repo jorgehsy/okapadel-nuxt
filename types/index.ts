@@ -22,6 +22,26 @@ export type DefaultContent = {
                 leftColumn?: string
                 rightColumn?: string
             }
+            fourthSection?:{
+                leftColumn?: string
+                rightColumn?: string
+            }
+            fifthSection?:{
+                leftColumn?: string
+                rightColumn?: string
+            }
+            sixthSection?:{
+                leftColumn?: string
+                rightColumn?: string
+            }
+            seventhSection?:{
+                leftColumn?: string
+                rightColumn?: string
+            }
+            eighthSection?:{
+                leftColumn?: string
+                rightColumn?: string
+            }
             contact?: {
                 title: string
                 subtitle: string
