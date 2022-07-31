@@ -22,7 +22,7 @@
             <p class="d-none hero-subtitle"></p>
           </div>
         </div>
-        <LanguageSelector />
+        <LanguageSelector :languagePage="pages" />
       </div>
     </section>
 
@@ -94,6 +94,13 @@ const { data } = await useAsyncData(
 )
 
 const content = computed (() => data.value.data.attributes)
+
+const pages = computed (() => ({
+  en: '/en/padel-facilities',
+  es: '/es/instalaciones-de-padel',
+  fr: '/fr/installations-de-padel',
+  it: '/it/installazioni-di-padel',
+}))
 
 </script>
 

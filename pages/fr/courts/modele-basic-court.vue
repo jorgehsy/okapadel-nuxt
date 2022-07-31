@@ -19,7 +19,7 @@
             <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
-        <LanguageSelector />
+        <LanguageSelector :languagePage="pages" />
       </div>
     </section>
 
@@ -169,4 +169,10 @@ const { data } = await useAsyncData(
 
 const content = computed (() => data.value.data.attributes)
 
+const pages = computed (() => ({
+  en: '/en/courts/basic-court-model',
+  es: '/es/pistas/modelo-basic-court',
+  fr: '/fr/courts/modele-basic-court',
+  it: '/it/campi/modello-basic-court',
+}))
 </script>

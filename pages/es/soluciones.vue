@@ -21,7 +21,7 @@
             </p>
           </div>
         </div>
-        <LanguageSelector />
+        <LanguageSelector :languagePage="pages" />
       </div>
     </section>
     <section class="two-col-section">
@@ -86,5 +86,11 @@ const { data } = await useAsyncData(
 
 const content = computed (() => data.value.data.attributes)
 
+const pages = computed (() => ({
+  es: '/es/soluciones',
+  en: '/en/solutions',
+  it: '/it/soluzioni',
+  fr: '/fr/solutions',
+}))
 </script>
 

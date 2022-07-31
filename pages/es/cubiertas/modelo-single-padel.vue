@@ -12,7 +12,7 @@
             <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
-        <LanguageSelector />
+        <LanguageSelector :languagePage="pages" />
       </div>
     </section>
 
@@ -167,4 +167,10 @@ const projects = computed(() => [
 ]);
 
 const content = computed(() => data.value.data.attributes);
+const pages = computed (() => ({
+  en: '/en/covers-and-canopies/single-padel-court-model',
+  es: '/es/cubiertas/modelo-single-padel',
+  fr: '/fr/couvertures/single-padel',
+  it: '/it/coperture/single-padel',
+}))
 </script>

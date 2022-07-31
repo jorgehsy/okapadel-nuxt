@@ -18,7 +18,7 @@
             <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
-        <LanguageSelector />
+        <LanguageSelector :languagePage="pages" />
       </div>
     </section>
     <section class="two-col-section">
@@ -157,9 +157,7 @@
               <li>
                 <span class="fa-li g-text"
                   ><i class="fa-solid fa-plus"></i></span
-                ><strong><em>
-                  Teloneria tetto pressurizzato 
-                  </em></strong> 
+                ><em><strong>Teloneria tetto pressurizzato </strong> </em>
                   per evitare il ristagno dell’acqua
               </li>
               <li>
@@ -207,4 +205,10 @@ const { data } = await useAsyncData(
 
 const content = computed (() => data.value.data.attributes)
 
+const pages = computed (() => ({
+  en: '/en/covers-and-canopies',
+  es: '/es/cubiertas',
+  fr: '/fr/couvertures',
+  it: '/it/coperture',
+}))
 </script>

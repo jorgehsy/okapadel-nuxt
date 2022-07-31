@@ -3,25 +3,25 @@
     <div class="row position-relative lang-selector">
       <div class="col-md-12">
         <ul class="list-group list-group-horizontal">
-          <li class="list-group-item" v-if="currentLang !== 'es'">
-            <button class="btn btn-link" @click="changeLanguage('es')">
+          <li class="list-group-item" v-if="currentLang !== 'es' ">
+            <a class="btn btn-link" :href="languagePage.es">
               ES
-            </button>
+            </a>
           </li>
           <li class="list-group-item" v-if="currentLang !== 'en'">
-            <button class="btn btn-link" @click="changeLanguage('en')">
+            <a class="btn btn-link" :href="languagePage.en">
               EN
-            </button>
+            </a>
           </li>
           <li class="list-group-item" v-if="currentLang !== 'fr'">
-            <button class="btn btn-link" @click="changeLanguage('fr')">
+            <a class="btn btn-link" :href="languagePage.fr">
               FR
-            </button>
+            </a>
           </li>
           <li class="list-group-item" v-if="currentLang !== 'it'" >
-            <button class="btn btn-link" @click="changeLanguage('it')">
+            <a class="btn btn-link" :href="languagePage.it">
               IT
-            </button>
+            </a>
           </li>
         </ul>
       </div>
@@ -31,25 +31,26 @@
 
 <script>
 export default{
+  props:{
+    languagePage: {
+      type: Object,
+      default: () => ({
+        es: '/es/',
+        en: '/en/',
+        it: '/it/',
+        fr: '/fr/',
+      })
+    }
+  },
   setup() {
     const route = useRoute()
   
     const currentLang = computed(() => {
-      return route.path.split('/')[1];
+      return route.path.split('/').length > 2 ? route.path.split('/')[1] : 'es';
     });
-  
-    const basePath = computed(() => {
-      return route.path.split('/')[1];
-    });
-  
-    const changeLanguage = (lang) => {
-      const url = `/${lang}/`;
-      window.location.href = url;
-    }
   
     return {
       currentLang,
-      changeLanguage,
     };
   }
 }

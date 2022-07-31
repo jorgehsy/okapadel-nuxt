@@ -19,7 +19,7 @@
             <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
-        <LanguageSelector />
+        <LanguageSelector :languagePage="pages" />
       </div>
     </section>
     <section class="fw-section blue-bg d-flex align-items-center">
@@ -109,5 +109,12 @@ const projects = computed (() => [
 ])
 
 const content = computed (() => data.value.data.attributes)
+
+const pages = computed (() => ({
+  es: '/es/',
+  en: '/en/',
+  it: '/it/',
+  fr: '/fr/',
+}))
 
 </script>

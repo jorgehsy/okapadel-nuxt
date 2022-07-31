@@ -12,7 +12,7 @@
             <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
-        <LanguageSelector />
+        <LanguageSelector :languagePage="pages" />
       </div>
     </section>
     <section class="fw-section-subtitle">
@@ -158,4 +158,11 @@ const projects = computed(() => [
 ]);
 
 const content = computed(() => data.value.data.attributes);
+
+const pages = computed (() => ({
+  en: '/en/covers-and-canopies/multy-padel',
+  es: '/es/cubiertas/modelo-multy-padel',
+  fr: '/fr/couvertures/multy-padel',
+  it: '/it/coperture/multy-padel',
+}))
 </script>

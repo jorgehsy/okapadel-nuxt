@@ -9,7 +9,7 @@
             <h1 class="hero-title">Contacta con <strong>nosotros</strong></h1>
           </div>
         </div>
-        <LanguageSelector />
+        <LanguageSelector :languagePage="pages" />
       </div>
     </section>
 
@@ -20,10 +20,14 @@
   </div>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: 'Contacto'
-  }
-}
+<script setup lang="ts">
+import { computed } from 'vue'
+
+const pages = computed (() => ({
+  en: '/en/contact-us',
+  es: '/es/contacto',
+  fr: '/fr/contact',
+  it: '/it/contatti',
+}))
+
 </script>

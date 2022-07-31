@@ -18,7 +18,7 @@
             <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
-        <LanguageSelector />
+        <LanguageSelector :languagePage="pages" />
       </div>
     </section>
 
@@ -61,4 +61,10 @@ const projects = computed (() => [
     { id: 9, image: "/_nuxt/assets/images/proyectos/proyectos-single-padel-tremblay-france-min.jpg", name: "Single Padel Tremblay Francia", description: "..." },
 ])
 
+const pages = computed (() => ({
+  en: '/en/projects',
+  es: '/es/proyectos',
+  fr: '/fr/projets',
+  it: '/it/progetti',
+}))
 </script>
