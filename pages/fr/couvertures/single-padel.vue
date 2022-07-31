@@ -160,7 +160,7 @@
     </section>
 
     <ContactForm
-      lang="en"
+      lang="fr"
       title="¿Quieres una cubierta <br><strong>Single Pádel</strong>?"
       subtitle="Si deseas instalar una pista de pádel cubierta en tu
 club y quieres que te ayudemos. No lo dudes,

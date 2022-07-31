@@ -154,7 +154,7 @@
       </div>
     </section>
     <ContactForm
-      lang="en"
+      lang="fr"
       title="¿Quieres una cubierta<br> <strong>Arena Pádel</strong>?"
       subtitle="Somos tu proveedor todo en uno para instalaciones de
 pádel multipista. Si quieres cubrir más de 6 pistas bajo

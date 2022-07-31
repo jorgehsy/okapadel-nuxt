@@ -13,7 +13,7 @@
       </div>
     </section>
 
-    <ContactForm lang="en" 
+    <ContactForm lang="fr" 
       title="¿Quieres construir <br> un <strong> club de pádel</strong>?" 
       subtitle="¿Quieres construir un club de pádel? Si deseas instalar una pista de pádel cubierta y quieres que te ayudemos. No lo dudes, llámanos y te asesoraremos para que lo consigas." />
 

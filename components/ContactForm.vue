@@ -84,30 +84,30 @@ export default {
             phone: "Phone",
             message: "Message",
             foot: "Information in compliance with the Organic Law on Data Protection, Law 3/2018. Data Controller: Okatent S.L.  TIN: B63802078. Purpose: To record the data needed to offer our services. Legal grounds for data processing: Consent from the data holder. Rights: You may exercise your rights to access, rectify, delete, and request data portability by writing to the company's address. More information in our Legal Notice, Privacy Policy, and Cookies Policy.",
-            newsletter: "I authorize OKATENT, S.L. to send sales information..",
+            newsletter: "I authorize OKATENT, S.L. to send sales information.",
             button: 'Send'
           }
         case "it":
           return {
-            name: "Name",
-            company: "Company",
+            name: "Nome",
+            company: "Impresa",
             email: "Email",
             phone: "Phone",
-            message: "Message",
-            foot: "Information in compliance with the Organic Law on Data Protection, Law 3/2018. Data Controller: Okatent S.L.  TIN: B63802078. Purpose: To record the data needed to offer our services. Legal grounds for data processing: Consent from the data holder. Rights: You may exercise your rights to access, rectify, delete, and request data portability by writing to the company's address. More information in our Legal Notice, Privacy Policy, and Cookies Policy.",
-            newsletter: "I authorize OKATENT, S.L. to send sales information..",
-            button: 'Enviar'
+            message: "Richiesta",
+            foot: "Informazioni sulla protezione dei dati LOPD 3/2018. Titolare del trattamento: OKATENT, S.L. NIF B6802078. Scopo: registrare i dati necessari per offrire i nostri servizi. Legittimazione: consenso del proprietario. Diritti: Avete la possibilità di esercitare il diritto di accesso, rettifica, cancellazione e portabilità, scrivendo all'indirizzo del centro. Ulteriori informazioni sono contenute nel nostro Avviso legale, nell'Informativa sulla privacy e nella politica sui cookie.",
+            newsletter: "Autorizzo OKATENT, S.L. a inviarmi informazioni commerciali.",
+            button: 'Inviare'
           }
         case "fr":
           return {
-            name: "Name",
-            company: "Company",
-            email: "Email",
+            name: "Nom",
+            company: "Entreprise",
+            email: "E-mail",
             phone: "Phone",
-            message: "Message",
-            foot: "Information in compliance with the Organic Law on Data Protection, Law 3/2018. Data Controller: Okatent S.L.  TIN: B63802078. Purpose: To record the data needed to offer our services. Legal grounds for data processing: Consent from the data holder. Rights: You may exercise your rights to access, rectify, delete, and request data portability by writing to the company's address. More information in our Legal Notice, Privacy Policy, and Cookies Policy.",
-            newsletter: "I authorize OKATENT, S.L. to send sales information..",
-            button: 'Enviar'
+            message: "Commentaires ",
+            foot: "Informations Protection des données LOPD 3/2018. Responsable du traitement : OKATENT, S.L.  NIF B6802078. Finali-té : Enregistrer les données nécessaires afin d’assurer nos services. Fondement juridique : Le consentement du titulaire. Droits : Vous pouvez exercer vos droits d’accès, de rectification, de suppression et de portabilité en vous adressant par écrit à l’adresse du centre. Pour plus d’informations, consultez nos mentions légales, notre politique de confidentialité et notre politique en matière de cookies.",
+            newsletter: "J’autorise OKATENT, S.L. à m’envoyer des informations commerciales.",
+            button: 'Envoyer'
           }
       
         default:

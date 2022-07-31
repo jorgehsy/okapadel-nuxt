@@ -64,7 +64,7 @@
       </div>
     </section>
 
-    <ContactForm lang="en" :title="content.contact.title" :subtitle="content.contact.subtitle"  />
+    <ContactForm lang="it" :title="content.contact.title" :subtitle="content.contact.subtitle"  />
 
   </div>
 </template>

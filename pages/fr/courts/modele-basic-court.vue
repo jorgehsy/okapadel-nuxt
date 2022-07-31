@@ -316,7 +316,7 @@
       </div>
     </section>
 
-    <ContactForm lang="en" title="Pide tu pista <br><strong>Basic Court</strong>" subtitle="¿Quieres montar una pista de pádel de forma simple?
+    <ContactForm lang="fr" title="Pide tu pista <br><strong>Basic Court</strong>" subtitle="¿Quieres montar una pista de pádel de forma simple?
 Nosotros tenemos un modelo de pista de pádel que se
 adapta a ti. Contáctanos, te ayudaremos instalar tu
 pista de pádel y te acompañaremos durante todo el

@@ -151,7 +151,7 @@
       </div>
     </section>
     <ContactForm
-      lang="en"
+      lang="it"
       title="¿Quieres una cubierta <br><strong>Multy Pádel</strong>?"
       subtitle="Consulta sin compromiso las oportunidades y
 posibilidades de nuestros proyectos y cubiertas

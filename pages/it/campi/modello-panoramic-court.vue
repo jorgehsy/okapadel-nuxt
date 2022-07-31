@@ -310,7 +310,7 @@
       </div>
     </section>
 
-    <ContactForm lang="en" 
+    <ContactForm lang="it" 
       title="Pide tu pista <br><strong>Panoramic Court</strong>" 
       subtitle="¿Quieres montar una pista de pádel panorámica? Si buscas instalar una pista de pádel cubierta con gran visibilidad y necesitas asesoramiento, nosotros te ayudamos. Tenemos una gran experiencia cubriendo pistas por toda Europa ¿Hablamos?" />
   </div>
