@@ -77,7 +77,10 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import type { DefaultContent } from '~/types'
+const { $SeoMetaData } = useNuxtApp()
 const { find } = useStrapi4()
+const route = useRoute()
+const config = useRuntimeConfig();
 
 const { data } = await useAsyncData(
   'soluciones-page',
@@ -92,18 +95,10 @@ const pages = computed (() => ({
   it: '/it/soluzioni',
   fr: '/fr/solutions',
 }))
-useHead({
-  title: data?.value?.data?.attributes?.seo?.metaTitle,
-  meta:[
-    { name: 'description', content: data?.value?.data?.attributes?.seo?.metaDescription},
-    { name: 'keywords', content: data?.value?.data?.attributes?.seo?.keywords},
-    { name: 'robots', content: data?.value?.data?.attributes?.seo?.metaRobots},
-    { name: 'title', content: data?.value?.data?.attributes?.seo?.metaTitle},
-  ],
-  link:[
-    { rel: 'canonical', href: data?.value?.data?.attributes?.seo?.canonicalURL},
-  ],
-  viewport: data?.value?.data?.attributes?.seo?.metaViewport,
-});
+const siteUrl = `${config.SITE_URL}${route.fullPath}`;
+const metaData = data?.value?.data?.attributes?.seo;
+const metaDataParsed = $SeoMetaData(metaData, siteUrl);
+
+useHead(metaDataParsed);
 </script>
 

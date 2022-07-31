@@ -5,6 +5,18 @@ export type ProjectType = {
     subtitle: string
 }
 
+export type MetaDataType = {
+    metaTitle?: string
+    metaDescription?: string
+    keywords?: string
+    metaRobots?: string
+    structuredData?: string
+    metaViewport?: string
+    canonicalURL?: string
+    metaImage?: string
+    DC?: string
+}
+
 export type DefaultContent = {
     data: {
         attributes: {
@@ -46,16 +58,7 @@ export type DefaultContent = {
                 title: string
                 subtitle: string
             },
-            seo?: {
-                metaTitle?: string
-                metaDescription?: string
-                keywords?: string
-                metaRobots?: string
-                structuredData?: string
-                metaViewport?: string
-                canonicalURL?: string
-                DC?: string
-            }
+            seo?: MetaDataType
         }
     }
 }

@@ -13,7 +13,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/en/solution/">
+                <NuxtLink class="nav-link" rel="" to="/en/solutions/">
                   Solutions
                 </NuxtLink>
                 <div class="nav-item-submenu">
