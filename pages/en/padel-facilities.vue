@@ -106,7 +106,7 @@ const pages = computed (() => ({
 }))
 const siteUrl = `${config.SITE_URL}${route.fullPath}`;
 const metaData = data?.value?.data?.attributes?.seo;
-const metaDataParsed = $SeoMetaData(metaData, siteUrl);
+const metaDataParsed = $SeoMetaData(data?.value, siteUrl);
 
 useHead(metaDataParsed);
 </script>
