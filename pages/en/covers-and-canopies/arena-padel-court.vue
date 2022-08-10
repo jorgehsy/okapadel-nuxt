@@ -9,7 +9,11 @@
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">
             <h1 class="hero-title" v-html="content.title"></h1>
-            <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
+            <p
+              class="hero-subtitle"
+              v-if="content.subtitle"
+              v-html="content.subtitle"
+            ></p>
           </div>
         </div>
         <LanguageSelector :languagePage="pages" />
@@ -20,13 +24,15 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p class="lead">
-              Es un pabellón modular de grandes dimensiones, formado por una
-              estructura de aluminio anodizado y aleaciones de alta resistencia.
-              Cuenta con perfiles de celosía y está cubierto con una membrana de
-              PVC de alta resistencia.
+              This is a modular pavilion of great size, made up of an anodized
+              aluminum structure and high-resistance alloys. It features truss
+              aluminum sections and is covered with a highly resistant PVC
+              membrane.
+              <br />
               <strong
                 ><em>
-                  Si necesitas cubrir seis pistas o más, este es tu modelo.</em
+                  If you need to cover six courts or more, this is your
+                  model.</em
                 ></strong
               >
             </p>
@@ -85,8 +91,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2>¿Qué cubierta Arena Padel <strong>eliges?</strong></h2>
-            <Carousel :items="projects" to="/es/proyectos/" />
+            <h2>What Arena model  <strong>do you choose?</strong></h2>
+            <Carousel :items="projects" to="/es/proyectos/" button="See more" />
           </div>
         </div>
       </div>
@@ -109,13 +115,10 @@
               <div class="row bg-dark-gray">
                 <div class="col-md-12 p-3 color-secondary text-center">
                   <h2>
-                    ¡Tenemos <strong>más de 5 diseños</strong> Arena
-                    esperando!<br />
+                    We have  <strong>more than 5 Arena designs </strong> waiting for you! <br />
                   </h2>
                   <p class="lead text-center">
-                    Pero si ninguno de estos encaja con tu proyecto,
-                    <strong><em>crearemos el modelo desde cero</em></strong>
-                    para cubrir múltiples pistas de pádel.
+                    But if none of these designs fit your project, <strong><em>we will create a model from scratch</em></strong> just for you so that you can cover multiple padel courts.
                   </p>
                 </div>
               </div>
@@ -125,17 +128,21 @@
       </div>
     </section>
 
-    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
+    <ContactForm
+      :title="content.contact.title"
+      :subtitle="content.contact.subtitle"
+      lang="en"
+    />
   </div>
 </template>
 
 <script setup lang="ts">
 import { computed } from "vue";
 import type { DefaultContent } from "~/types";
-const { $SeoMetaData } = useNuxtApp()
-const { find } = useStrapi4()
-const route = useRoute()
-const config = useRuntimeConfig();;
+const { $SeoMetaData } = useNuxtApp();
+const { find } = useStrapi4();
+const route = useRoute();
+const config = useRuntimeConfig();
 
 const { data } = await useAsyncData("cubierta-arena-padel-page", () =>
   find<DefaultContent>("cubierta-arena-padel-page", { locale: "en" })
@@ -163,12 +170,12 @@ const projects = computed(() => [
 ]);
 
 const content = computed(() => data.value.data.attributes);
-const pages = computed (() => ({
-  en: '/en/covers-and-canopies/arena-padel-court',
-  es: '/es/cubiertas/modelo-arena-padel',
-  fr: '/fr/couvertures/arena-padel',
-  it: '/it/coperture/arena-padel',
-}))
+const pages = computed(() => ({
+  en: "/en/covers-and-canopies/arena-padel-court",
+  es: "/es/cubiertas/modelo-arena-padel",
+  fr: "/fr/couvertures/arena-padel",
+  it: "/it/coperture/arena-padel",
+}));
 const siteUrl = `${config.SITE_URL}${route.fullPath}`;
 const metaData = data?.value?.data?.attributes?.seo;
 const metaDataParsed = $SeoMetaData(data?.value, siteUrl);

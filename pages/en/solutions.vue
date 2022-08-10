@@ -34,7 +34,7 @@
             <div class="mb-3" v-html="content.firstSection?.rightColumn"></div>
             <div class="text-center">
               <NuxtLink class="btn btn-secondary" rel="" to="/en/covers-and-canopies/"
-              >Ver cubiertas</NuxtLink>
+              >See Court Covers and Canopies</NuxtLink>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@
             <div class="mb-3" v-html="content.secondSection?.leftColumn"></div>
             <div class="text-center">
               <NuxtLink class="btn btn-secondary" rel="" to="/en/courts/"
-              >Ver pistas</NuxtLink>
+              >See Courts</NuxtLink>
             </div>
           </div>
 

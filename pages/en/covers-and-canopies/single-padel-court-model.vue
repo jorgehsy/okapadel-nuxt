@@ -21,12 +21,11 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p class="lead">
-              Es una carpa modular con estructura metálica cubierta con una
-              membrana textil tensada. Esta nave no tiene pilares centrales y
+              This is a modular pavilion with a metal structure that is covered with a tensile fabric mem-brane. 
+              This construction does not have central pillars and 
               <strong
                 ><em
-                  >permite cubrir pistas de pádel individuales de forma
-                  diáfana.</em
+                  >allows for individual padel courts to be covered with an open-plan design.</em
                 ></strong
               ><br />
             </p>
@@ -88,9 +87,9 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2 class="fw-section-title pt-0">
-              ¿Qué cubierta de Single Padel <strong>es la tuya?</strong>
+              What Single model <strong>is for you?</strong>
             </h2>
-            <Carousel :items="projects" to="/es/proyectos/" />
+            <Carousel :items="projects" to="/es/proyectos/" button="See more" />
           </div>
         </div>
       </div>
@@ -113,15 +112,11 @@
               <div class="row bg-dark-gray">
                 <div class="col-md-12 p-3 color-secondary text-center">
                   <h2>
-                    ¡Tenemos <strong>más de 17 diseños</strong> Single
-                    esperando!<br />
+                    We have more than <strong>17 Single canopy designs</strong> waiting for you! <br />
                   </h2>
                   <p class="lead text-center">
-                    Y si necesitas
-                    <strong><em>una medida especial</em></strong> para cubrir
-                    tus instalaciones, nuestro equipo técnico se encargará de
-                    crear un modelo de cubierta especial para tu pista
-                    individual.
+                    And if you need 
+                    <strong><em>a special size</em></strong> to cover your facilities, our technical team will take care of cre-ating a special model for your individual court.
                   </p>
                 </div>
               </div>
@@ -132,7 +127,7 @@
     </section>
 
 
-    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
+    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle" lang="en" />
   </div>
 </template>
 
@@ -177,7 +172,6 @@ const pages = computed (() => ({
   it: '/it/coperture/single-padel',
 }))
 const siteUrl = `${config.SITE_URL}${route.fullPath}`;
-const metaData = data?.value?.data?.attributes?.seo;
 const metaDataParsed = $SeoMetaData(data?.value, siteUrl);
 
 useHead(metaDataParsed);

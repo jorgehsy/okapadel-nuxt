@@ -20,10 +20,8 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p class="lead">
-              Es un pabellón modular con estructura de aluminio o acero,
-              cubierto con una membrana textil y PVC de alta resistencia. Este
-              modelo de medio formato permiten cubrir
-              <strong><em>desde dos hasta seis pistas de pádel.</em></strong
+              This is a modular pavilion with an aluminum or steel structure that is covered with a highly resistant PVC/fabric membrane. <br>This medium-sized model will cover
+              <strong><em>from two to six padel courts.</em></strong
               ><br />
             </p>
           </div>
@@ -81,8 +79,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2>¿Qué cubierta de Multy Padel <strong>te gusta?</strong></h2>
-            <Carousel :items="projects" to="/es/proyectos/" />
+            <h2>What Multy canopy <strong>do you like?</strong></h2>
+            <Carousel :items="projects" to="/es/proyectos/" button="See more" />
           </div>
         </div>
       </div>
@@ -104,16 +102,11 @@
             <div class="container">
               <div class="row bg-dark-gray">
                 <div class="col-md-12 p-3 color-secondary text-center">
-                  <h2>
-                    ¡Tenemos <strong>más de 12 diseños</strong> de pabellones
-                    Multy esperandote!<br />
+                  <h2>We have <strong>more than 12 Multy pavilion designs</strong> waiting for you! <br />
                   </h2>
                   <p class="lead text-center">
-                    Y si necesitas
-                    <strong><em>una medida especial</em></strong> para cubrir
-                    tus instalaciones, nuestro equipo técnico se encargará de
-                    crear un modelo de cubierta especial para tu pista
-                    individual.
+                    If you need a 
+                    <strong><em>different structure </em></strong> for your padel courts, we will make a custom design for your canopy for you to cover up to two courts.
                   </p>
                 </div>
               </div>
@@ -123,7 +116,7 @@
       </div>
     </section>
 
-    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
+    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle" lang="en" />
   </div>
 </template>
 

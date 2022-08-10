@@ -28,8 +28,8 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
-              Una pista panorámica diáfana equipada
-              <strong><em>para llevar el juego a otro nivel.</em></strong
+              A panoramic padel court featuring an open-plan layout and equipped 
+              <strong><em>to take the game to an-other level.</em></strong
               ><br />
             </p>
           </div>
@@ -141,7 +141,7 @@
       </div>
     </section>
 
-    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
+    <ContactForm lang="en" :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
 </template>
 

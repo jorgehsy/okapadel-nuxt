@@ -28,7 +28,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
-              Una pista compacta de <strong><em>fácil instalación y mantenimiento.</em></strong
+              A compact court that is <strong><em>easy to install and maintain. </em></strong
               ><br />
             </p>
           </div>
@@ -153,7 +153,7 @@
     </section>
 
 
-    <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
+    <ContactForm lang="en" :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
 </template>
 
