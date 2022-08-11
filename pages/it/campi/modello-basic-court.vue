@@ -28,7 +28,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
-              Una pista compacta de <strong><em>fácil instalación y mantenimiento.</em></strong
+              Un campo compatto <strong><em>facile da installare e da mantenere.</em></strong
               ><br />
             </p>
           </div>

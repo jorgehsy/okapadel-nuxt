@@ -38,7 +38,7 @@
                 rel="external"
                 target="_blank"
                 to="https://okatent.com/certificados/"
-                >Ver Certificados
+                >Vedere Certificati 
               </NuxtLink>
             </div>
           </div>
@@ -57,13 +57,12 @@
           <div class="col-md-6 mt-3">
             <div v-html="content.thirdSection?.rightColumn"></div>
             <div class="button-box">
-              <NuxtLink class="btn btn-white" to="https://okatent.com/pdfs/calidad-es.pdf" target="_blank" rel="external">Ver Política de calidad</NuxtLink>
+              <NuxtLink class="btn btn-white" to="https://okatent.com/pdfs/calidad-es.pdf" target="_blank" rel="external">Vedi Politica della qualità</NuxtLink>
             </div>
           </div>
         </div>
       </div>
     </section>
-
     <ContactForm lang="it" :title="content.contact.title" :subtitle="content.contact.subtitle"  />
 
   </div>

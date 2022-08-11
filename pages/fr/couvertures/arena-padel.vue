@@ -20,13 +20,10 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p class="lead">
-              Es un pabellón modular de grandes dimensiones, formado por una
-              estructura de aluminio anodizado y aleaciones de alta resistencia.
-              Cuenta con perfiles de celosía y está cubierto con una membrana de
-              PVC de alta resistencia.
+              Ce pavillon modulaire de grandes dimensions est composé d’une structure en aluminium anodisé et d’alliages très résistants. Il possède des profilés de type jalousie et est recouvert d’une membrane en PVC très résistante. 
               <strong
                 ><em>
-                  Si necesitas cubrir seis pistas o más, este es tu modelo.</em
+                  Si vous voulez couvrir six courts ou plus, voici votre modèle.</em
                 ></strong
               >
             </p>
@@ -85,7 +82,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2>¿Qué cubierta Arena Padel <strong>eliges?</strong></h2>
+            <h2>Quelle couverture Arena Padel <strong>allez-vous choisir?</strong></h2>
             <Carousel :items="projects" to="/es/proyectos/" />
           </div>
         </div>
@@ -109,13 +106,12 @@
               <div class="row bg-dark-gray">
                 <div class="col-md-12 p-3 color-secondary text-center">
                   <h2>
-                    ¡Tenemos <strong>más de 5 diseños</strong> Arena
-                    esperando!<br />
+                    <strong>Plus de 5 modèles </strong> Arena vous attendent!<br />
                   </h2>
                   <p class="lead text-center">
-                    Pero si ninguno de estos encaja con tu proyecto,
-                    <strong><em>crearemos el modelo desde cero</em></strong>
-                    para cubrir múltiples pistas de pádel.
+                    Toutefois, si aucun de ces modèles ne s’adapte à votre projet, 
+                    <strong><em>nous pouvons créer de A à Z le modèle qu’il vous faut </em></strong>
+                    pour couvrir de multiples courts de padel.
                   </p>
                 </div>
               </div>

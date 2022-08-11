@@ -6,16 +6,17 @@
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">
-            <h1 class="hero-title">Contacta con <strong>nosotros</strong></h1>
+            <h1 class="hero-title"><strong>Contactez-nous</strong></h1>
           </div>
         </div>
+        <h2 class='g-text'>Vous voulez monter un <strong>club de padel</strong>?</h2>
         <LanguageSelector :languagePage="pages" />
       </div>
     </section>
 
     <ContactForm lang="fr" 
-      title="¿Quieres construir <br> un <strong> club de pádel</strong>?" 
-      subtitle="¿Quieres construir un club de pádel? Si deseas instalar una pista de pádel cubierta y quieres que te ayudemos. No lo dudes, llámanos y te asesoraremos para que lo consigas." />
+      title="<h2 class='g-text'>Vous voulez monter un <strong>club de padel</strong>?</h2>" 
+      subtitle="Si vous souhaitez installer un court de padel couvert et que vous avez besoin de notre aide, n’hésitez plus, contactez-nous et nous vous orienterons pour y parvenir." />
 
   </div>
 </template>

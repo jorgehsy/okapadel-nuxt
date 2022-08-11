@@ -26,19 +26,17 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-12">
             <h2 class="fw-section-title text-center">
-              ¡Cubre tu pista con un <strong>diseño ganador!</strong>
+              Couvrez votre court avec un <strong>design gagnant!</strong>
             </h2>
             <p class="text-center">
-              No es lo mismo cubrir una pista de pádel que cubrir varias, por
-              eso hemos creado tres modelos de cubiertas pensados para
-              satisfacer tus necesidades. El modelo
+              Couvrir un court ou plusieurs courts, ce n’est pas la même chose, c’est pourquoi nous avons créé trois modèles de couvertures pour courts de padel pour répondre à vos besoins. Le modèle 
               <strong
                 ><em
                   ><span title="Cubierta para pistas de pádel individuales"
                     >Single</span
                   ></em
                 ></strong
-              >, para pistas individuales, el modelo
+              >pour les courts individuels, le modèle 
               <strong
                 ><em
                   ><span title="Cubierta para pistas de pádel dobles"
@@ -46,7 +44,7 @@
                   ></em
                 ></strong
               >
-              para pistas dobles y el modelo
+              pour les courts doubles et le modèle
               <strong
                 ><em
                   ><span title="Nave para múltiples pistas de pádel"
@@ -54,7 +52,7 @@
                   ></em
                 ></strong
               >
-              para multiples pistas.<br />
+              pour les multiples courts. <br />
             </p>
           </div>
         </div>
@@ -77,7 +75,7 @@
                 class="btn btn-secondary"
                 rel="next"
                 to="/fr/couvertures/single-padel/"
-                >Ver cubierta Single Pádel
+                >Voir la couverture Single Padel
               </NuxtLink>
             </div>
           </div>
@@ -95,7 +93,7 @@
                 class="btn btn-secondary"
                 rel="next"
                 to="/fr/couvertures/multy-padel/"
-                >Ver cubierta Multy Pádel
+                >Voir la couverture Multy Padel
               </NuxtLink>
             </div>
           </div>
@@ -125,7 +123,7 @@
                 class="btn btn-secondary"
                 rel="next"
                 to="/fr/couvertures/arena-padel/"
-                >Ver nave Arena Pádel
+                >Voir le bâtiment Arena Padel
               </NuxtLink>
             </div>
           </div>
@@ -145,37 +143,33 @@
         >
           <div class="col-md-6">
             <h2 class="fw-section-title">
-              <strong>Los accesorios </strong>que acompañan a las cubiertas...
+              <strong>Les accessoires  </strong>qui accompagnent les couvertures
             </h2>
             <ul class="fa-ul">
               <li>
                 <span class="fa-li g-text"
                   ><i class="fa-solid fa-plus"></i></span
-                ><strong><em>Faldones</em></strong> para evitar los reflejos
+                ><strong><em>Pans </em></strong> anti-reflets
               </li>
               <li>
                 <span class="fa-li g-text"
                   ><i class="fa-solid fa-plus"></i></span
-                ><strong><em>Techos hinchados</em></strong> para evitar la
-                estancación de agua
+                ><strong><em>Toits bombés </em></strong> pour éviter la stagnation de l’eau
               </li>
               <li>
                 <span class="fa-li g-text"
                   ><i class="fa-solid fa-plus"></i></span
-                >Cerramientos <strong><em>microperforados</em></strong> para
-                permitir la ventilación<br />
+                >Panneaux <strong><em>microperforés</em></strong> pour assurer la ventilation<br />
               </li>
               <li>
                 <span class="fa-li g-text"
                   ><i class="fa-solid fa-plus"></i></span
-                >Laterales de <strong><em>panel sándwich</em></strong> para
-                mantener cerrado un espacio
+                >Panneaux <strong><em>latéraux type sandwich</em></strong> pour fermer un espace
               </li>
               <li>
                 <span class="fa-li g-text"
                   ><i class="fa-solid fa-plus"></i></span
-                ><strong><em>Puertas de acceso</em></strong> peatonales o
-                seccionales
+                ><strong><em>Portes d’accès </em></strong> piétons ou sectionnelles
               </li>
             </ul>
           </div>

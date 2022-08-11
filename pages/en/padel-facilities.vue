@@ -15,11 +15,8 @@
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">
-            <h1 class="hero-title">
-              <strong>Crea una comunidad </strong> al rededor de tus nuevas
-              instalaciones de pádel.
-            </h1>
-            <p class="d-none hero-subtitle"></p>
+            <h1 class="hero-title" v-html="content.title"></h1>
+            <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
         <LanguageSelector :languagePage="pages" />
@@ -31,12 +28,10 @@
         <div class="d-flex justify-content-center">
           <div class="col-md-8">
             <h2 class="fw-section-title pb-0">
-              <strong>Vende productos</strong> de pádel en tu propia tienda
-              especializada.
+              <strong>Sell padel products </strong> in your own specialized store.
             </h2>
             <p class="lead text-left">
-              Podemos construir una cubierta fija o temporal para que tengas tu
-              tienda donde se venda material de tu club o tu patrocinador.
+              We can set up a permanent or temporary canopy so you can have your store where materi-als from your club or your sponsors are sold.
             </p>
             <img 
               src="~/assets/images/vende-productos-de-padel-en-tu-propia-tienda-especializada.svg"

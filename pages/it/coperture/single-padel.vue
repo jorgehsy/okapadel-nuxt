@@ -21,12 +21,10 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p class="lead">
-              Es una carpa modular con estructura metálica cubierta con una
-              membrana textil tensada. Esta nave no tiene pilares centrales y
+              Si tratta di una tendostruttura modulare con una struttura metallica ricoperta da una membra-na tessile tesa. Questa tendostruttura non ha pilastri centrali e 
               <strong
                 ><em
-                  >permite cubrir pistas de pádel individuales de forma
-                  diáfana.</em
+                  >permette di coprire i singoli campi da paddle in modo aperto.</em
                 ></strong
               ><br />
             </p>
@@ -88,7 +86,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2 class="fw-section-title pt-0">
-              ¿Qué cubierta de Single Padel <strong>es la tuya?</strong>
+              <strong>Qual è la vostra </strong>copertura single padel?
             </h2>
             <Carousel :items="projects" to="/es/proyectos/" />
           </div>
@@ -113,15 +111,11 @@
               <div class="row bg-dark-gray">
                 <div class="col-md-12 p-3 color-secondary text-center">
                   <h2>
-                    ¡Tenemos <strong>más de 17 diseños</strong> Single
-                    esperando!<br />
+                    Abbiamo <strong>più di 17 modelli </strong> di coperture Single padel che vi aspettano!<br />
                   </h2>
                   <p class="lead text-center">
-                    Y si necesitas
-                    <strong><em>una medida especial</em></strong> para cubrir
-                    tus instalaciones, nuestro equipo técnico se encargará de
-                    crear un modelo de cubierta especial para tu pista
-                    individual.
+                    E se avete bisogno 
+                    <strong><em>di una misura speciale </em></strong> per coprire le vostre strutture, il nostro team tecnico creerà un modello di copertura su misu-ra per il vostro campo.
                   </p>
                 </div>
               </div>

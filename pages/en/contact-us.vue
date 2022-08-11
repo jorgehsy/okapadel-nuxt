@@ -6,7 +6,7 @@
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">
-            <h1 class="hero-title">Contacta con <strong>nosotros</strong></h1>
+            <h1 class="hero-title">Contact <strong>us</strong></h1>
           </div>
         </div>
         <LanguageSelector :languagePage="pages" />
@@ -14,8 +14,8 @@
     </section>
 
     <ContactForm lang="en" 
-      title="¿Quieres construir <br> un <strong> club de pádel</strong>?" 
-      subtitle="¿Quieres construir un club de pádel? Si deseas instalar una pista de pádel cubierta y quieres que te ayudemos. No lo dudes, llámanos y te asesoraremos para que lo consigas." />
+      title="<h2 class='g-text'>Would you like to set up <strong> padel club?</strong></h2>" 
+      subtitle="If you want to install an indoor padel court and you need our help, don't hesitate to call us and we'll advise you to achieve your dreams." />
 
   </div>
 </template>

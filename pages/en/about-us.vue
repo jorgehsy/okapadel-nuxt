@@ -45,10 +45,10 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-8">
             <h2 class="fw-section-title">
-              Ventajas de ser un servicio <strong>Todo-en-Uno</strong>
+              Advantages of our <strong>All-In-One</strong> Service.
             </h2>
             <p class="lead">
-              La creación de unas instalaciones de pádel pueden llegar a ser muy costosas en tiempo y dinero, si se contrata más de un proveedor. Por eso, nosotros englobamos todos esos servicios en uno: desde la construcción de la pista a la rotulación de la cubierta de pádel.
+              The creation of padel facilities can be very expensive in terms of time and money if more than one supplier is contracted. For this reason, we include all the necessary services in one: from the assembly of the padel court to the signage to accompany it.
             </p>
           </div>
         </div>

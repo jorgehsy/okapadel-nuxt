@@ -21,12 +21,10 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p class="lead">
-              Es una carpa modular con estructura metálica cubierta con una
-              membrana textil tensada. Esta nave no tiene pilares centrales y
+              Tente modulaire avec structure métallique recouverte d’une membrane textile tendue. L’absence de piliers centraux 
               <strong
                 ><em
-                  >permite cubrir pistas de pádel individuales de forma
-                  diáfana.</em
+                  >de ce bâtiment permet de couvrir les courts de padel individuels sans obstacles.</em
                 ></strong
               ><br />
             </p>
@@ -88,7 +86,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2 class="fw-section-title pt-0">
-              ¿Qué cubierta de Single Padel <strong>es la tuya?</strong>
+              Quelle couverture Single Padel <strong>est la vôtre?</strong>
             </h2>
             <Carousel :items="projects" to="/es/proyectos/" />
           </div>
@@ -113,15 +111,11 @@
               <div class="row bg-dark-gray">
                 <div class="col-md-12 p-3 color-secondary text-center">
                   <h2>
-                    ¡Tenemos <strong>más de 17 diseños</strong> Single
-                    esperando!<br />
+                    <strong>Plus de 17 modèles </strong>de couverture Single vous attendent ! <br />
                   </h2>
                   <p class="lead text-center">
-                    Y si necesitas
-                    <strong><em>una medida especial</em></strong> para cubrir
-                    tus instalaciones, nuestro equipo técnico se encargará de
-                    crear un modelo de cubierta especial para tu pista
-                    individual.
+                    Si vous cherchez 
+                    <strong><em>des dimensions particulières</em></strong> pour couvrir vos installations, notre équipe technique se chargera de créer un modèle de couverture adapté à votre court individuel.
                   </p>
                 </div>
               </div>

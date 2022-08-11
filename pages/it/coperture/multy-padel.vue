@@ -20,10 +20,8 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p class="lead">
-              Es un pabellón modular con estructura de aluminio o acero,
-              cubierto con una membrana textil y PVC de alta resistencia. Este
-              modelo de medio formato permiten cubrir
-              <strong><em>desde dos hasta seis pistas de pádel.</em></strong
+              Si tratta di una tendostruttura modulare con struttura in alluminio o acciaio, rivestita in mem-brana tessile e PVC ad alta resistenza. Questo modello di medio formato può coprire 
+              <strong><em>da due a sei campi da paddle. </em></strong
               ><br />
             </p>
           </div>
@@ -81,7 +79,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2>¿Qué cubierta de Multy Padel <strong>te gusta?</strong></h2>
+            <h2>Che tendostruttura Multy Padel <strong>vi piace?</strong></h2>
             <Carousel :items="projects" to="/es/proyectos/" />
           </div>
         </div>
@@ -105,15 +103,11 @@
               <div class="row bg-dark-gray">
                 <div class="col-md-12 p-3 color-secondary text-center">
                   <h2>
-                    ¡Tenemos <strong>más de 12 diseños</strong> de pabellones
-                    Multy esperandote!<br />
+                    Abbiamo <strong>più di 12  modelli</strong> di coperture Multy padel che vi aspettano!<br />
                   </h2>
                   <p class="lead text-center">
-                    Y si necesitas
-                    <strong><em>una medida especial</em></strong> para cubrir
-                    tus instalaciones, nuestro equipo técnico se encargará de
-                    crear un modelo de cubierta especial para tu pista
-                    individual.
+                    Nel caso in cui abbiate bisogno di 
+                    <strong><em>una struttura diversa</em></strong> per i vostri campi da padel, possiamo progettare la vostra copertura su misura per coprire un campo doppio.
                   </p>
                 </div>
               </div>

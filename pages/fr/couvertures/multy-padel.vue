@@ -20,10 +20,8 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p class="lead">
-              Es un pabellón modular con estructura de aluminio o acero,
-              cubierto con una membrana textil y PVC de alta resistencia. Este
-              modelo de medio formato permiten cubrir
-              <strong><em>desde dos hasta seis pistas de pádel.</em></strong
+              Ce pavillon modulaire avec structure en aluminium ou acier est recouvert d’une membrane textile et PVC très résistante. Ce modèle moyen format permet de couvrir de 
+              <strong><em>deux à six courts de padel.</em></strong
               ><br />
             </p>
           </div>
@@ -81,7 +79,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2>¿Qué cubierta de Multy Padel <strong>te gusta?</strong></h2>
+            <h2>Quelle couverture Multy Padel <strong>vous intéresse?</strong></h2>
             <Carousel :items="projects" to="/es/proyectos/" />
           </div>
         </div>
@@ -105,15 +103,11 @@
               <div class="row bg-dark-gray">
                 <div class="col-md-12 p-3 color-secondary text-center">
                   <h2>
-                    ¡Tenemos <strong>más de 12 diseños</strong> de pabellones
-                    Multy esperandote!<br />
+                    <strong>Plus de 12 modèles </strong> de pavillons Multy vous attendent! <br />
                   </h2>
                   <p class="lead text-center">
-                    Y si necesitas
-                    <strong><em>una medida especial</em></strong> para cubrir
-                    tus instalaciones, nuestro equipo técnico se encargará de
-                    crear un modelo de cubierta especial para tu pista
-                    individual.
+                    Si vous avez besoin d’une 
+                    <strong><em>structure différente </em></strong> pour vos courts de padel, nous pouvons concevoir votre couverture personnalisée pour couvrir un court double.
                   </p>
                 </div>
               </div>

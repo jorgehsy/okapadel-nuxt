@@ -28,7 +28,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
-              Una pista compacta de <strong><em>fácil instalación y mantenimiento.</em></strong
+              Courts de padel polyvalents, <strong><em>faciles à installer et à entretenir.</em></strong
               ><br />
             </p>
           </div>

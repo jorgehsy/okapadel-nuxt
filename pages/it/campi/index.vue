@@ -17,10 +17,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <p class="lead">Organiza torneos de pádel con nuestras pistas: <strong>“BASIC COURT”</strong> y <strong>“PANORAMIC
-                COURT”.</strong> Se fabrican en nuestras instalaciones con un diseño propio y cumplen con las normativas
-              de la <strong><em>Federación Española de Pádel, Federación Internacional del Pádel y World Padel
-                  Tour.</em></strong><br></p>
+            <p class="lead">Organizza tornei di padel con i nostri campi: <strong>“BASIC COURT”</strong> y <strong>“PANORAMIC
+                COURT”.</strong> Sono prodotti nei nostri stabilimenti con un design proprio e sono conformi ai regolamenti della <strong><em>Federazione Spagnola di Padel e della Federazione Internazionale di Padel. </em></strong><br></p>
           </div>
         </div>
       </div>
@@ -35,7 +33,7 @@
             <div v-html="content.firstSection?.leftColumn"></div>
             <div class="button-box">
               <NuxtLink class="btn btn-white" to="/it/campi/modello-basic-court/"
-               rel="next">Ver pista Basic</NuxtLink>
+               rel="next">Vedi campo Basic Court</NuxtLink>
             </div>
           </div>
         </div>
@@ -52,7 +50,7 @@
 
             <div class="button-box">
               <NuxtLink class="btn btn-white" to="/it/campi/modello-panoramic-court/"
-               rel="next">Ver pista Panoramic</NuxtLink>
+               rel="next">Vedi campo panoramico</NuxtLink>
             </div>
           </div>
         </div>
@@ -63,29 +61,29 @@
       <div class="container">
         <div class="row w-text">
           <div class="col-md-6 text-center mb-4">
-            <h2><strong>Los componentes principales </strong>de las pistas.</h2>
+            <h2><strong>Le componenti principali  </strong>del campo.</h2>
           </div>
           <div class="col-md-6 d-flex align-items-center">
             <ul class="fa-ul lead">
               <li> 
                 <span class="fa-li g-text"><i class="fa-solid fa-plus"></i></span>
-                <strong><em>Estructura metálica:</em></strong> Estructura con perfiles de acero galvanizado y sistema antivibración.<br>
+                <strong><em>Struttura metallica:</em></strong> struttura con profili in acciaio zincato e sistema antivibrante.<br>
               </li>
               <li>
                 <span class="fa-li g-text"><i class="fa-solid fa-plus"></i></span>
-                <strong><em>Parede:&nbsp;</em></strong>Vidrios templados de seguridad con cantos pulidos según normal UNE.
+                <strong><em>Pareti:</em></strong> vetro di sicurezza temperato con bordi lucidati secondo lo standard UNE.
               </li>
               <li>
                 <span class="fa-li g-text"><i class="fa-solid fa-plus"></i></span>
-                <strong><em>Pintura:</em></strong> Pintura en polvo para exteriores amigable con el medio ambiente.<br>
+                <strong><em>Vernice:</em></strong> vernice a polvere ecologica per esterni.<br>
               </li>
               <li>
                 <span class="fa-li g-text"><i class="fa-solid fa-plus"></i></span>
-                <strong><em>Césped:</em></strong> Césped artificial deportivo con distintos colores.<br>
+                <strong><em>Erba sintetica:</em></strong> erba sintetica artificiale in diversi colori.<br>
               </li>
               <li>
                 <span class="fa-li g-text"><i class="fa-solid fa-plus"></i></span>
-                <strong><em>Sujeción: </em></strong>Anclaje sólido realizado con tacos mecánicos.
+                <strong><em>Fissaggio:</em></strong> ancoraggio solido realizzato con blocchi meccanici.
               </li>
             </ul>
           </div>

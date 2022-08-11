@@ -28,8 +28,8 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
-              Una pista panorámica diáfana equipada
-              <strong><em>para llevar el juego a otro nivel.</em></strong
+              Un court de padel panoramique
+              <strong><em>sans obstacles et équipé pour faire voler le jeu toujours plus haut.</em></strong
               ><br />
             </p>
           </div>
