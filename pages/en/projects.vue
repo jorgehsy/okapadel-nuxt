@@ -66,7 +66,7 @@ const projects = computed (() => [
 
 const pages = computed (() => ({
   en: '/en/projects',
-  es: '/es/proyectos',
+  es: '/en/projects',
   fr: '/fr/projets',
   it: '/it/progetti',
 }))
