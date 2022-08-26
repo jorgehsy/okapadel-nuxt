@@ -30,7 +30,7 @@
               Gli sport di racchetta come il padel sono soggetti a vento, pioggia, sole e abbagliamento, quindi la scelta di una copertura è essenziale per poterli praticare nelle migliori condizioni.
             </p>
             <img 
-              src="~/assets/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
+              src="~/assets/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.webp"
               alt="Padel 365 giorni all’anno"
             />
           </div>
@@ -82,7 +82,7 @@
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/cubiertas/cubierta-single-padel-min.jpg"
+              src="~/assets/images/cubiertas/cubierta-single-padel-min.webp"
               alt="Copertura per campi da padel individuali"
             />
           </div>
@@ -117,7 +117,7 @@
           </div>
           <div class="col-md-6">
             <img 
-              src="~/assets/images/cubiertas/cubierta-multy-padel-min.jpg"
+              src="~/assets/images/cubiertas/cubierta-multy-padel-min.webp"
               alt="Copertura per campi da padel doppi"
             />
           </div>
@@ -130,7 +130,7 @@
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/cubiertas/nave-arena-padel-min.jpg"
+              src="~/assets/images/cubiertas/nave-arena-padel-min.webp"
               alt="Copertura per più campi da padel"
             />
           </div>
@@ -199,7 +199,7 @@
           </div>
           <div class="col-md-6">
             <img 
-              src="~/assets/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
+              src="~/assets/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.webp"
               alt="Modelli di copertura per campi da padel"
             />
           </div>

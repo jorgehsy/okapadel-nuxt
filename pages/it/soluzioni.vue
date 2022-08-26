@@ -28,7 +28,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/soluciones/cubrimos-las-instalaciones-del-club-min.jpg" alt="Coperture per campi da padel" />
+            <img  src="~/assets/images/soluciones/cubrimos-las-instalaciones-del-club-min.webp" alt="Coperture per campi da padel" />
           </div>
           <div class="col-md-6">
             <div class="mb-3" v-html="content.firstSection?.rightColumn"></div>
@@ -44,7 +44,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <img src="~/assets/images/soluciones/instalacion-de-pistas-de-padel-min.jpg" alt="Installazioni di campi da padel" />
+            <img src="~/assets/images/soluciones/instalacion-de-pistas-de-padel-min.webp" alt="Installazioni di campi da padel" />
           </div>
           <div class="col-md-6 order-md-1">
             <div class="mb-3" v-html="content.secondSection?.leftColumn"></div>
@@ -61,7 +61,7 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
           <div class="col-md-6 ">
-            <img  src="~/assets/images/soluciones/iluminacion-y-climatizacion-de-pistas-de-padel-min.jpg" alt="Illuminazione, climatizzazione e stampa personalizzata dei campi da padel" />
+            <img  src="~/assets/images/soluciones/iluminacion-y-climatizacion-de-pistas-de-padel-min.webp" alt="Illuminazione, climatizzazione e stampa personalizzata dei campi da padel" />
           </div>
           <div class="col-md-6">
             <div v-html="content.thirdSection?.rightColumn"></div>

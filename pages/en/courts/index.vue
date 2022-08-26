@@ -49,7 +49,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <img
-              src="~/assets/images/pistas/modelo-basic-court-pista-convencional-para-un-deporte-innovador-min.jpg"
+              src="~/assets/images/pistas/modelo-basic-court-pista-convencional-para-un-deporte-innovador-min.webp"
               alt="Manufacturers of Padel Courts - International Padel Federation - Okapadel"
             />
           </div>
@@ -72,7 +72,7 @@
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
             <img
-              src="~/assets/images/pistas/modelo-panoramic-court-pista-transparente-para-captar-todas-las-miradas-min.jpg"
+              src="~/assets/images/pistas/modelo-panoramic-court-pista-transparente-para-captar-todas-las-miradas-min.webp"
               alt="Manufacturers of Panoramic Padel Courts  – Padel Courts by Okapadel"
             />
           </div>

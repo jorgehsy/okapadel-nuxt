@@ -30,7 +30,7 @@
               Racket sports like padel and tennis are susceptible to wind, rain, sun, and glare; thus, choos-ing a good cover/canopy/enclosure is essential to be able to <strong>enjoy these sports under the best of conditions</strong>.
             </p>
             <img 
-              src="~/assets/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
+              src="~/assets/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.webp"
               alt="Play padel 365 days a year."
             />
           </div>
@@ -81,7 +81,7 @@
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/cubiertas/cubierta-single-padel-min.jpg"
+              src="~/assets/images/cubiertas/cubierta-single-padel-min.webp"
               alt="Cover for individual padel courts."
             />
           </div>
@@ -116,7 +116,7 @@
           </div>
           <div class="col-md-6">
             <img 
-              src="~/assets/images/cubiertas/cubierta-multy-padel-min.jpg"
+              src="~/assets/images/cubiertas/cubierta-multy-padel-min.webp"
               alt="Cover for two padel courts"
             />
           </div>
@@ -129,7 +129,7 @@
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/cubiertas/nave-arena-padel-min.jpg"
+              src="~/assets/images/cubiertas/nave-arena-padel-min.webp"
               alt="Large-scale model for multiple padel courts"
             />
           </div>
@@ -193,7 +193,7 @@
           </div>
           <div class="col-md-6">
             <img 
-              src="~/assets/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
+              src="~/assets/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.webp"
               alt="Set up a large-scale padel facility – ideal for an indoor padel club."
             />
           </div>

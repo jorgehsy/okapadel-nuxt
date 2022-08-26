@@ -44,7 +44,7 @@
           </div>
           <div class="col-md-6 two-col-section">
             <img 
-              src="~/assets/images/pistas__modelo_basic_court/la-pista-de-padel-basic-court-min.jpg"
+              src="~/assets/images/pistas__modelo_basic_court/la-pista-de-padel-basic-court-min.webp"
               alt="Pistas de pádel versátiles, de fácil instalación y mantenimiento"
             />
           </div>
@@ -70,7 +70,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/pistas__modelo_basic_court/sujecion-min.jpg"
+              src="~/assets/images/pistas__modelo_basic_court/sujecion-min.webp"
               alt="Sujecciones para nuestra pistas de pádel Basic Court, fácil instalación y mantenimiento con total seguridad y garantía."
             />
           </div>
@@ -86,7 +86,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12 pb-3">
             <img 
-              src="~/assets/images/pistas__modelo_basic_court/vidrios-templados-min.jpg"
+              src="~/assets/images/pistas__modelo_basic_court/vidrios-templados-min.webp"
               alt="Vidrios para pistas de pádel – Pistas de pádel cristal"
             />
           </div>
@@ -102,7 +102,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/pistas__modelo_basic_court/pintura-min.jpg"
+              src="~/assets/images/pistas__modelo_basic_court/pintura-min.webp"
               alt="Pintura ecológica sin VOCs para pistas de pádel"
             />
           </div>
@@ -117,7 +117,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <img  src="~/assets/images/pistas__modelo_basic_court/cesped-min.jpg" alt="cesped de cancha de padel" />
+            <img  src="~/assets/images/pistas__modelo_basic_court/cesped-min.webp" alt="cesped de cancha de padel" />
           </div>
           <div class="col-md-6">
             <div v-html="content.sixthSection?.leftColumn"></div>
@@ -131,7 +131,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/pistas__modelo_basic_court/iluminacion-min.jpg" alt="focos pista de pádel - Iluminación led para pistas de pádel" />
+            <img  src="~/assets/images/pistas__modelo_basic_court/iluminacion-min.webp" alt="focos pista de pádel - Iluminación led para pistas de pádel" />
           </div>
           <div class="col-md-6">
             <div v-html="content.seventhSection?.rightColumn"></div>

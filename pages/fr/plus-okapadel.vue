@@ -23,7 +23,7 @@
           </div>
           <div class="col-md-6">
             <img 
-              src="~/assets/images/okapadel/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
+              src="~/assets/images/okapadel/cubre-tu-pista-con-un-diseno-ganador-min.webp"
               alt="Cubierta para pistas de pádel individuales"
             />
           </div>
@@ -36,7 +36,7 @@
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/okapadel/enamorate-de-la-arquitectura-textil--min.jpg"
+              src="~/assets/images/okapadel/enamorate-de-la-arquitectura-textil--min.webp"
               alt="Cubierta para pistas de pádel individuales"
             />
           </div>
@@ -57,7 +57,7 @@
           </div>
           <div class="col-md-6">
             <img 
-              src="~/assets/images/okapadel/descubre-la-calidad-de-nuestras-carpas-plegables-min.jpg"
+              src="~/assets/images/okapadel/descubre-la-calidad-de-nuestras-carpas-plegables-min.webp"
               alt="Cubierta para pistas de pádel dobles"
             />
           </div>

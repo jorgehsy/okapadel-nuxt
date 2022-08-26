@@ -39,23 +39,23 @@ $darken: rgba(0, 0, 0, 0.4);
       background-position: 50% 0;
       background-size: cover;
   }
-  &.hero-home { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-home-min.jpg"); }}
-  &.hero-soluciones { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-soluciones-min.jpg");}}
-  &.hero-proyectos { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-proyectos-min.jpg"); }}
-  &.hero-calidad { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-calidad-min.jpg"); }}
-  &.hero-contacto { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-contacto-v2-min.jpg"); }}
-  &.hero-instalaciones { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-instalaciones_de_padel-min.jpg"); }}
-  &.hero-okapadel { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-okapadel-min.jpg"); }}
-  &.hero-nosotros { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-nosotros-min.jpg"); }}
+  &.hero-home { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-home-min.webp"); }}
+  &.hero-soluciones { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-soluciones-min.webp");}}
+  &.hero-proyectos { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-proyectos-min.webp"); }}
+  &.hero-calidad { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-calidad-min.webp"); }}
+  &.hero-contacto { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-contacto-v2-min.webp"); }}
+  &.hero-instalaciones { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-instalaciones_de_padel-min.webp"); }}
+  &.hero-okapadel { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-okapadel-min.webp"); }}
+  &.hero-nosotros { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-nosotros-min.webp"); }}
 
-  &.hero-cubiertas { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-cubiertas-min.jpg"); }}
-  &.hero-cubierta-single { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-cubierta-single-padel-min.jpg"); }}
-  &.hero-cubierta-multy { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-cubierta-multy-padel-min.jpg"); }}
-  &.hero-cubierta-arena { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-cubiertas-arena-padel-min.jpg"); }}
+  &.hero-cubiertas { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-cubiertas-min.webp"); }}
+  &.hero-cubierta-single { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-cubierta-single-padel-min.webp"); }}
+  &.hero-cubierta-multy { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-cubierta-multy-padel-min.webp"); }}
+  &.hero-cubierta-arena { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-cubiertas-arena-padel-min.webp"); }}
   
-  &.hero-pistas { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-pistas-min.jpg"); }}
-  &.hero-pista-basic { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-modelo-basic-court-min.jpg"); }}
-  &.hero-pista-panoramic { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-modelo-panoramic-court-min.jpg"); }}
+  &.hero-pistas { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-pistas-min.webp"); }}
+  &.hero-pista-basic { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-modelo-basic-court-min.webp"); }}
+  &.hero-pista-panoramic { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-modelo-panoramic-court-min.webp"); }}
 }
 
 .footer{

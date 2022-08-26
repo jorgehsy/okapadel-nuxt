@@ -39,7 +39,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <img
-              src="~/assets/images/cubiertas__modelo_single_padel/permiten-una-instalacion-rapida-y-rentable-min.jpg"
+              src="~/assets/images/cubiertas__modelo_single_padel/permiten-una-instalacion-rapida-y-rentable-min.webp"
               alt="Single Model: A pavilion for an individual padel court in 72 hours. "
             />
           </div>
@@ -55,7 +55,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <img
-              src="~/assets/images/cubiertas__modelo_single_padel/_descubre-los-cerramientos-del-single-padel-min.jpg"
+              src="~/assets/images/cubiertas__modelo_single_padel/_descubre-los-cerramientos-del-single-padel-min.webp"
               alt="Top off the canopy for your padel court your way. "
             />
           </div>
@@ -72,7 +72,7 @@
         >
           <div class="col-md-6">
             <img
-              src="~/assets/images/cubiertas__modelo_single_padel/y-las-fijaciones-de-la-cubierta-individual-min.jpg"
+              src="~/assets/images/cubiertas__modelo_single_padel/y-las-fijaciones-de-la-cubierta-individual-min.webp"
               alt="Anchor the canopy for your padel court solidly and without complications"
             />
           </div>
@@ -161,19 +161,19 @@ const { data } = await useAsyncData("cubierta-single-padel-page", () =>
 
 const projects = computed(() => [
   {
-    image: "que-cubierta-de-single-padel-es-la-tuya-first-slide-min.jpg",
+    image: "que-cubierta-de-single-padel-es-la-tuya-first-slide-min.webp",
     imageAlt: "cubierta-de-single-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-de-single-padel-es-la-tuya-second-slide-min.jpg",
+    image: "que-cubierta-de-single-padel-es-la-tuya-second-slide-min.webp",
     imageAlt: "cubierta-de-single-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-de-single-padel-es-la-tuya-third-slide-min.jpg",
+    image: "que-cubierta-de-single-padel-es-la-tuya-third-slide-min.webp",
     imageAlt: "cubierta-de-single-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
