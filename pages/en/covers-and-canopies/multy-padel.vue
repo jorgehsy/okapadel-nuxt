@@ -35,7 +35,7 @@
           <div class="col-md-6 order-md-12">
             <img
               src="~/assets/images/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.jpg"
-              alt="pabellón modular para cubrir de 2 a 6 pistas de pádel"
+              alt="Multy Model: Expandable modular pavilion for padel courts. "
             />
           </div>
           <div class="col-md-6 order-md-12">
@@ -51,7 +51,7 @@
           <div class="col-md-6 order-md-12">
             <img
               src="~/assets/images/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.jpg"
-              alt="Completa de forma personalizada la cubierta de tus pistas de pádel"
+              alt="Top off your padel court canopy in a personalized way. "
             />
           </div>
           <div class="col-md-6">
@@ -66,7 +66,7 @@
           <div class="col-md-6">
             <img
               src="~/assets/images/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.jpg"
-              alt="Sujeta sólidamente y sin complicaciones la cubierta de tu pista de pádel"
+              alt="We take care of your padel pavilion's anchoring in a totally safe and durable way"
             />
           </div>
           <div class="col-md-6">

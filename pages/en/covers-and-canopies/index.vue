@@ -82,7 +82,7 @@
           <div class="col-md-6">
             <img 
               src="~/assets/images/cubiertas/cubierta-single-padel-min.jpg"
-              alt="Cubierta para pistas de pádel individuales"
+              alt="Cover for individual padel courts."
             />
           </div>
           <div class="col-md-6">
@@ -117,7 +117,7 @@
           <div class="col-md-6">
             <img 
               src="~/assets/images/cubiertas/cubierta-multy-padel-min.jpg"
-              alt="Cubierta para pistas de pádel dobles"
+              alt="Cover for two padel courts"
             />
           </div>
         </div>
@@ -130,7 +130,7 @@
           <div class="col-md-6">
             <img 
               src="~/assets/images/cubiertas/nave-arena-padel-min.jpg"
-              alt="Montar nave de pádel, ideal para club de pádel indoor"
+              alt="Large-scale model for multiple padel courts"
             />
           </div>
           <div class="col-md-6">
@@ -194,6 +194,7 @@
           <div class="col-md-6">
             <img 
               src="~/assets/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
+              alt="Set up a large-scale padel facility – ideal for an indoor padel club."
             />
           </div>
         </div>

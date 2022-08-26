@@ -50,7 +50,7 @@
           <div class="col-md-6 order-md-12">
             <img
               src="~/assets/images/pistas/modelo-basic-court-pista-convencional-para-un-deporte-innovador-min.jpg"
-              alt="Fabricantes de pistas de pádel World Padel Tour - Okapadel"
+              alt="Manufacturers of Padel Courts - International Padel Federation - Okapadel"
             />
           </div>
           <div class="col-md-6">
@@ -73,6 +73,7 @@
           <div class="col-md-6">
             <img
               src="~/assets/images/pistas/modelo-panoramic-court-pista-transparente-para-captar-todas-las-miradas-min.jpg"
+              alt="Manufacturers of Panoramic Padel Courts  – Padel Courts by Okapadel"
             />
           </div>
           <div class="col-md-6">

@@ -63,7 +63,7 @@
           <div class="col-md-6">
             <img
               src="~/assets/images/cubiertas__modelo_arena_padel/completa-tu-pabellon-modular-con-los-cerramientos-del-arena-padel-min.jpg"
-              alt="Completa tu pabellón modular con los cerramientos para cubiertas Arena Padel"
+              alt="Top off your modular pavilion with our Arena side enclosures for the upper canopy."
             />
           </div>
           <div class="col-md-6">
@@ -78,7 +78,7 @@
           <div class="col-md-6 order-md-12">
             <img
               src="~/assets/images/cubiertas__modelo_arena_padel/y-las-fijaciones-de-una-gran-cubierta-min.jpg"
-              alt="Fijaciones firmes, seguras y garantizadas para tu pabellón Arena Padel"
+              alt="Firm, safe, and guaranteed anchoring for your Arena pavilion. "
             />
           </div>
           <div class="col-md-6 color-white">

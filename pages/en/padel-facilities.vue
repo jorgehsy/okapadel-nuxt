@@ -35,7 +35,7 @@
             </p>
             <img 
               src="~/assets/images/vende-productos-de-padel-en-tu-propia-tienda-especializada.svg"
-              alt="Proveedores material pádel"
+              alt="Padel Suppliers"
             />
           </div>
         </div>
@@ -48,6 +48,7 @@
           <div class="col-md-6">
             <img 
               src="~/assets/images/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.jpg"
+              alt="Padel Material Suppliers"
             />
           </div>
           <div class="col-md-6 color-primary">
@@ -65,6 +66,7 @@
           <div class="col-md-6">
             <img 
               src="~/assets/images/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.jpg"
+              alt="Manufacturer of padel courts with comprehensive service for padel sports facilities"
             />
           </div>
           <div class="col-md-6">
