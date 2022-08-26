@@ -45,7 +45,7 @@
           <div class="col-md-6 two-col-section">
             <img 
               src="~/assets/images/pistas__modelo_basic_court/la-pista-de-padel-basic-court-min.jpg"
-              alt="Pistas de pádel versátiles, de fácil instalación y mantenimiento"
+              alt="Campi da padel versatile, facile da installare e da mantenere"
             />
           </div>
         </div>
@@ -71,7 +71,7 @@
           <div class="col-md-6">
             <img 
               src="~/assets/images/pistas__modelo_basic_court/sujecion-min.jpg"
-              alt="Sujecciones para nuestra pistas de pádel Basic Court, fácil instalación y mantenimiento con total seguridad y garantía."
+              alt="I nostri campi da padel Basic Court, sono di facile installazione e manutenzione, con sicurezza e garanzia totali."
             />
           </div>
           <div class="col-md-6">
@@ -87,7 +87,7 @@
           <div class="col-md-6 order-lg-12 pb-3">
             <img 
               src="~/assets/images/pistas__modelo_basic_court/vidrios-templados-min.jpg"
-              alt="Vidrios para pistas de pádel – Pistas de pádel cristal"
+              alt="Vetri per campi da padel"
             />
           </div>
           <div class="col-md-6">
@@ -103,7 +103,7 @@
           <div class="col-md-6">
             <img 
               src="~/assets/images/pistas__modelo_basic_court/pintura-min.jpg"
-              alt="Pintura ecológica sin VOCs para pistas de pádel"
+              alt="Vernice ecologica per campi da padel"
             />
           </div>
           <div class="col-md-6 mt-4">
@@ -117,7 +117,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <img  src="~/assets/images/pistas__modelo_basic_court/cesped-min.jpg" alt="cesped de cancha de padel" />
+            <img  src="~/assets/images/pistas__modelo_basic_court/cesped-min.jpg" alt="Erba artificiale padel" />
           </div>
           <div class="col-md-6">
             <div v-html="content.sixthSection?.leftColumn"></div>
@@ -131,7 +131,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/pistas__modelo_basic_court/iluminacion-min.jpg" alt="focos pista de pádel - Iluminación led para pistas de pádel" />
+            <img  src="~/assets/images/pistas__modelo_basic_court/iluminacion-min.jpg" alt="Illuminazione led per campi da padel" />
           </div>
           <div class="col-md-6">
             <div v-html="content.seventhSection?.rightColumn"></div>
@@ -143,7 +143,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <img  src="~/assets/images/personalizacion.svg" />
+            <img  src="~/assets/images/personalizacion.svg"
+            alt="Il tuo campo panorámico da  padel adattato alle vostre esigenze e alla vostra immagine"  />
           </div>
           <div class="col-md-6">
             <div v-html="content.eighthSection?.leftColumn"></div>

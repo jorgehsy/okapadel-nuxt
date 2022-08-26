@@ -38,7 +38,7 @@
           <div class="col-md-6 order-md-12">
             <img
               src="~/assets/images/cubiertas__modelo_arena_padel/sorprende-con-un-modelo-de-campeonato-min.jpg"
-              alt="pabellón modular para cubrir de 2 a 6 pistas de pádel"
+              alt="Abbiamo più di 5  modelli di coperture Arena padel che vi aspettano"
             />
           </div>
           <div class="col-md-6">

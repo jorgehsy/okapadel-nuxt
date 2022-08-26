@@ -39,7 +39,7 @@
           <div class="col-md-6 order-md-12">
             <img
               src="~/assets/images/cubiertas__modelo_single_padel/permiten-una-instalacion-rapida-y-rentable-min.jpg"
-              alt="carpa modular para pistas de pádel individuales"
+              alt="Modelli Single: Tendostrutture per campi da padel individuali in 72 ore"
             />
           </div>
           <div class="col-md-6 order-md-12">
@@ -55,7 +55,7 @@
           <div class="col-md-6 order-md-12">
             <img
               src="~/assets/images/cubiertas__modelo_single_padel/_descubre-los-cerramientos-del-single-padel-min.jpg"
-              alt="Completa la cubierta de tu pista de pádel a tu manera"
+              alt="Completate la copertura del campo da padel a modo vostro"
             />
           </div>
           <div class="col-md-6 order-md-1">
@@ -72,7 +72,7 @@
           <div class="col-md-6">
             <img
               src="~/assets/images/cubiertas__modelo_single_padel/y-las-fijaciones-de-la-cubierta-individual-min.jpg"
-              alt="Sujeta sólidamente y sin complicaciones la cubierta de tu pista de pádel"
+              alt="Fissa solidamente la copertura del campo da padel senza complicazioni"
             />
           </div>
           <div class="col-md-6">

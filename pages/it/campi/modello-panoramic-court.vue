@@ -44,7 +44,8 @@
             <div v-html="content.firstSection?.leftColumn"></div>
           </div>
           <div class="col-md-6 two-col-section">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/la-pista-de-padel-panoramic-court-min.jpg" alt="Pista de pádel panorámica diáfana de alta calidad" />
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/la-pista-de-padel-panoramic-court-min.jpg" 
+            alt="Campi panoramici con massima visibilità e ottime finiture." />
           </div>
         </div>
       </div>
@@ -67,7 +68,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/sujecion-min.jpg" alt="Sujecciones y anclajes para las pistas panorámicas de Okapadel" />
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/sujecion-min.jpg" 
+            alt="Fissaggi e ancoraggi per campi panoramici Okapadel " />
           </div>
           <div class="col-md-6">
             <div v-html="content.thirdSection?.rightColumn"></div>
@@ -80,7 +82,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12 pb-3">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/vidrios-templados-min.jpg" alt="Vidrios templados para pistas panorámicas de pádel - Okapadel Panoramic Court" />
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/vidrios-templados-min.jpg" 
+            alt="Vetri temperati per campi panoramici di padel – Okapadel Panoramic Court" />
           </div>
           <div class="col-md-6">
             <div v-html="content.fourthSection?.leftColumn"></div>
@@ -93,7 +96,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-              <img  src="~/assets/images/pistas__modelo_panoramic_court/pintura-min.jpg" alt="Pinturas ecológicas de gran durabilidad"/>
+              <img  src="~/assets/images/pistas__modelo_panoramic_court/pintura-min.jpg" 
+              alt="Vernice ecologica ad alta resistenza"/>
           </div>
           <div class="col-md-6 mt-4">
             <div v-html="content.fifthSection?.rightColumn"></div>
@@ -106,7 +110,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/cesped-min.jpg" alt="Césped pistas de pádel panorámicas"/>
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/cesped-min.jpg" 
+            alt="Erba artificiale padel"/>
           </div>
           <div class="col-md-6">
             <div v-html="content.sixthSection?.leftColumn"></div>
@@ -119,7 +124,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/iluminacion-min.jpg" alt="Iluminación LED para pistas de pádel"/>
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/iluminacion-min.jpg" 
+            alt="Illuminazione  LED per  campi da padel"/>
           </div>
           <div class="col-md-6">
             <div v-html="content.seventhSection?.rightColumn"></div>
@@ -132,7 +138,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <img  src="~/assets/images/personalizacion.svg" alt="Tu pista panorámica de pádel adaptada a tus necesidades e imagen." />
+            <img  src="~/assets/images/personalizacion.svg" 
+            alt="Il tuo campo panorámico da  padel adattato alle vostre esigenze e alla vostra immagine" />
           </div>
           <div class="col-md-6">
             <div v-html="content.eighthSection?.leftColumn"></div>

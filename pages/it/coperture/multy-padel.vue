@@ -35,7 +35,7 @@
           <div class="col-md-6 order-md-12">
             <img
               src="~/assets/images/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.jpg"
-              alt="pabellón modular para cubrir de 2 a 6 pistas de pádel"
+              alt="Tendostruttura modulare per coprire da 2 a 6 campi da padel"
             />
           </div>
           <div class="col-md-6 order-md-12">
@@ -51,7 +51,7 @@
           <div class="col-md-6 order-md-12">
             <img
               src="~/assets/images/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.jpg"
-              alt="Completa de forma personalizada la cubierta de tus pistas de pádel"
+              alt="Completate la copertura del vostro campo da padel in modo personalizzato"
             />
           </div>
           <div class="col-md-6">
@@ -66,7 +66,7 @@
           <div class="col-md-6">
             <img
               src="~/assets/images/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.jpg"
-              alt="Sujeta sólidamente y sin complicaciones la cubierta de tu pista de pádel"
+              alt="Risolviamo l'ancoraggio della vostra struttura in modo totalmente sicuro e duraturo"
             />
           </div>
           <div class="col-md-6">

@@ -18,7 +18,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6 ">
-            <img  src="~/assets/images/calidad/con-okapadel-ganamos-todos-min.jpg" alt="Fabricantes de pistas de pádel sostenibles y ecofriendly" />
+            <img  src="~/assets/images/calidad/con-okapadel-ganamos-todos-min.jpg" 
+            alt="Produttori di campi da padel sostenibili ed ecofriendly" />
           </div>
           <div class="col-md-6">
             <div v-html="content.firstSection?.rightColumn"></div>
