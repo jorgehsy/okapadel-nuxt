@@ -14,8 +14,8 @@
     </section>
 
     <ContactForm 
-      title="¿Quieres construir <br> un <strong> club de pádel</strong>?" 
-      subtitle="¿Quieres construir un club de pádel? Si deseas instalar una pista de pádel cubierta y quieres que te ayudemos. No lo dudes, llámanos y te asesoraremos para que lo consigas." />
+      title="<h2>¿Quieres montar <br> un <strong> club de pádel</strong>?</h2>" 
+      subtitle="Si deseas instalar una pista de pádel cubierta y quieres que te ayudemos. No lo dudes, llámanos y te asesoraremos para que lo consigas." />
 
   </div>
 </template>

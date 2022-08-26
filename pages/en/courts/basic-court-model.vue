@@ -152,6 +152,18 @@
       </div>
     </section>
 
+    <section class="two-col-section">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center next-page-button">
+          <div class="col-md-6 text-center">
+            <NuxtLink class="nav-link" rel="" to="/en/courts/panoramic-court-model"
+              ><i class="fa-fw fa-solid fa-plus g-text"></i>See our Panoramic Court 
+            </NuxtLink>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <ContactForm lang="en" :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>

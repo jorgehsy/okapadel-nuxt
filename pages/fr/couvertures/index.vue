@@ -21,6 +21,23 @@
         <LanguageSelector :languagePage="pages" />
       </div>
     </section>
+
+    <section class="two-col-section">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-md-10">
+            <p class="text-center">
+              Les sports de raquette comme le padel sont sensibles au vent, à la pluie, au soleil et aux éblouissements, c’est pourquoi disposer d’une couverture est essentiel pour pouvoir <strong>jouer sous les meilleures conditions.</strong>
+            </p>
+            <img 
+              src="~/assets/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
+              alt="Le padel 365 jours par an"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="two-col-section">
       <div class="container">
         <div class="row d-flex align-items-center">
@@ -36,7 +53,7 @@
                     >Single</span
                   ></em
                 ></strong
-              >pour les courts individuels, le modèle 
+              > pour les courts individuels, le modèle 
               <strong
                 ><em
                   ><span title="Cubierta para pistas de pádel dobles"

@@ -141,20 +141,20 @@
           <div class="col-12 col-lg-6 mb-4">
             <div class="d-flex-inline">
               <div class="mb-4">
-                <h5><strong>¿Hablamos?</strong></h5>
+                <h5><strong>Parli dopo?</strong></h5>
                 <p>
-                  Puedes contactar llamando al
+                  Puoi contattare chiamando
                   <a href="tel:93 323 19 74" rel="nofollow"
                     ><strong class="text-nowrap">93 323 19 74</strong></a
                   >
-                  o enviando un e-mail a
+                  oppure inviando una mail a
                   <a href="mail:info@okapadel.com" rel="nofollow"
                     ><strong>info@okapadel.com</strong></a
                   >
                 </p>
               </div>
               <div>
-                <h5><strong>¿Dónde estamos?</strong></h5>
+                <h5><strong>Dove siamo?</strong></h5>
                 <p>
                   C/Dels Tintorers s/n parcela 5, Polígono Industrial Can
                   Singlá. Olesa de Montserrat. Barcelona (España)<br />
@@ -163,7 +163,7 @@
             </div>
           </div>
           <div class="col-12 col-lg-3 text-md-center">
-            <h5><strong>Encuéntranos</strong></h5>
+            <h5><strong>Trovaci</strong></h5>
             <ul class="widget-list">
               <li class="widget-list-item">Linkedin</li>
               <li class="widget-list-item">Instagram</li>

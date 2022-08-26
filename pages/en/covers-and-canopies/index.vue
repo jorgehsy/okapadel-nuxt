@@ -21,6 +21,23 @@
         <LanguageSelector :languagePage="pages" />
       </div>
     </section>
+
+    <section class="two-col-section">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-md-10">
+            <p class="text-center">
+              Racket sports like padel and tennis are susceptible to wind, rain, sun, and glare; thus, choos-ing a good cover/canopy/enclosure is essential to be able to <strong>enjoy these sports under the best of conditions</strong>.
+            </p>
+            <img 
+              src="~/assets/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
+              alt="Play padel 365 days a year."
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="two-col-section">
       <div class="container">
         <div class="row d-flex align-items-center">
@@ -145,6 +162,7 @@
             <h2 class="fw-section-title">
               <strong>The accessories </strong>that accompany our canopies...
             </h2>
+            <p>Turn your canopy into a complete pavilion to suit you.</p>
             <ul class="fa-ul">
               <li>
                 <span class="fa-li g-text"

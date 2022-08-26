@@ -19,7 +19,7 @@
             <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
-        <LanguageSelector :languagePage="pages" />
+        <LanguageSelector />
       </div>
     </section>
     <section class="fw-section blue-bg d-flex align-items-center">
@@ -65,7 +65,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2 class="fw-section-title">
-              <strong>Proyectos</strong> de pádel que hemos realizado
+              <strong>Proyectos</strong> de pistas de pádel que hemos realizado
             </h2>
             <Carousel :items="projects" to="/es/proyectos/" />
           </div>
@@ -112,14 +112,6 @@ const projects = computed (() => [
 ])
 
 const content = computed (() => data.value.data.attributes)
-
-const pages = computed (() => ({
-  es: '/es/',
-  en: '/en/',
-  it: '/it/',
-  fr: '/fr/',
-}))
-
 const siteUrl = `${config.SITE_URL}${route.fullPath}`;
 const metaDataParsed = $SeoMetaData(data?.value, siteUrl);
 

@@ -132,6 +132,24 @@
     </section>
 
 
+    <section class="two-col-section">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center next-page-button">
+          <div class="col-md-6 text-left">
+            <NuxtLink class="nav-link" rel="" to="/es/cubiertas/modelo-arena-padel"
+              ><i class="fa-fw fa-solid fa-plus g-text"></i>Ver cubierta Arena
+            </NuxtLink>
+          </div>
+          <div class="col-md-6 text-right">
+            <NuxtLink class="nav-link" rel="" to="/es/cubiertas/modelo-multy-padel"
+              ><i class="fa-fw fa-solid fa-plus g-text"></i>Ver cubierta Multy
+            </NuxtLink>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
 </template>

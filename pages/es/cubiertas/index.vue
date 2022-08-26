@@ -21,6 +21,23 @@
         <LanguageSelector :languagePage="pages" />
       </div>
     </section>
+
+    <section class="two-col-section">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-md-10">
+            <p class="text-center">
+              Los deportes de raqueta como el pádel son susceptibles al viento, la lluvia, el sol y los des-lumbramientos, por eso elegir una cubierta es fundamental para poder <strong>disfrutarlo en las mejores condiciones.</strong>
+            </p>
+            <img 
+              src="~/assets/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
+              alt="Pádel 365 días al año"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="two-col-section">
       <div class="container">
         <div class="row d-flex align-items-center">

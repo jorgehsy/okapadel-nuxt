@@ -83,7 +83,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2>Quelle couverture Arena Padel <strong>allez-vous choisir?</strong></h2>
-            <Carousel :items="projects" to="/fr/projets/" />
+            <Carousel :items="projects" to="/fr/projets/" button="Voir plus" />
           </div>
         </div>
       </div>
@@ -116,6 +116,23 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="two-col-section">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center next-page-button">
+          <div class="col-md-6 text-left">
+            <NuxtLink class="nav-link" rel="" to="/fr/couvertures/multy-padel"
+              ><i class="fa-fw fa-solid fa-plus g-text"></i>Voir la couverture Multy
+            </NuxtLink>
+          </div>
+          <div class="col-md-6 text-right">
+            <NuxtLink class="nav-link" rel="" to="/fr/couvertures/single-padel"
+              ><i class="fa-fw fa-solid fa-plus g-text"></i>Voir la couverture Single
+            </NuxtLink>
           </div>
         </div>
       </div>

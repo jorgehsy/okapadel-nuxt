@@ -88,7 +88,7 @@
             <h2 class="fw-section-title pt-0">
               <strong>Qual è la vostra </strong>copertura single padel?
             </h2>
-            <Carousel :items="projects" to="/it/progetti/" />
+            <Carousel :items="projects" to="/it/progetti/" button="Per saperne di più" />
           </div>
         </div>
       </div>
@@ -125,6 +125,22 @@
       </div>
     </section>
 
+    <section class="two-col-section">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center next-page-button">
+          <div class="col-md-6 text-left">
+            <NuxtLink class="nav-link" rel="" to="/it/coperture/arena-padel"
+              ><i class="fa-fw fa-solid fa-plus g-text"></i>Ver cubierta Arena
+            </NuxtLink>
+          </div>
+          <div class="col-md-6 text-right">
+            <NuxtLink class="nav-link" rel="" to="/it/coperture/multy-padel"
+              ><i class="fa-fw fa-solid fa-plus g-text"></i>Vedi copertura Multy 
+            </NuxtLink>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <ContactForm :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>

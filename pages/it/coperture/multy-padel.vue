@@ -80,7 +80,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2>Che tendostruttura Multy Padel <strong>vi piace?</strong></h2>
-            <Carousel :items="projects" to="/it/progetti/" />
+            <Carousel :items="projects" to="/it/progetti/" button="Per saperne di più" />
           </div>
         </div>
       </div>
@@ -112,6 +112,23 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="two-col-section">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center next-page-button">
+          <div class="col-md-6 text-left">
+            <NuxtLink class="nav-link" rel="" to="/it/coperture/arena-padel"
+              ><i class="fa-fw fa-solid fa-plus g-text"></i>Ver cubierta Arena
+            </NuxtLink>
+          </div>
+          <div class="col-md-6 text-right">
+            <NuxtLink class="nav-link" rel="" to="/it/coperture/single-padel"
+              ><i class="fa-fw fa-solid fa-plus g-text"></i>Vedi copertura Single 
+            </NuxtLink>
           </div>
         </div>
       </div>

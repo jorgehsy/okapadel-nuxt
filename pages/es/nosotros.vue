@@ -48,7 +48,7 @@
               Ventajas de ser un servicio <strong>Todo-en-Uno</strong>
             </h2>
             <p class="lead">
-              La creación de unas instalaciones de pádel pueden llegar a ser muy costosas en tiempo y dinero, si se contrata más de un proveedor. Por eso, nosotros englobamos todos esos servicios en uno: desde la construcción de la pista a la rotulación de la cubierta de pádel.
+              La creación de unas instalaciones de pádel pueden llegar a ser muy costosas en tiempo y dinero, si se contrata más de un proveedor. Por eso, nosotros englobamos todos esos servicios en uno: desde el montaje de la pista a la rotulación de la cubierta de pádel.
             </p>
           </div>
         </div>

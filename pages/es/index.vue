@@ -65,7 +65,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2 class="fw-section-title">
-              <strong>Proyectos</strong> de pádel que hemos realizado
+              <strong>Proyectos</strong> de pistas de pádel que hemos realizado
             </h2>
             <Carousel :items="projects" to="/es/proyectos/" />
           </div>
@@ -84,6 +84,7 @@ const { $SeoMetaData } = useNuxtApp()
 const { find } = useStrapi4()
 const route = useRoute()
 const config = useRuntimeConfig();
+
 const { data } = await useAsyncData(
   'homepage',
   () => find<DefaultContent>('homepage', {locale: 'es'})
@@ -112,8 +113,8 @@ const projects = computed (() => [
 
 const content = computed (() => data.value.data.attributes)
 const siteUrl = `${config.SITE_URL}${route.fullPath}`;
-const metaData = data?.value?.data?.attributes?.seo;
 const metaDataParsed = $SeoMetaData(data?.value, siteUrl);
 
 useHead(metaDataParsed);
+
 </script>

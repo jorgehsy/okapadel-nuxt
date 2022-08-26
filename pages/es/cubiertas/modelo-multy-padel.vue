@@ -109,15 +109,28 @@
                     Multy esperandote!<br />
                   </h2>
                   <p class="lead text-center">
-                    Y si necesitas
-                    <strong><em>una medida especial</em></strong> para cubrir
-                    tus instalaciones, nuestro equipo técnico se encargará de
-                    crear un modelo de cubierta especial para tu pista
-                    individual.
+                    En el caso de que necesites <strong><em>una estructura distinta</em></strong> para tus pistas de pádel, vamos a diseñar tu cubierta de forma personalizada para cubrir una pista doble.
                   </p>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="two-col-section">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center next-page-button">
+          <div class="col-md-6 text-left">
+            <NuxtLink class="nav-link" rel="" to="/es/cubiertas/modelo-single-padel"
+              ><i class="fa-fw fa-solid fa-plus g-text"></i>Ver cubierta Single
+            </NuxtLink>
+          </div>
+          <div class="col-md-6 text-right">
+            <NuxtLink class="nav-link" rel="" to="/es/cubiertas/modelo-arena-padel"
+              ><i class="fa-fw fa-solid fa-plus g-text"></i>Ver cubierta Arena
+            </NuxtLink>
           </div>
         </div>
       </div>

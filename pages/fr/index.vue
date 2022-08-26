@@ -65,7 +65,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2 class="fw-section-title">
-              <strong>Padel court projects</strong> that we have carried out.
+              <strong>Quelques projets de courts de padel</strong> que nous avons réalisés
             </h2>
             <Carousel :items="projects" to="/fr/projets/" button="Voir plus" />
           </div>

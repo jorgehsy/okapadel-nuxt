@@ -18,9 +18,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p class="lead">Organiza torneos de pádel con nuestras pistas: <strong>“BASIC COURT”</strong> y <strong>“PANORAMIC
-                COURT”.</strong> Se fabrican en nuestras instalaciones con un diseño propio y cumplen con las normativas
-              de la <strong><em>Federación Española de Pádel, Federación Internacional del Pádel y World Padel
-                  Tour.</em></strong><br></p>
+                COURT”.</strong> Se fabrican en nuestras instalaciones con un diseño propio y cumplen con la normativas de la Federación Española de Pádel y la Federación Internacional del Pádel </p>
           </div>
         </div>
       </div>
