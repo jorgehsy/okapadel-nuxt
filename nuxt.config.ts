@@ -40,6 +40,14 @@ export default defineNuxtConfig({
     DEFAULT_LANGUAGE: process.env.DEFAULT_LANGUAGE,
     SITE_URL: process.env.SITE_URL,
   },
+  build: {
+    extractCSS: true
+  },
+  buildModules: [
+    ['@nuxt-modules/compression', {
+      algorithm: 'brotliCompress'
+    }]
+  ],
   meta: {
     title: siteName,
     meta: [
