@@ -52,7 +52,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/home/somos-fabricantes-de-espacios-de-padel-min.webp"
+              src="~/assets/images/home/somos-fabricantes-de-espacios-de-padel-min.jpg"
             />
           </div>
           <div class="col-md-6" v-html="content.thirdSection?.rightColumn">
@@ -92,19 +92,19 @@ const { data } = await useAsyncData(
 
 const projects = computed (() => [
   {
-    image: "proyectos-de-padel-que-hemos-realizado-first-slide-min.webp",
+    image: "proyectos-de-padel-que-hemos-realizado-first-slide-min.jpg",
     imageAlt: "proyectos-de-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "proyectos-de-padel-que-hemos-realizado-second-slide-min.webp",
+    image: "proyectos-de-padel-que-hemos-realizado-second-slide-min.jpg",
     imageAlt: "proyectos-de-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "proyectos-de-padel-que-hemos-realizado-third-slide-min.webp",
+    image: "proyectos-de-padel-que-hemos-realizado-third-slide-min.jpg",
     imageAlt: "proyectos-de-padel-que-hemos-realizado",
     title: "",
     subtitle: "",

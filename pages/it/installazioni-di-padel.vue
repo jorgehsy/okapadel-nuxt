@@ -47,7 +47,7 @@
         <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.webp"
+              src="~/assets/images/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.jpg"
               alt="Produttori  di campi da padel con servicio integrale per l’installazione del campo"
             />
           </div>
@@ -65,7 +65,7 @@
         >
           <div class="col-md-6">
             <img 
-              src="~/assets/images/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.webp"
+              src="~/assets/images/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.jpg"
             />
           </div>
           <div class="col-md-6">

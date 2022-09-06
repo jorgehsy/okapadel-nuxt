@@ -38,7 +38,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <img
-              src="~/assets/images/cubiertas__modelo_single_padel/permiten-una-instalacion-rapida-y-rentable-min.webp"
+              src="~/assets/images/cubiertas__modelo_single_padel/permiten-una-instalacion-rapida-y-rentable-min.jpg"
               alt="carpa modular para pistas de pádel individuales"
             />
           </div>
@@ -54,7 +54,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <img
-              src="~/assets/images/cubiertas__modelo_single_padel/_descubre-los-cerramientos-del-single-padel-min.webp"
+              src="~/assets/images/cubiertas__modelo_single_padel/_descubre-los-cerramientos-del-single-padel-min.jpg"
               alt="Completa la cubierta de tu pista de pádel a tu manera"
             />
           </div>
@@ -71,7 +71,7 @@
         >
           <div class="col-md-6">
             <img
-              src="~/assets/images/cubiertas__modelo_single_padel/y-las-fijaciones-de-la-cubierta-individual-min.webp"
+              src="~/assets/images/cubiertas__modelo_single_padel/y-las-fijaciones-de-la-cubierta-individual-min.jpg"
               alt="Sujeta sólidamente y sin complicaciones la cubierta de tu pista de pádel"
             />
           </div>
@@ -130,12 +130,12 @@
         <div class="row d-flex align-items-center justify-content-center next-page-button">
           <div class="col-md-6 text-left">
             <NuxtLink class="nav-link" rel="" to="/fr/couvertures/arena-padel"
-              ><i class="fa-fw fa-solid fa-plus g-text"></i>Voir la couverture Arena
+              >Voir la couverture Arena
             </NuxtLink>
           </div>
           <div class="col-md-6 text-right">
             <NuxtLink class="nav-link" rel="" to="/fr/couvertures/multy-padel"
-              ><i class="fa-fw fa-solid fa-plus g-text"></i>Voir la couverture Multy
+              >Voir la couverture Multy
             </NuxtLink>
           </div>
         </div>
@@ -161,19 +161,19 @@ const { data } = await useAsyncData("cubierta-single-padel-page", () =>
 
 const projects = computed(() => [
   {
-    image: "que-cubierta-de-single-padel-es-la-tuya-first-slide-min.webp",
+    image: "que-cubierta-de-single-padel-es-la-tuya-first-slide-min.jpg",
     imageAlt: "cubierta-de-single-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-de-single-padel-es-la-tuya-second-slide-min.webp",
+    image: "que-cubierta-de-single-padel-es-la-tuya-second-slide-min.jpg",
     imageAlt: "cubierta-de-single-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-de-single-padel-es-la-tuya-third-slide-min.webp",
+    image: "que-cubierta-de-single-padel-es-la-tuya-third-slide-min.jpg",
     imageAlt: "cubierta-de-single-padel-que-hemos-realizado",
     title: "",
     subtitle: "",

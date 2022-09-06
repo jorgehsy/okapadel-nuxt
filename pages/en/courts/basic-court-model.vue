@@ -44,7 +44,7 @@
           </div>
           <div class="col-md-6 two-col-section">
             <img 
-              src="~/assets/images/pistas__modelo_basic_court/la-pista-de-padel-basic-court-min.webp"
+              src="~/assets/images/pistas__modelo_basic_court/la-pista-de-padel-basic-court-min.jpg"
               alt="Versatile padel courts that are easy to install and maintain. "
             />
           </div>
@@ -70,7 +70,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/pistas__modelo_basic_court/sujecion-min.webp"
+              src="~/assets/images/pistas__modelo_basic_court/sujecion-min.jpg"
               alt="Anchors and fasteners for our Basic Court model: easy installation and maintenance with total security and all possible guarantees. "
             />
           </div>
@@ -86,7 +86,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12 pb-3">
             <img 
-              src="~/assets/images/pistas__modelo_basic_court/vidrios-templados-min.webp"
+              src="~/assets/images/pistas__modelo_basic_court/vidrios-templados-min.jpg"
               alt="Glass panes for padel courts – glass padel courts. "
             />
           </div>
@@ -102,7 +102,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/pistas__modelo_basic_court/pintura-min.webp"
+              src="~/assets/images/pistas__modelo_basic_court/pintura-min.jpg"
               alt="Ecological, zero-VOC paint for padel courts"
             />
           </div>
@@ -117,7 +117,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <img  src="~/assets/images/pistas__modelo_basic_court/cesped-min.webp" alt="Artificial padel court turf. " />
+            <img  src="~/assets/images/pistas__modelo_basic_court/cesped-min.jpg" alt="Artificial padel court turf. " />
           </div>
           <div class="col-md-6">
             <div v-html="content.sixthSection?.leftColumn"></div>
@@ -131,7 +131,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/pistas__modelo_basic_court/iluminacion-min.webp" alt="Padel court spotlights - LED lighting for padel courts." />
+            <img  src="~/assets/images/pistas__modelo_basic_court/iluminacion-min.jpg" alt="Padel court spotlights - LED lighting for padel courts." />
           </div>
           <div class="col-md-6">
             <div v-html="content.seventhSection?.rightColumn"></div>
@@ -157,7 +157,7 @@
         <div class="row d-flex align-items-center justify-content-center next-page-button">
           <div class="col-md-6 text-center">
             <NuxtLink class="nav-link" rel="" to="/en/courts/panoramic-court-model"
-              ><i class="fa-fw fa-solid fa-plus g-text"></i>See our Panoramic Court 
+              >See our Panoramic Court 
             </NuxtLink>
           </div>
         </div>

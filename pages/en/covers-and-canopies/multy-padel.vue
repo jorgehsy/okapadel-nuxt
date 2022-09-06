@@ -34,7 +34,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <img
-              src="~/assets/images/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.webp"
+              src="~/assets/images/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.jpg"
               alt="Multy Model: Expandable modular pavilion for padel courts. "
             />
           </div>
@@ -50,7 +50,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <img
-              src="~/assets/images/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.webp"
+              src="~/assets/images/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.jpg"
               alt="Top off your padel court canopy in a personalized way. "
             />
           </div>
@@ -65,7 +65,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <img
-              src="~/assets/images/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.webp"
+              src="~/assets/images/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.jpg"
               alt="We take care of your padel pavilion's anchoring in a totally safe and durable way"
             />
           </div>
@@ -121,12 +121,12 @@
         <div class="row d-flex align-items-center justify-content-center next-page-button">
           <div class="col-md-6 text-left">
             <NuxtLink class="nav-link" rel="" to="/en/covers-and-canopies/single-padel-court-model"
-              ><i class="fa-fw fa-solid fa-plus g-text"></i>See the Single model
+              >See the Single model
             </NuxtLink>
           </div>
           <div class="col-md-6 text-right">
             <NuxtLink class="nav-link" rel="" to="/en/covers-and-canopies/arena-padel-court"
-              ><i class="fa-fw fa-solid fa-plus g-text"></i>See the Arena Court Cover
+              >See the Arena Court Cover
             </NuxtLink>
           </div>
         </div>
@@ -151,19 +151,19 @@ const { data } = await useAsyncData("cubierta-multy-padel-page", () =>
 
 const projects = computed(() => [
   {
-    image: "que-cubierta-de-multy-padel-te-gusta-first-slide-min.webp",
+    image: "que-cubierta-de-multy-padel-te-gusta-first-slide-min.jpg",
     imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-de-multy-padel-te-gusta-second-slide-min.webp",
+    image: "que-cubierta-de-multy-padel-te-gusta-second-slide-min.jpg",
     imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-de-multy-padel-te-gusta-third-slide-min.webp",
+    image: "que-cubierta-de-multy-padel-te-gusta-third-slide-min.jpg",
     imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
     title: "",
     subtitle: "",

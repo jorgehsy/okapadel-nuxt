@@ -36,7 +36,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <img
-              src="~/assets/images/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.webp"
+              src="~/assets/images/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.jpg"
               alt="pabellón modular para cubrir de 2 a 6 pistas de pádel"
             />
           </div>
@@ -52,7 +52,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <img
-              src="~/assets/images/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.webp"
+              src="~/assets/images/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.jpg"
               alt="Completa de forma personalizada la cubierta de tus pistas de pádel"
             />
           </div>
@@ -67,7 +67,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <img
-              src="~/assets/images/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.webp"
+              src="~/assets/images/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.jpg"
               alt="Sujeta sólidamente y sin complicaciones la cubierta de tu pista de pádel"
             />
           </div>
@@ -124,12 +124,12 @@
         <div class="row d-flex align-items-center justify-content-center next-page-button">
           <div class="col-md-6 text-left">
             <NuxtLink class="nav-link" rel="" to="/es/cubiertas/modelo-single-padel"
-              ><i class="fa-fw fa-solid fa-plus g-text"></i>Ver cubierta Single
+              >Ver cubierta Single
             </NuxtLink>
           </div>
           <div class="col-md-6 text-right">
             <NuxtLink class="nav-link" rel="" to="/es/cubiertas/modelo-arena-padel"
-              ><i class="fa-fw fa-solid fa-plus g-text"></i>Ver cubierta Arena
+              >Ver cubierta Arena
             </NuxtLink>
           </div>
         </div>
@@ -154,19 +154,19 @@ const { data } = await useAsyncData("cubierta-multy-padel-page", () =>
 
 const projects = computed(() => [
   {
-    image: "que-cubierta-de-multy-padel-te-gusta-first-slide-min.webp",
+    image: "que-cubierta-de-multy-padel-te-gusta-first-slide-min.jpg",
     imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-de-multy-padel-te-gusta-second-slide-min.webp",
+    image: "que-cubierta-de-multy-padel-te-gusta-second-slide-min.jpg",
     imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-de-multy-padel-te-gusta-third-slide-min.webp",
+    image: "que-cubierta-de-multy-padel-te-gusta-third-slide-min.jpg",
     imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
     title: "",
     subtitle: "",

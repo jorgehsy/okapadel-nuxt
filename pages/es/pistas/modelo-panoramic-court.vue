@@ -44,7 +44,7 @@
             <div v-html="content.firstSection?.leftColumn"></div>
           </div>
           <div class="col-md-6 two-col-section">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/la-pista-de-padel-panoramic-court-min.webp" alt="Pista de pádel panorámica diáfana de alta calidad" />
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/la-pista-de-padel-panoramic-court-min.jpg" alt="Pista de pádel panorámica diáfana de alta calidad" />
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/sujecion-min.webp" alt="Sujecciones y anclajes para las pistas panorámicas de Okapadel" />
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/sujecion-min.jpg" alt="Sujecciones y anclajes para las pistas panorámicas de Okapadel" />
           </div>
           <div class="col-md-6">
             <div v-html="content.thirdSection?.rightColumn"></div>
@@ -80,7 +80,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12 pb-3">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/vidrios-templados-min.webp" alt="Vidrios templados para pistas panorámicas de pádel - Okapadel Panoramic Court" />
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/vidrios-templados-min.jpg" alt="Vidrios templados para pistas panorámicas de pádel - Okapadel Panoramic Court" />
           </div>
           <div class="col-md-6">
             <div v-html="content.fourthSection?.leftColumn"></div>
@@ -93,7 +93,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-              <img  src="~/assets/images/pistas__modelo_panoramic_court/pintura-min.webp" alt="Pinturas ecológicas de gran durabilidad"/>
+              <img  src="~/assets/images/pistas__modelo_panoramic_court/pintura-min.jpg" alt="Pinturas ecológicas de gran durabilidad"/>
           </div>
           <div class="col-md-6 mt-4">
             <div v-html="content.fifthSection?.rightColumn"></div>
@@ -106,7 +106,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/cesped-min.webp" alt="Césped pistas de pádel panorámicas"/>
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/cesped-min.jpg" alt="Césped pistas de pádel panorámicas"/>
           </div>
           <div class="col-md-6">
             <div v-html="content.sixthSection?.leftColumn"></div>
@@ -119,7 +119,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/iluminacion-min.webp" alt="Iluminación LED para pistas de pádel"/>
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/iluminacion-min.jpg" alt="Iluminación LED para pistas de pádel"/>
           </div>
           <div class="col-md-6">
             <div v-html="content.seventhSection?.rightColumn"></div>
@@ -146,7 +146,7 @@
         <div class="row d-flex align-items-center justify-content-center next-page-button">
           <div class="col-md-6 text-center">
             <NuxtLink class="nav-link" rel="" to="/es/pistas/modelo-panoramic-court"
-              ><i class="fa-fw fa-solid fa-plus g-text"></i>Ver pista panoramic
+              >Ver pista panoramic
             </NuxtLink>
           </div>
         </div>

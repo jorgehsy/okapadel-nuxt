@@ -44,7 +44,7 @@
           </div>
           <div class="col-md-6 two-col-section">
             <img 
-              src="~/assets/images/pistas__modelo_basic_court/la-pista-de-padel-basic-court-min.webp"
+              src="~/assets/images/pistas__modelo_basic_court/la-pista-de-padel-basic-court-min.jpg"
               alt="Campi da padel versatile, facile da installare e da mantenere"
             />
           </div>
@@ -70,7 +70,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/pistas__modelo_basic_court/sujecion-min.webp"
+              src="~/assets/images/pistas__modelo_basic_court/sujecion-min.jpg"
               alt="I nostri campi da padel Basic Court, sono di facile installazione e manutenzione, con sicurezza e garanzia totali."
             />
           </div>
@@ -86,7 +86,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12 pb-3">
             <img 
-              src="~/assets/images/pistas__modelo_basic_court/vidrios-templados-min.webp"
+              src="~/assets/images/pistas__modelo_basic_court/vidrios-templados-min.jpg"
               alt="Vetri per campi da padel"
             />
           </div>
@@ -102,7 +102,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <img 
-              src="~/assets/images/pistas__modelo_basic_court/pintura-min.webp"
+              src="~/assets/images/pistas__modelo_basic_court/pintura-min.jpg"
               alt="Vernice ecologica per campi da padel"
             />
           </div>
@@ -117,7 +117,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <img  src="~/assets/images/pistas__modelo_basic_court/cesped-min.webp" alt="Erba artificiale padel" />
+            <img  src="~/assets/images/pistas__modelo_basic_court/cesped-min.jpg" alt="Erba artificiale padel" />
           </div>
           <div class="col-md-6">
             <div v-html="content.sixthSection?.leftColumn"></div>
@@ -131,7 +131,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/pistas__modelo_basic_court/iluminacion-min.webp" alt="Illuminazione led per campi da padel" />
+            <img  src="~/assets/images/pistas__modelo_basic_court/iluminacion-min.jpg" alt="Illuminazione led per campi da padel" />
           </div>
           <div class="col-md-6">
             <div v-html="content.seventhSection?.rightColumn"></div>
@@ -158,7 +158,7 @@
         <div class="row d-flex align-items-center justify-content-center next-page-button">
           <div class="col-md-6 text-center">
             <NuxtLink class="nav-link" rel="" to="/it/campi/modello-panoramic-court"
-              ><i class="fa-fw fa-solid fa-plus g-text"></i>Modello Panoramic Court
+              >Modello Panoramic Court
             </NuxtLink>
           </div>
         </div>

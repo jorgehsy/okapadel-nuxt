@@ -37,7 +37,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <img
-              src="~/assets/images/cubiertas__modelo_arena_padel/sorprende-con-un-modelo-de-campeonato-min.webp"
+              src="~/assets/images/cubiertas__modelo_arena_padel/sorprende-con-un-modelo-de-campeonato-min.jpg"
               alt="Abbiamo più di 5  modelli di coperture Arena padel che vi aspettano"
             />
           </div>
@@ -53,7 +53,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <img
-              src="~/assets/images/cubiertas__modelo_arena_padel/completa-tu-pabellon-modular-con-los-cerramientos-del-arena-padel-min.webp"
+              src="~/assets/images/cubiertas__modelo_arena_padel/completa-tu-pabellon-modular-con-los-cerramientos-del-arena-padel-min.jpg"
               alt="Completa tu pabellón modular con los cerramientos para cubiertas Arena Padel"
             />
           </div>
@@ -68,7 +68,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <img
-              src="~/assets/images/cubiertas__modelo_arena_padel/y-las-fijaciones-de-una-gran-cubierta-min.webp"
+              src="~/assets/images/cubiertas__modelo_arena_padel/y-las-fijaciones-de-una-gran-cubierta-min.jpg"
               alt="Fijaciones firmes, seguras y garantizadas para tu pabellón Arena Padel"
             />
           </div>
@@ -126,12 +126,12 @@
         <div class="row d-flex align-items-center justify-content-center next-page-button">
           <div class="col-md-6 text-left">
             <NuxtLink class="nav-link" rel="" to="/it/coperture/multy-padel"
-              ><i class="fa-fw fa-solid fa-plus g-text"></i>Ver cubierta Multy
+              >Ver cubierta Multy
             </NuxtLink>
           </div>
           <div class="col-md-6 text-right">
             <NuxtLink class="nav-link" rel="" to="/it/coperture/single-padel"
-              ><i class="fa-fw fa-solid fa-plus g-text"></i>Vedi copertura Single 
+              >Vedi copertura Single 
             </NuxtLink>
           </div>
         </div>
@@ -157,19 +157,19 @@ const { data } = await useAsyncData("cubierta-arena-padel-page", () =>
 
 const projects = computed(() => [
   {
-    image: "que-cubierta-arena-padel-eliges-first-slide--min.webp",
+    image: "que-cubierta-arena-padel-eliges-first-slide--min.jpg",
     imageAlt: "cubierta-de-arena-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-arena-padel-eliges-second-slide--min.webp",
+    image: "que-cubierta-arena-padel-eliges-second-slide--min.jpg",
     imageAlt: "cubierta-de-arena-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-arena-padel-eliges-third-slide--min.webp",
+    image: "que-cubierta-arena-padel-eliges-third-slide--min.jpg",
     imageAlt: "cubierta-de-arena-padel-que-hemos-realizado",
     title: "",
     subtitle: "",

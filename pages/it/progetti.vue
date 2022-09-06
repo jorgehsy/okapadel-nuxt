@@ -53,15 +53,15 @@ const { data } = await useAsyncData(
 
 const content = computed (() => data.value.data.attributes)
 const projects = computed (() => [
-    { id: 1, image: "/_nuxt/assets/images/proyectos/proyectos-arena-padel-milan-min.webp", name: "Copertura Arena Padel Milán", description: "..." },
-    { id: 2, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-baskonia-victoria-spain-min.webp", name: "Copertura Multy Padel Baskonia Victoria España", description: "..." },
-    { id: 3, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-dunk-min.webp", name: "Copertura Multy Padel Dunk", description: "..." },
-    { id: 4, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-lagrajera-logrono-spain-min.webp", name: "Copertura Multy Padel Lagrajera Logrono España", description: "..." },
-    { id: 5, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-odrimont-belgium-min.webp", name: "Copertura Multy Padel Odrimont Bélgica", description: "..." },
-    { id: 6, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-toulouse-france-min.webp", name: "Copertura Multy Padel Toulouse Francia", description: "..." },
-    { id: 7, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-wolouwe-belgium-min.webp", name: "Copertura Multy Padel Wolouwe Bélgica", description: "..." },
-    { id: 8, image: "/_nuxt/assets/images/proyectos/proyectos-single-padel-jodoine-belgium-min.webp", name: "Copertura Single Padel Jodoine Bélgica", description: "..." },
-    { id: 9, image: "/_nuxt/assets/images/proyectos/proyectos-single-padel-tremblay-france-min.webp", name: "Copertura Single Padel Tremblay Francia", description: "..." },
+    { id: 1, image: "/_nuxt/assets/images/proyectos/proyectos-arena-padel-milan-min.jpg", name: "Copertura Arena Padel Milán", description: "..." },
+    { id: 2, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-baskonia-victoria-spain-min.jpg", name: "Copertura Multy Padel Baskonia Victoria España", description: "..." },
+    { id: 3, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-dunk-min.jpg", name: "Copertura Multy Padel Dunk", description: "..." },
+    { id: 4, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-lagrajera-logrono-spain-min.jpg", name: "Copertura Multy Padel Lagrajera Logrono España", description: "..." },
+    { id: 5, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-odrimont-belgium-min.jpg", name: "Copertura Multy Padel Odrimont Bélgica", description: "..." },
+    { id: 6, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-toulouse-france-min.jpg", name: "Copertura Multy Padel Toulouse Francia", description: "..." },
+    { id: 7, image: "/_nuxt/assets/images/proyectos/proyectos-multy-padel-wolouwe-belgium-min.jpg", name: "Copertura Multy Padel Wolouwe Bélgica", description: "..." },
+    { id: 8, image: "/_nuxt/assets/images/proyectos/proyectos-single-padel-jodoine-belgium-min.jpg", name: "Copertura Single Padel Jodoine Bélgica", description: "..." },
+    { id: 9, image: "/_nuxt/assets/images/proyectos/proyectos-single-padel-tremblay-france-min.jpg", name: "Copertura Single Padel Tremblay Francia", description: "..." },
 ])
 
 const pages = computed (() => ({

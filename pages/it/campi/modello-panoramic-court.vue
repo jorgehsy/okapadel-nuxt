@@ -44,7 +44,7 @@
             <div v-html="content.firstSection?.leftColumn"></div>
           </div>
           <div class="col-md-6 two-col-section">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/la-pista-de-padel-panoramic-court-min.webp" 
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/la-pista-de-padel-panoramic-court-min.jpg" 
             alt="Campi panoramici con massima visibilità e ottime finiture." />
           </div>
         </div>
@@ -68,7 +68,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/sujecion-min.webp" 
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/sujecion-min.jpg" 
             alt="Fissaggi e ancoraggi per campi panoramici Okapadel " />
           </div>
           <div class="col-md-6">
@@ -82,7 +82,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12 pb-3">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/vidrios-templados-min.webp" 
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/vidrios-templados-min.jpg" 
             alt="Vetri temperati per campi panoramici di padel – Okapadel Panoramic Court" />
           </div>
           <div class="col-md-6">
@@ -96,7 +96,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-              <img  src="~/assets/images/pistas__modelo_panoramic_court/pintura-min.webp" 
+              <img  src="~/assets/images/pistas__modelo_panoramic_court/pintura-min.jpg" 
               alt="Vernice ecologica ad alta resistenza"/>
           </div>
           <div class="col-md-6 mt-4">
@@ -110,7 +110,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/cesped-min.webp" 
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/cesped-min.jpg" 
             alt="Erba artificiale padel"/>
           </div>
           <div class="col-md-6">
@@ -124,7 +124,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/pistas__modelo_panoramic_court/iluminacion-min.webp" 
+            <img  src="~/assets/images/pistas__modelo_panoramic_court/iluminacion-min.jpg" 
             alt="Illuminazione  LED per  campi da padel"/>
           </div>
           <div class="col-md-6">
@@ -153,7 +153,7 @@
         <div class="row d-flex align-items-center justify-content-center next-page-button">
           <div class="col-md-6 text-center">
             <NuxtLink class="nav-link" rel="" to="/it/campi/modello-basic-court"
-              ><i class="fa-fw fa-solid fa-plus g-text"></i>Modello Basic Court
+              >Modello Basic Court
             </NuxtLink>
           </div>
         </div>
