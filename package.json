@@ -11,6 +11,7 @@
     "@nuxt/image-edge": "^1.0.0-27628766.3629b9a",
     "@nuxtjs/strapi": "^1.5.0",
     "nuxt": "3.0.0-rc.6",
+    "nuxt-compress": "^5.0.0",
     "sass": "^1.53.0",
     "sass-loader": "10",
     "vite-plugin-compression": "^0.5.1"

@@ -13,6 +13,17 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
     'bootstrap-vue/nuxt',
     '@nuxtjs/strapi',
+    [
+      'nuxt-compress',
+      {
+        gzip: {
+          threshold: 8192,
+        },
+        brotli: {
+          threshold: 8192,
+        },
+      },
+    ],
   ],
   strapi: {
     url: process.env.API_URL
