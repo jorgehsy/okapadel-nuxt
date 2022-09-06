@@ -145,8 +145,8 @@
       <div class="container">
         <div class="row d-flex align-items-center justify-content-center next-page-button">
           <div class="col-md-6 text-center">
-            <NuxtLink class="nav-link" rel="" to="/es/pistas/modelo-panoramic-court"
-              >Ver pista panoramic
+            <NuxtLink class="nav-link" rel="" to="/es/pistas/modelo-basic-court"
+              >Ver pista basic
             </NuxtLink>
           </div>
         </div>
