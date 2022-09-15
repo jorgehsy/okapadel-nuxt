@@ -15,11 +15,8 @@
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">
-            <h1 class="hero-title">
-              <strong>Crea una comunidad </strong> al rededor de tus nuevas
-              instalaciones de pádel.
-            </h1>
-            <p class="d-none hero-subtitle"></p>
+            <h1 class="hero-title" v-html="content.title"></h1>
+            <p class="hero-subtitle" v-if="content.subtitle" v-html="content.subtitle"></p>
           </div>
         </div>
         <LanguageSelector :languagePage="pages" />
