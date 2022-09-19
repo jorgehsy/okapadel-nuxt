@@ -1,24 +1,24 @@
 <template>
   <div>
     <div class="row position-relative lang-selector">
-      <div class="col-md-12">
+      <div class="col-md-12" id="language-selector">
         <ul class="list-group list-group-horizontal">
           <li class="list-group-item" v-if="currentLang !== 'es' ">
-            <a class="btn btn-link" :href="languagePage.es">
+            <a class="btn btn-link" :href="languagePage.es" hreflang="es">
               ES
             </a>
           </li>
-          <li class="list-group-item" v-if="currentLang !== 'en'">
+          <li class="list-group-item" v-if="currentLang !== 'en'" hreflang="en" >
             <a class="btn btn-link" :href="languagePage.en">
               EN
             </a>
           </li>
-          <li class="list-group-item" v-if="currentLang !== 'fr'">
+          <li class="list-group-item" v-if="currentLang !== 'fr'" hreflang="fr" >
             <a class="btn btn-link" :href="languagePage.fr">
               FR
             </a>
           </li>
-          <li class="list-group-item" v-if="currentLang !== 'it'" >
+          <li class="list-group-item" v-if="currentLang !== 'it'" hreflang="it">
             <a class="btn btn-link" :href="languagePage.it">
               IT
             </a>

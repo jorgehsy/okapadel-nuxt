@@ -91,7 +91,7 @@
               <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
-                to="/en/covers-and-canopies/single-padel-court-model/"
+                to="/en/covers-and-canopies/single-padel-court-model"
                 >See the Single model
               </NuxtLink>
             </div>
@@ -109,7 +109,7 @@
               <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
-                to="/en/covers-and-canopies/multy-padel/"
+                to="/en/covers-and-canopies/multy-padel"
                 >See the Multy Court Cover
               </NuxtLink>
             </div>
@@ -139,7 +139,7 @@
               <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
-                to="/en/covers-and-canopies/arena-padel-court/"
+                to="/en/covers-and-canopies/arena-padel-court"
                 >See the Arena Court Cover
               </NuxtLink>
             </div>

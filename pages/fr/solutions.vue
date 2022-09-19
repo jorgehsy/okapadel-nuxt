@@ -33,7 +33,7 @@
           <div class="col-md-6">
             <div class="mb-3" v-html="content.firstSection?.rightColumn"></div>
             <div class="text-center">
-              <NuxtLink class="btn btn-secondary" rel="" to="/fr/couvertures/"
+              <NuxtLink class="btn btn-secondary" rel="" to="/fr/couvertures"
               >Voir les couvertures</NuxtLink>
             </div>
           </div>
@@ -49,7 +49,7 @@
           <div class="col-md-6 order-md-1">
             <div class="mb-3" v-html="content.secondSection?.leftColumn"></div>
             <div class="text-center">
-              <NuxtLink class="btn btn-secondary" rel="" to="/fr/courts/"
+              <NuxtLink class="btn btn-secondary" rel="" to="/fr/courts"
               >Voir les courts</NuxtLink>
             </div>
           </div>

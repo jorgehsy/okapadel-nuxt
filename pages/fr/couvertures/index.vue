@@ -91,7 +91,7 @@
               <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
-                to="/fr/couvertures/single-padel/"
+                to="/fr/couvertures/single-padel"
                 >Voir la couverture Single Padel
               </NuxtLink>
             </div>
@@ -109,7 +109,7 @@
               <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
-                to="/fr/couvertures/multy-padel/"
+                to="/fr/couvertures/multy-padel"
                 >Voir la couverture Multy Padel
               </NuxtLink>
             </div>
@@ -139,7 +139,7 @@
               <NuxtLink
                 class="btn btn-secondary"
                 rel="next"
-                to="/fr/couvertures/arena-padel/"
+                to="/fr/couvertures/arena-padel"
                 >Voir le bâtiment Arena Padel
               </NuxtLink>
             </div>

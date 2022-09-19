@@ -32,7 +32,7 @@
           <div class="col-md-6">
             <div v-html="content.firstSection?.leftColumn"></div>
             <div class="button-box">
-              <NuxtLink class="btn btn-white" to="/fr/courts/modele-basic-court/"
+              <NuxtLink class="btn btn-white" to="/fr/courts/modele-basic-court"
                rel="next">Voir le court Basic</NuxtLink>
             </div>
           </div>
@@ -49,7 +49,7 @@
             <div v-html="content.secondSection?.rightColumn"></div>
 
             <div class="button-box">
-              <NuxtLink class="btn btn-white" to="/fr/courts/modele-panoramic-court/"
+              <NuxtLink class="btn btn-white" to="/fr/courts/modele-panoramic-court"
                rel="next">Voir le court Panoramic</NuxtLink>
             </div>
           </div>

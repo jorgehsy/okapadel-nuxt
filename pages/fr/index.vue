@@ -67,7 +67,7 @@
             <h2 class="fw-section-title">
               <strong>Quelques projets de courts de padel</strong> que nous avons réalisés
             </h2>
-            <Carousel :items="projects" to="/fr/projets/" button="Voir plus" />
+            <Carousel :items="projects" to="/fr/projets" button="Voir plus" />
           </div>
         </div>
       </div>

@@ -38,7 +38,7 @@
                 class="btn btn-secondary mt-4"
                 rel="external"
                 target="_blank"
-                to="https://okatent.com/certificados/"
+                to="https://okatent.com/certificados"
                 >Vedere Certificati 
               </NuxtLink>
             </div>

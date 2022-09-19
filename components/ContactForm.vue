@@ -1,5 +1,5 @@
-<template lang="">
-    <div>
+<template>
+    <div data-nosnippet="true">
       <section class="single-col-section">
         <div class="container py-5">
             <div class="row">

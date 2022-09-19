@@ -82,7 +82,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2>¿Qué cubierta de Multy Padel <strong>te gusta?</strong></h2>
-            <Carousel :items="projects" to="/es/proyectos/" />
+            <Carousel :items="projects" to="/es/proyectos" />
           </div>
         </div>
       </div>

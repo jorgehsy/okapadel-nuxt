@@ -83,7 +83,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2>Quelle couverture Arena Padel <strong>allez-vous choisir?</strong></h2>
-            <Carousel :items="projects" to="/fr/projets/" button="Voir plus" />
+            <Carousel :items="projects" to="/fr/projets" button="Voir plus" />
           </div>
         </div>
       </div>

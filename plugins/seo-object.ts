@@ -31,7 +31,7 @@ export default defineNuxtPlugin(() => {
                         { property: 'og:locale', 'content': locale },
                         { property: 'og:image:width', content: '1920' },
                         { property: 'og:image:height', content: '1080' },
-                        { property: 'og:see_also', content: 'https://okatent.com/usos/tenis-padel/' },
+                        { property: 'og:see_also', content: 'https://okatent.com/usos/tenis-padel' },
                         //facebook
                         // { property: 'fb:app_id', content: '' },
                         // { property: 'fb:pages', content: '' },

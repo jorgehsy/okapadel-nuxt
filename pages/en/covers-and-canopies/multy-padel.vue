@@ -80,7 +80,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2>What Multy canopy <strong>do you like?</strong></h2>
-            <Carousel :items="projects" to="/en/projects/" button="See more" />
+            <Carousel :items="projects" to="/en/projects" button="See more" />
           </div>
         </div>
       </div>

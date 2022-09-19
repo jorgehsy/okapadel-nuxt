@@ -80,7 +80,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2>Che tendostruttura Multy Padel <strong>vi piace?</strong></h2>
-            <Carousel :items="projects" to="/it/progetti/" button="Per saperne di più" />
+            <Carousel :items="projects" to="/it/progetti" button="Per saperne di più" />
           </div>
         </div>
       </div>

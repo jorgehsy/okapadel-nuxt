@@ -88,7 +88,7 @@
             <h2 class="fw-section-title pt-0">
               Quelle couverture Single Padel <strong>est la vôtre?</strong>
             </h2>
-            <Carousel :items="projects" to="/fr/projets/" button="Voir plus" />
+            <Carousel :items="projects" to="/fr/projets" button="Voir plus" />
           </div>
         </div>
       </div>

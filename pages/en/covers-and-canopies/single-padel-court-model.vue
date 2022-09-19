@@ -89,7 +89,7 @@
             <h2 class="fw-section-title pt-0">
               What Single model <strong>is for you?</strong>
             </h2>
-            <Carousel :items="projects" to="/en/projects/" button="See more" />
+            <Carousel :items="projects" to="/en/projects" button="See more" />
           </div>
         </div>
       </div>

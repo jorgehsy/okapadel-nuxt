@@ -90,7 +90,7 @@
             <h2 class="fw-section-title pt-0">
               ¿Qué cubierta de Single Padel <strong>es la tuya?</strong>
             </h2>
-            <Carousel :items="projects" to="/es/proyectos/" />
+            <Carousel :items="projects" to="/es/proyectos" />
           </div>
         </div>
       </div>

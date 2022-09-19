@@ -58,7 +58,7 @@
             <div class="button-box">
               <NuxtLink
                 class="btn btn-white"
-                to="/en/courts/basic-court-model/"
+                to="/en/courts/basic-court-model"
                 rel="next"
                 >See our Basic Court</NuxtLink
               >
@@ -82,7 +82,7 @@
             <div class="button-box">
               <NuxtLink
                 class="btn btn-white"
-                to="/en/courts/panoramic-court-model/"
+                to="/en/courts/panoramic-court-model"
                 rel="next"
                 >See our Panoramic Court</NuxtLink
               >
