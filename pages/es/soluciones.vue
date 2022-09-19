@@ -28,7 +28,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <nuxt-img loading="lazy" src="/images/soluciones/cubrimos-las-instalaciones-del-club-min.jpg" alt="cubierta pista de padel" />
+            <nuxt-img loading="lazy" src="/images/soluciones/cubrimos-las-instalaciones-del-club-min.webp" alt="cubierta pista de padel" />
           </div>
           <div class="col-md-6">
             <div class="mb-3" v-html="content.firstSection?.rightColumn"></div>
@@ -44,7 +44,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <nuxt-img loading="lazy" src="/images/soluciones/instalacion-de-pistas-de-padel-min.jpg" alt="Instalación de pistas de pádel" />
+            <nuxt-img loading="lazy" src="/images/soluciones/instalacion-de-pistas-de-padel-min.webp" alt="Instalación de pistas de pádel" />
           </div>
           <div class="col-md-6 order-md-1">
             <div class="mb-3" v-html="content.secondSection?.leftColumn"></div>
@@ -61,7 +61,7 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
           <div class="col-md-6 ">
-            <nuxt-img  loading="lazy" src="/images/soluciones/iluminacion-y-climatizacion-de-pistas-de-padel-min.jpg" alt="cubierta pista de padel" />
+            <nuxt-img  loading="lazy" src="/images/soluciones/iluminacion-y-climatizacion-de-pistas-de-padel-min.webp" alt="cubierta pista de padel" />
           </div>
           <div class="col-md-6">
             <div v-html="content.thirdSection?.rightColumn"></div>

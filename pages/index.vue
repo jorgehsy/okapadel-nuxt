@@ -38,7 +38,7 @@
           <div class="col-md-6 text-center">
             <div v-html="content.secondSection?.leftColumn"></div>
             <nuxt-img 
-              loading="lazy" src="/home/beneficios-de-okapadel.svg"
+              loading="lazy" src="/images/home/beneficios-de-okapadel.svg"
               alt="beneficios de okapadel"
             />
           </div>
@@ -52,7 +52,8 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <nuxt-img 
-              loading="lazy" src="/home/somos-fabricantes-de-espacios-de-padel-min.jpg"
+              loading="lazy" 
+              src="/images/home/somos-fabricantes-de-espacios-de-padel-min.webp"
             />
           </div>
           <div class="col-md-6" v-html="content.thirdSection?.rightColumn">
@@ -92,19 +93,19 @@ const { data } = await useAsyncData(
 
 const projects = computed (() => [
   {
-    image: "proyectos-de-padel-que-hemos-realizado-first-slide-min.jpg",
+    image: "proyectos-de-padel-que-hemos-realizado-first-slide-min.webp",
     imageAlt: "proyectos-de-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "proyectos-de-padel-que-hemos-realizado-second-slide-min.jpg",
+    image: "proyectos-de-padel-que-hemos-realizado-second-slide-min.webp",
     imageAlt: "proyectos-de-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "proyectos-de-padel-que-hemos-realizado-third-slide-min.jpg",
+    image: "proyectos-de-padel-que-hemos-realizado-third-slide-min.webp",
     imageAlt: "proyectos-de-padel-que-hemos-realizado",
     title: "",
     subtitle: "",

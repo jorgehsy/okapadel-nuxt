@@ -53,15 +53,15 @@ const { data } = await useAsyncData(
 
 const content = computed (() => data.value.data.attributes)
 const projects = computed (() => [
-    { id: 1, image: "/images/proyectos/proyectos-arena-padel-milan-min.jpg", name: "Arena Court Cover Milán", description: "..." },
-    { id: 2, image: "/images/proyectos/proyectos-multy-padel-baskonia-victoria-spain-min.jpg", name: "Multy Court Cover Baskonia Victoria España", description: "..." },
-    { id: 3, image: "/images/proyectos/proyectos-multy-padel-dunk-min.jpg", name: "Multy Court Cover Dunk", description: "..." },
-    { id: 4, image: "/images/proyectos/proyectos-multy-padel-lagrajera-logrono-spain-min.jpg", name: "Multy Court Cover Lagrajera Logrono España", description: "..." },
-    { id: 5, image: "/images/proyectos/proyectos-multy-padel-odrimont-belgium-min.jpg", name: "Multy Court Cover Odrimont Bélgica", description: "..." },
-    { id: 6, image: "/images/proyectos/proyectos-multy-padel-toulouse-france-min.jpg", name: "Multy Court Cover Toulouse Francia", description: "..." },
-    { id: 7, image: "/images/proyectos/proyectos-multy-padel-wolouwe-belgium-min.jpg", name: "Multy Court Cover Wolouwe Bélgica", description: "..." },
-    { id: 8, image: "/images/proyectos/proyectos-single-padel-jodoine-belgium-min.jpg", name: "Single Court Cover Jodoine Bélgica", description: "..." },
-    { id: 9, image: "/images/proyectos/proyectos-single-padel-tremblay-france-min.jpg", name: "Single Court Cover Tremblay Francia", description: "..." },
+    { id: 1, image: "/images/proyectos/proyectos-arena-padel-milan-min.webp", name: "Arena Court Cover Milán", description: "..." },
+    { id: 2, image: "/images/proyectos/proyectos-multy-padel-baskonia-victoria-spain-min.webp", name: "Multy Court Cover Baskonia Victoria España", description: "..." },
+    { id: 3, image: "/images/proyectos/proyectos-multy-padel-dunk-min.webp", name: "Multy Court Cover Dunk", description: "..." },
+    { id: 4, image: "/images/proyectos/proyectos-multy-padel-lagrajera-logrono-spain-min.webp", name: "Multy Court Cover Lagrajera Logrono España", description: "..." },
+    { id: 5, image: "/images/proyectos/proyectos-multy-padel-odrimont-belgium-min.webp", name: "Multy Court Cover Odrimont Bélgica", description: "..." },
+    { id: 6, image: "/images/proyectos/proyectos-multy-padel-toulouse-france-min.webp", name: "Multy Court Cover Toulouse Francia", description: "..." },
+    { id: 7, image: "/images/proyectos/proyectos-multy-padel-wolouwe-belgium-min.webp", name: "Multy Court Cover Wolouwe Bélgica", description: "..." },
+    { id: 8, image: "/images/proyectos/proyectos-single-padel-jodoine-belgium-min.webp", name: "Single Court Cover Jodoine Bélgica", description: "..." },
+    { id: 9, image: "/images/proyectos/proyectos-single-padel-tremblay-france-min.webp", name: "Single Court Cover Tremblay Francia", description: "..." },
 ])
 
 const pages = computed (() => ({

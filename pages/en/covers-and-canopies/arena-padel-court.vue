@@ -46,7 +46,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <nuxt-img
-              loading="lazy" src="/images/cubiertas__modelo_arena_padel/sorprende-con-un-modelo-de-campeonato-min.jpg"
+              loading="lazy" src="/images/cubiertas__modelo_arena_padel/sorprende-con-un-modelo-de-campeonato-min.webp"
               alt="pabellón modular para cubrir de 2 a 6 pistas de pádel"
             />
           </div>
@@ -62,7 +62,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <nuxt-img
-              loading="lazy" src="/images/cubiertas__modelo_arena_padel/completa-tu-pabellon-modular-con-los-cerramientos-del-arena-padel-min.jpg"
+              loading="lazy" src="/images/cubiertas__modelo_arena_padel/completa-tu-pabellon-modular-con-los-cerramientos-del-arena-padel-min.webp"
               alt="Top off your modular pavilion with our Arena side enclosures for the upper canopy."
             />
           </div>
@@ -77,7 +77,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <nuxt-img
-              loading="lazy" src="/images/cubiertas__modelo_arena_padel/y-las-fijaciones-de-una-gran-cubierta-min.jpg"
+              loading="lazy" src="/images/cubiertas__modelo_arena_padel/y-las-fijaciones-de-una-gran-cubierta-min.webp"
               alt="Firm, safe, and guaranteed anchoring for your Arena pavilion. "
             />
           </div>
@@ -167,19 +167,19 @@ const { data } = await useAsyncData("cubierta-arena-padel-page", () =>
 
 const projects = computed(() => [
   {
-    image: "que-cubierta-arena-padel-eliges-first-slide--min.jpg",
+    image: "que-cubierta-arena-padel-eliges-first-slide--min.webp",
     imageAlt: "cubierta-de-arena-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-arena-padel-eliges-second-slide--min.jpg",
+    image: "que-cubierta-arena-padel-eliges-second-slide--min.webp",
     imageAlt: "cubierta-de-arena-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-arena-padel-eliges-third-slide--min.jpg",
+    image: "que-cubierta-arena-padel-eliges-third-slide--min.webp",
     imageAlt: "cubierta-de-arena-padel-que-hemos-realizado",
     title: "",
     subtitle: "",

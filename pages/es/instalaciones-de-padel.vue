@@ -49,7 +49,7 @@
         <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
           <div class="col-md-6">
             <nuxt-img 
-              loading="lazy" src="/images/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.jpg"
+              loading="lazy" src="/images/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.webp"
             />
           </div>
           <div class="col-md-6 color-primary">
@@ -66,7 +66,7 @@
         >
           <div class="col-md-6">
             <nuxt-img 
-              loading="lazy" src="/images/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.jpg"
+              loading="lazy" src="/images/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.webp"
             />
           </div>
           <div class="col-md-6">

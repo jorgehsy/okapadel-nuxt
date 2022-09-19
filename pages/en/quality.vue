@@ -18,7 +18,7 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6 ">
-            <nuxt-img  loading="lazy" src="/images/calidad/con-okapadel-ganamos-todos-min.jpg" alt="Manufacturers of sustainable and ecofriendly padel courts." />
+            <nuxt-img  loading="lazy" src="/images/calidad/con-okapadel-ganamos-todos-min.webp" alt="Manufacturers of sustainable and ecofriendly padel courts." />
           </div>
           <div class="col-md-6">
             <div v-html="content.firstSection?.rightColumn"></div>
@@ -43,7 +43,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <nuxt-img  loading="lazy" src="/images/calidad/certificados-para-tu-club-de-padel-min.jpg" />
+            <nuxt-img  loading="lazy" src="/images/calidad/certificados-para-tu-club-de-padel-min.webp" />
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
-            <nuxt-img  loading="lazy" src="/images/calidad/politicas-de-calidad-okapadel-min.jpg" alt="Fabricantes de pistas de pádel World Padel Tour - Okapadel"/></div>
+            <nuxt-img  loading="lazy" src="/images/calidad/politicas-de-calidad-okapadel-min.webp" alt="Fabricantes de pistas de pádel World Padel Tour - Okapadel"/></div>
           <div class="col-md-6 mt-3">
             <div v-html="content.thirdSection?.rightColumn"></div>
             <div class="button-box">

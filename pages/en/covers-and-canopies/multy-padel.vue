@@ -34,7 +34,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <nuxt-img
-              loading="lazy" src="/images/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.jpg"
+              loading="lazy" src="/images/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.webp"
               alt="Multy Model: Expandable modular pavilion for padel courts. "
             />
           </div>
@@ -50,7 +50,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
             <nuxt-img
-              loading="lazy" src="/images/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.jpg"
+              loading="lazy" src="/images/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.webp"
               alt="Top off your padel court canopy in a personalized way. "
             />
           </div>
@@ -65,7 +65,7 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <nuxt-img
-              loading="lazy" src="/images/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.jpg"
+              loading="lazy" src="/images/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.webp"
               alt="We take care of your padel pavilion's anchoring in a totally safe and durable way"
             />
           </div>
@@ -151,19 +151,19 @@ const { data } = await useAsyncData("cubierta-multy-padel-page", () =>
 
 const projects = computed(() => [
   {
-    image: "que-cubierta-de-multy-padel-te-gusta-first-slide-min.jpg",
+    image: "que-cubierta-de-multy-padel-te-gusta-first-slide-min.webp",
     imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-de-multy-padel-te-gusta-second-slide-min.jpg",
+    image: "que-cubierta-de-multy-padel-te-gusta-second-slide-min.webp",
     imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
   },
   {
-    image: "que-cubierta-de-multy-padel-te-gusta-third-slide-min.jpg",
+    image: "que-cubierta-de-multy-padel-te-gusta-third-slide-min.webp",
     imageAlt: "cubierta-de-multy-padel-que-hemos-realizado",
     title: "",
     subtitle: "",
