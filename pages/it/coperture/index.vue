@@ -29,8 +29,8 @@
             <p class="text-center">
               Gli sport di racchetta come il padel sono soggetti a vento, pioggia, sole e abbagliamento, quindi la scelta di una copertura è essenziale per poterli praticare nelle migliori condizioni.
             </p>
-            <img 
-              src="~/assets/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
               alt="Padel 365 giorni all’anno"
             />
           </div>
@@ -81,8 +81,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/cubierta-single-padel-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/cubierta-single-padel-min.jpg"
               alt="Copertura per campi da padel individuali"
             />
           </div>
@@ -116,8 +116,8 @@
             </div>
           </div>
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/cubierta-multy-padel-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/cubierta-multy-padel-min.jpg"
               alt="Copertura per campi da padel doppi"
             />
           </div>
@@ -129,8 +129,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/nave-arena-padel-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/nave-arena-padel-min.jpg"
               alt="Copertura per più campi da padel"
             />
           </div>
@@ -198,8 +198,8 @@
             </ul>
           </div>
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
               alt="Modelli di copertura per campi da padel"
             />
           </div>

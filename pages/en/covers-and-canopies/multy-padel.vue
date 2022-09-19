@@ -33,8 +33,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <img
-              src="~/assets/images/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.jpg"
+            <nuxt-img
+              loading="lazy" src="/images/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.jpg"
               alt="Multy Model: Expandable modular pavilion for padel courts. "
             />
           </div>
@@ -49,8 +49,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <img
-              src="~/assets/images/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.jpg"
+            <nuxt-img
+              loading="lazy" src="/images/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.jpg"
               alt="Top off your padel court canopy in a personalized way. "
             />
           </div>
@@ -64,8 +64,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img
-              src="~/assets/images/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.jpg"
+            <nuxt-img
+              loading="lazy" src="/images/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.jpg"
               alt="We take care of your padel pavilion's anchoring in a totally safe and durable way"
             />
           </div>

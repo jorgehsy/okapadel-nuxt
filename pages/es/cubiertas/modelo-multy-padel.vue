@@ -35,8 +35,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <img
-              src="~/assets/images/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.jpg"
+            <nuxt-img
+              loading="lazy" src="/images/cubiertas__modelo_multy_padel/descubre-los-cerramientos-del-multy-padel-min.jpg"
               alt="pabellón modular para cubrir de 2 a 6 pistas de pádel"
             />
           </div>
@@ -51,8 +51,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <img
-              src="~/assets/images/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.jpg"
+            <nuxt-img
+              loading="lazy" src="/images/cubiertas__modelo_multy_padel/un-formato-estandar-que-se-adapta-min.jpg"
               alt="Completa de forma personalizada la cubierta de tus pistas de pádel"
             />
           </div>
@@ -66,8 +66,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img
-              src="~/assets/images/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.jpg"
+            <nuxt-img
+              loading="lazy" src="/images/cubiertas__modelo_multy_padel/y-las-fijaciones-de-la-cubierta-doble-min.jpg"
               alt="Sujeta sólidamente y sin complicaciones la cubierta de tu pista de pádel"
             />
           </div>

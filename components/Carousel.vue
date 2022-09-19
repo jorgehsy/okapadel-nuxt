@@ -6,8 +6,9 @@
           :key="index"
           >
           <div class="carousel__item">
-            <img 
-              :src="`/_nuxt/assets/images/slides/${item.image}`"
+            <nuxt-img 
+              loading="lazy"
+              :src="`/images/slides/${item.image}`"
               :alt="item.imageAlt"
               style="height: auto; width: 100%"
             />

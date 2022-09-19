@@ -27,7 +27,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <img  src="~/assets/images/pistas/modelo-basic-court-pista-convencional-para-un-deporte-innovador-min.jpg" alt="Fabricantes de pistas de pádel World Padel Tour - Okapadel"/>
+            <nuxt-img  loading="lazy" src="/images/pistas/modelo-basic-court-pista-convencional-para-un-deporte-innovador-min.jpg" alt="Fabricantes de pistas de pádel World Padel Tour - Okapadel"/>
           </div>
           <div class="col-md-6">
             <div v-html="content.firstSection?.leftColumn"></div>
@@ -43,7 +43,7 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6 ">
-            <img  src="~/assets/images/pistas/modelo-panoramic-court-pista-transparente-para-captar-todas-las-miradas-min.jpg" />
+            <nuxt-img  loading="lazy" src="/images/pistas/modelo-panoramic-court-pista-transparente-para-captar-todas-las-miradas-min.jpg" />
           </div>
           <div class="col-md-6">
             <div v-html="content.secondSection?.rightColumn"></div>

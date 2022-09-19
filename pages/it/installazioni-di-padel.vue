@@ -33,8 +33,8 @@
             <p class="lead text-left">
               Possiamo allestire una copertura fissa o temporanea per permettervi di avere un vostro ne-gozio dove vendere il materiale del vostro club o del vostro sponsor.
             </p>
-            <img 
-              src="~/assets/images/vende-productos-de-padel-en-tu-propia-tienda-especializada.svg"
+            <nuxt-img 
+              loading="lazy" src="/images/vende-productos-de-padel-en-tu-propia-tienda-especializada.svg"
               alt="Fornitori materiali per il gioco del padel"
             />
           </div>
@@ -46,8 +46,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.jpg"
               alt="Produttori  di campi da padel con servicio integrale per l’installazione del campo"
             />
           </div>
@@ -64,8 +64,8 @@
           class="row d-flex align-items-center flex-column-reverse flex-md-row"
         >
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.jpg"
             />
           </div>
           <div class="col-md-6">

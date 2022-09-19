@@ -36,8 +36,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <img
-              src="~/assets/images/cubiertas__modelo_arena_padel/sorprende-con-un-modelo-de-campeonato-min.jpg"
+            <nuxt-img
+              loading="lazy" src="/images/cubiertas__modelo_arena_padel/sorprende-con-un-modelo-de-campeonato-min.jpg"
               alt="Abbiamo più di 5  modelli di coperture Arena padel che vi aspettano"
             />
           </div>
@@ -52,8 +52,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img
-              src="~/assets/images/cubiertas__modelo_arena_padel/completa-tu-pabellon-modular-con-los-cerramientos-del-arena-padel-min.jpg"
+            <nuxt-img
+              loading="lazy" src="/images/cubiertas__modelo_arena_padel/completa-tu-pabellon-modular-con-los-cerramientos-del-arena-padel-min.jpg"
               alt="Completa tu pabellón modular con los cerramientos para cubiertas Arena Padel"
             />
           </div>
@@ -67,8 +67,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <img
-              src="~/assets/images/cubiertas__modelo_arena_padel/y-las-fijaciones-de-una-gran-cubierta-min.jpg"
+            <nuxt-img
+              loading="lazy" src="/images/cubiertas__modelo_arena_padel/y-las-fijaciones-de-una-gran-cubierta-min.jpg"
               alt="Fijaciones firmes, seguras y garantizadas para tu pabellón Arena Padel"
             />
           </div>

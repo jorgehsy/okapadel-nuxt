@@ -22,7 +22,7 @@
             <div v-html="content.firstSection?.leftColumn"></div>
           </div>
 
-          <div class="col-md-6 mt-3"><img  src="~/assets/images/nosotros/que-es-okapadel--min.jpg" /></div>
+          <div class="col-md-6 mt-3"><nuxt-img  loading="lazy" src="/images/nosotros/que-es-okapadel--min.jpg" /></div>
         </div>
       </div>
     </section>
@@ -31,7 +31,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/nosotros/por-que-se-creo_okapadel.-min.jpg" />
+            <nuxt-img  loading="lazy" src="/images/nosotros/por-que-se-creo_okapadel.-min.jpg" />
           </div>
           <div class="col-md-6">
             <div v-html="content.secondSection?.rightColumn"></div>
@@ -62,7 +62,7 @@
             <div v-html="content.thirdSection?.leftColumn"></div>
           </div>
 
-          <div class="col-md-6 mt-3"><img  src="~/assets/images/nosotros/y-ademas-encontramos-patrocinio-para-tu-club-min.jpg" /></div>
+          <div class="col-md-6 mt-3"><nuxt-img  loading="lazy" src="/images/nosotros/y-ademas-encontramos-patrocinio-para-tu-club-min.jpg" /></div>
         </div>
       </div>
     </section>

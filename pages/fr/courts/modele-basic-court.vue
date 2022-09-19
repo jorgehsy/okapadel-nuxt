@@ -43,8 +43,8 @@
             <div v-html="content.firstSection?.leftColumn"></div>
           </div>
           <div class="col-md-6 two-col-section">
-            <img 
-              src="~/assets/images/pistas__modelo_basic_court/la-pista-de-padel-basic-court-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/pistas__modelo_basic_court/la-pista-de-padel-basic-court-min.jpg"
               alt="Pistas de pádel versátiles, de fácil instalación y mantenimiento"
             />
           </div>
@@ -69,8 +69,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/pistas__modelo_basic_court/sujecion-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/pistas__modelo_basic_court/sujecion-min.jpg"
               alt="Sujecciones para nuestra pistas de pádel Basic Court, fácil instalación y mantenimiento con total seguridad y garantía."
             />
           </div>
@@ -85,8 +85,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12 pb-3">
-            <img 
-              src="~/assets/images/pistas__modelo_basic_court/vidrios-templados-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/pistas__modelo_basic_court/vidrios-templados-min.jpg"
               alt="Vidrios para pistas de pádel – Pistas de pádel cristal"
             />
           </div>
@@ -101,8 +101,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/pistas__modelo_basic_court/pintura-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/pistas__modelo_basic_court/pintura-min.jpg"
               alt="Pintura ecológica sin VOCs para pistas de pádel"
             />
           </div>
@@ -117,7 +117,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <img  src="~/assets/images/pistas__modelo_basic_court/cesped-min.jpg" alt="cesped de cancha de padel" />
+            <nuxt-img  loading="lazy" src="/images/pistas__modelo_basic_court/cesped-min.jpg" alt="cesped de cancha de padel" />
           </div>
           <div class="col-md-6">
             <div v-html="content.sixthSection?.leftColumn"></div>
@@ -131,7 +131,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-            <img  src="~/assets/images/pistas__modelo_basic_court/iluminacion-min.jpg" alt="focos pista de pádel - Iluminación led para pistas de pádel" />
+            <nuxt-img  loading="lazy" src="/images/pistas__modelo_basic_court/iluminacion-min.jpg" alt="focos pista de pádel - Iluminación led para pistas de pádel" />
           </div>
           <div class="col-md-6">
             <div v-html="content.seventhSection?.rightColumn"></div>
@@ -143,7 +143,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-lg-12">
-            <img  src="~/assets/images/personalizacion.svg" />
+            <nuxt-img  loading="lazy" src="/images/personalizacion.svg" />
           </div>
           <div class="col-md-6">
             <div v-html="content.eighthSection?.leftColumn"></div>

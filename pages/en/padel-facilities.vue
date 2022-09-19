@@ -33,8 +33,8 @@
             <p class="lead text-left">
               We can set up a permanent or temporary canopy so you can have your store where materi-als from your club or your sponsors are sold.
             </p>
-            <img 
-              src="~/assets/images/vende-productos-de-padel-en-tu-propia-tienda-especializada.svg"
+            <nuxt-img 
+              loading="lazy" src="/images/vende-productos-de-padel-en-tu-propia-tienda-especializada.svg"
               alt="Padel Suppliers"
             />
           </div>
@@ -46,8 +46,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/instalaciones_de_padel/alquila-material-deportivo-en-la-carpa-min.jpg"
               alt="Padel Material Suppliers"
             />
           </div>
@@ -64,8 +64,8 @@
           class="row d-flex align-items-center flex-column-reverse flex-md-row"
         >
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/instalaciones_de_padel/que-quieres-crear-en-tu-espacio-de-padel--min.jpg"
               alt="Manufacturer of padel courts with comprehensive service for padel sports facilities"
             />
           </div>

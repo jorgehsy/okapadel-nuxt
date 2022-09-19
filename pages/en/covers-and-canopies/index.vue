@@ -29,8 +29,8 @@
             <p class="text-center">
               Racket sports like padel and tennis are susceptible to wind, rain, sun, and glare; thus, choos-ing a good cover/canopy/enclosure is essential to be able to <strong>enjoy these sports under the best of conditions</strong>.
             </p>
-            <img 
-              src="~/assets/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
               alt="Play padel 365 days a year."
             />
           </div>
@@ -80,8 +80,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/cubierta-single-padel-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/cubierta-single-padel-min.jpg"
               alt="Cover for individual padel courts."
             />
           </div>
@@ -115,8 +115,8 @@
             </div>
           </div>
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/cubierta-multy-padel-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/cubierta-multy-padel-min.jpg"
               alt="Cover for two padel courts"
             />
           </div>
@@ -128,8 +128,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/nave-arena-padel-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/nave-arena-padel-min.jpg"
               alt="Large-scale model for multiple padel courts"
             />
           </div>
@@ -192,8 +192,8 @@
             </ul>
           </div>
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
               alt="Set up a large-scale padel facility – ideal for an indoor padel club."
             />
           </div>

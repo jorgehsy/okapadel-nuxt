@@ -38,8 +38,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <img
-              src="~/assets/images/cubiertas__modelo_single_padel/permiten-una-instalacion-rapida-y-rentable-min.jpg"
+            <nuxt-img
+              loading="lazy" src="/images/cubiertas__modelo_single_padel/permiten-una-instalacion-rapida-y-rentable-min.jpg"
               alt="Single Model: A pavilion for an individual padel court in 72 hours. "
             />
           </div>
@@ -54,8 +54,8 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 order-md-12">
-            <img
-              src="~/assets/images/cubiertas__modelo_single_padel/_descubre-los-cerramientos-del-single-padel-min.jpg"
+            <nuxt-img
+              loading="lazy" src="/images/cubiertas__modelo_single_padel/_descubre-los-cerramientos-del-single-padel-min.jpg"
               alt="Top off the canopy for your padel court your way. "
             />
           </div>
@@ -71,8 +71,8 @@
           class="row d-flex align-items-center flex-column-reverse flex-md-row"
         >
           <div class="col-md-6">
-            <img
-              src="~/assets/images/cubiertas__modelo_single_padel/y-las-fijaciones-de-la-cubierta-individual-min.jpg"
+            <nuxt-img
+              loading="lazy" src="/images/cubiertas__modelo_single_padel/y-las-fijaciones-de-la-cubierta-individual-min.jpg"
               alt="Anchor the canopy for your padel court solidly and without complications"
             />
           </div>

@@ -4,8 +4,8 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark py-4">
           <a class="navbar-brand" href="/it" rel="">
-            <img
-              src="~/assets/images/okapadel_mainlogo-alt.svg"
+            <nuxt-img
+              src="/images/okapadel_mainlogo-alt.svg"
               width="150"
               alt="okapadel logo"
             />

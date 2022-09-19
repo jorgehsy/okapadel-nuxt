@@ -29,8 +29,8 @@
             <p class="text-center">
               Los deportes de raqueta como el pádel son susceptibles al viento, la lluvia, el sol y los des-lumbramientos, por eso elegir una cubierta es fundamental para poder <strong>disfrutarlo en las mejores condiciones.</strong>
             </p>
-            <img 
-              src="~/assets/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
               alt="Pádel 365 días al año"
             />
           </div>
@@ -82,8 +82,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/cubierta-single-padel-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/cubierta-single-padel-min.jpg"
               alt="Cubierta para pistas de pádel individuales"
             />
           </div>
@@ -117,8 +117,8 @@
             </div>
           </div>
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/cubierta-multy-padel-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/cubierta-multy-padel-min.jpg"
               alt="Cubierta para pistas de pádel dobles"
             />
           </div>
@@ -130,8 +130,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/nave-arena-padel-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/nave-arena-padel-min.jpg"
               alt="Montar nave de pádel, ideal para club de pádel indoor"
             />
           </div>
@@ -197,8 +197,8 @@
             </ul>
           </div>
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
             />
           </div>
         </div>

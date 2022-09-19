@@ -29,8 +29,8 @@
             <p class="text-center">
               Les sports de raquette comme le padel sont sensibles au vent, à la pluie, au soleil et aux éblouissements, c’est pourquoi disposer d’une couverture est essentiel pour pouvoir <strong>jouer sous les meilleures conditions.</strong>
             </p>
-            <img 
-              src="~/assets/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/cubre-tu-pista-con-un-diseno-ganador-min.jpg"
               alt="Le padel 365 jours par an"
             />
           </div>
@@ -80,8 +80,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/cubierta-single-padel-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/cubierta-single-padel-min.jpg"
               alt="Cubierta para pistas de pádel individuales"
             />
           </div>
@@ -115,8 +115,8 @@
             </div>
           </div>
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/cubierta-multy-padel-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/cubierta-multy-padel-min.jpg"
               alt="Cubierta para pistas de pádel dobles"
             />
           </div>
@@ -128,8 +128,8 @@
       <div class="container">
         <div class="row d-flex align-items-center flex-md-row">
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/nave-arena-padel-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/nave-arena-padel-min.jpg"
               alt="Montar nave de pádel, ideal para club de pádel indoor"
             />
           </div>
@@ -191,8 +191,8 @@
             </ul>
           </div>
           <div class="col-md-6">
-            <img 
-              src="~/assets/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
+            <nuxt-img 
+              loading="lazy" src="/images/cubiertas/los-accesorios-que-acompanan-a-las-cubiertas-min.jpg"
             />
           </div>
         </div>
