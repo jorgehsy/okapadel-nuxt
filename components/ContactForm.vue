@@ -12,26 +12,41 @@
                   </div>
                   <div class="col"></div>
                 </div>
-                <form method="post">
+                <template v-if="loading">
+                  <div class="mb-4">
+                    <h3>Sending...</h3>
+                  </div>
+                </template>
+                <template v-if="error">
+                  <div class="mb-4">
+                    <h3>Oops!... Something went wrong, please try again later.</h3>
+                  </div>
+                </template>
+                <template v-else-if="sendSuccess">
+                  <div class="mb-4">
+                    <h3>Message send successfully!</h3>
+                  </div>
+                </template>
+                <form v-else method="post">
                   <div class="form-group">
                     <div class="d-lg-flex">
                       <div class="my-2 px-2 w-100">
-                        <input class="form-control form-control-lg" :placeholder="`${content.name} *`" id="name" name="name" type="text">
+                        <input class="form-control form-control-lg" :placeholder="`${content.name} *`" id="name" v-model="nombre" name="nombre" type="text">
                       </div>
                       <div class="my-2 px-2 w-100">
-                        <input class="form-control form-control-lg" :placeholder="`${content.company} *`" id="company" name="company" type="text">
+                        <input class="form-control form-control-lg" :placeholder="`${content.company} *`" id="company" v-model="empresa" name="empresa" type="text">
                       </div>
                     </div>
                     <div class="d-lg-flex">
                       <div class="my-2 px-2 w-100">
-                        <input class="form-control form-control-lg" :placeholder="`${content.email} *`" id="email" name="email" type="email">
+                        <input class="form-control form-control-lg" :placeholder="`${content.email} *`" id="email" v-model="email" name="email" type="email">
                       </div>
                       <div class="my-2 px-2 w-100">
-                        <input class="form-control form-control-lg" :placeholder="`${content.phone} *`" id="phone" name="phone" type="number">
+                        <input class="form-control form-control-lg" :placeholder="`${content.phone} *`" id="phone" v-model="telefono" name="telefono" type="number">
                       </div>
                     </div>
                     <div class="my-2 px-2 w-100">
-                      <textarea class="form-control form-control-lg" id="message" name="message" :placeholder="`${content.message} *`" rows="5"></textarea>
+                      <textarea class="form-control form-control-lg" id="message" name="mensaje" v-model="mensaje" :placeholder="`${content.message} *`" rows="5"></textarea>
                     </div>
                   </div>
                 </form>
@@ -45,8 +60,8 @@
                       <label class="form-check-label font-small" for="newsletter"> {{ content.newsletter }}</label>
                     </div>
                   </div>
-                  <div>
-                    <button class="btn btn-primary btn-sm w-sm-100" type="button">{{ content.button }}</button>
+                  <div v-if="!loading && !sendSuccess && !error">
+                    <button @click="sendEmail()" class="btn btn-primary btn-sm w-sm-100" type="button">{{ content.button }}</button>
                   </div>
                 </div>
             </div>
@@ -59,6 +74,18 @@
 <script>
 export default {
   name: "ContactForm",
+  data() {
+    return {
+      loading: false,
+      error: false,
+      sendSuccess: false,
+      nombre: '',
+      empresa: '',
+      telefono: '',
+      email: '',
+      mensaje: '',
+    }
+  },
   props: {
     title: {
       type: String,
@@ -72,6 +99,22 @@ export default {
       type: String,
       default: "es"
     },
+  },
+  methods: {
+    sendEmail(){
+      this.loading = true;
+      fetch('https://hn7uhe6ssyystbyglpfa4vovoe0wfvoy.lambda-url.eu-west-3.on.aws?' + new URLSearchParams({
+        nombre: this.nombre,
+        empresa: this.empresa,
+        telefono: this.telefono,
+        email: this.email,
+        mensaje: this.mensaje,
+      })).then(() => {
+        this.sendSuccess = true
+      }).catch(() => {
+        this.error = true
+      }).finally(() => this.loading = false)
+    }
   },
   computed: {
     content() {
