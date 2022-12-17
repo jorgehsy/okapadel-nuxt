@@ -31,22 +31,22 @@
                   <div class="form-group">
                     <div class="d-lg-flex">
                       <div class="my-2 px-2 w-100">
-                        <input class="form-control form-control-lg" :placeholder="`${content.name} *`" id="name" v-model="nombre" name="nombre" type="text">
+                        <input class="form-control form-control-lg" :class="{error: !nombre}" :placeholder="`${content.name} *`" id="name" v-model="nombre" name="nombre" type="text">
                       </div>
                       <div class="my-2 px-2 w-100">
-                        <input class="form-control form-control-lg" :placeholder="`${content.company} *`" id="company" v-model="empresa" name="empresa" type="text">
+                        <input class="form-control form-control-lg" :class="{error: !empresa}" :placeholder="`${content.company} *`" id="company" v-model="empresa" name="empresa" type="text">
                       </div>
                     </div>
                     <div class="d-lg-flex">
                       <div class="my-2 px-2 w-100">
-                        <input class="form-control form-control-lg" :placeholder="`${content.email} *`" id="email" v-model="email" name="email" type="email">
+                        <input class="form-control form-control-lg" :class="{error: !email}" :placeholder="`${content.email} *`" id="email" v-model="email" name="email" type="email">
                       </div>
                       <div class="my-2 px-2 w-100">
-                        <input class="form-control form-control-lg" :placeholder="`${content.phone} *`" id="phone" v-model="telefono" name="telefono" type="number">
+                        <input class="form-control form-control-lg" :class="{error: !telefono}" :placeholder="`${content.phone} *`" id="phone" v-model="telefono" name="telefono" type="number">
                       </div>
                     </div>
                     <div class="my-2 px-2 w-100">
-                      <textarea class="form-control form-control-lg" id="message" name="mensaje" v-model="mensaje" :placeholder="`${content.message} *`" rows="5"></textarea>
+                      <textarea class="form-control form-control-lg" id="message" :class="{error: !mensaje}" name="mensaje" v-model="mensaje" :placeholder="`${content.message} *`" rows="5"></textarea>
                     </div>
                   </div>
                 </form>
@@ -56,12 +56,12 @@
                       {{ content.foot }}
                     </p>
                     <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" value="" id="newsletter">
+                      <input class="form-check-input" type="checkbox" value="" v-model="autorizar" id="newsletter">
                       <label class="form-check-label font-small" for="newsletter"> {{ content.newsletter }}</label>
                     </div>
                   </div>
                   <div v-if="!loading && !sendSuccess && !error">
-                    <button @click="sendEmail()" class="btn btn-primary btn-sm w-sm-100" type="button">{{ content.button }}</button>
+                    <button :disabled="!validated" @click="sendEmail()" class="btn btn-primary btn-sm w-sm-100" type="button">{{ content.button }}</button>
                   </div>
                 </div>
             </div>
@@ -109,6 +109,7 @@ export default {
         telefono: this.telefono,
         email: this.email,
         mensaje: this.mensaje,
+        autorizar: this.autorizar
       })).then(() => {
         this.sendSuccess = true
       }).catch(() => {
@@ -117,6 +118,9 @@ export default {
     }
   },
   computed: {
+    validated(){
+      return this.nombre && this.empresa && this.email && this.telefono && this.mensaje
+    },
     content() {
       switch (this.lang) {
         case "en":
@@ -171,4 +175,7 @@ export default {
 </script>
 
 <style>
+.error{
+  border-color: red;
+}
 </style>
