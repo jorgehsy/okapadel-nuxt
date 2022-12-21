@@ -103,7 +103,7 @@ export default {
   methods: {
     sendEmail(){
       this.loading = true;
-      fetch('https://hn7uhe6ssyystbyglpfa4vovoe0wfvoy.lambda-url.eu-west-3.on.aws?' + new URLSearchParams({
+      fetch('https://nvz4wu4lbnze6voegojlgcbu4i0sjcgt.lambda-url.eu-west-3.on.aws/?' + new URLSearchParams({
         nombre: this.nombre,
         empresa: this.empresa,
         telefono: this.telefono,
