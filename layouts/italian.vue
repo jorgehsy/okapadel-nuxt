@@ -14,7 +14,7 @@
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
                 <NuxtLink class="nav-link" rel="" to="/it/soluzioni">
-                  Soluzioni
+                  Prodotti
                 </NuxtLink>
                 <div class="nav-item-submenu">
                   <ul>
@@ -68,7 +68,7 @@
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
                 <NuxtLink class="nav-link" rel="" to="/it/soluzioni"
-                  >Soluzioni</NuxtLink
+                  >Prodotti</NuxtLink
                 >
                 <ul class="navbar-submenu-mobile">
                   <li class="nav-item">

@@ -10,7 +10,7 @@
       "
       id=""
     >
-      <div class="hero-bg hero-proyectos"></div>
+      <div class="hero-bg hero-proyectos-v2"></div>
       <div class="container d-flex flex-column align-items-center">
         <div class="row">
           <div class="col-md-12 offset-xl-0 text-center w-text">

@@ -42,6 +42,7 @@ $darken: rgba(0, 0, 0, 0.4);
   &.hero-home { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-home-min.webp"); }}
   &.hero-soluciones { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-soluciones-min.webp");}}
   &.hero-proyectos { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-proyectos-min.webp"); }}
+  &.hero-proyectos-v2 { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-proyectos-min-v2.webp"); }}
   &.hero-calidad { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-calidad-min.webp"); }}
   &.hero-contacto { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-contacto-v2-min.webp"); }}
   &.hero-instalaciones { &:before{ background-image: linear-gradient( $darken, $darken ), url("../images/headers/header-instalaciones_de_padel-min.webp"); }}
