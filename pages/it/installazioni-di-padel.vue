@@ -77,13 +77,6 @@
 
     <ContactForm lang="it" :title="content.contact.title" :subtitle="content.contact.subtitle"  />
   </div>
-
-
-  <h2 class="fw-section-title pt-0"><strong>What do you want to create </strong> at your padel club?
-          </h2>
-<p class="mb-4">
-            We can help you set up anything: from a gym to a rest area or a playing area. Tell us about your project and we will help you to make it a reality. Okapadel is your manufacturer of padel courts with comprehensive service to build and maintain your padel space in a lasting and affordable way.
-          </p>
 </template>
 
 <script setup lang="ts">
