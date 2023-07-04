@@ -164,4 +164,21 @@ footer{
   text-align: center;
 }
 
+.cookies-alert{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  opacity: 0.9;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: $primary;
+  color: $white;
+  padding: 15px 0;
+  
+  .btn{
+    vertical-align: baseline;
+  }
+}
+
+
 @import '_responsive';

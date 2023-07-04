@@ -187,5 +187,7 @@
         </div>
       </div>
     </footer>
+
+    <CookiesAlert />
   </div>
 </template>

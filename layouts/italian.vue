@@ -178,6 +178,11 @@
         </div>
       </div>
     </footer>
+
+    <CookiesAlert
+      text="Utilizziamo i cookie per scopi analitici e per monitorare le tue abitudini di navigazione. "
+      button="Accetta"
+     />
   </div>
 </template>
 

@@ -186,6 +186,11 @@
         </div>
       </div>
     </footer>
+    
+    <CookiesAlert 
+      text="We use cookies for analytical purposes and to monitor your browsing habits."
+      button="Got it"
+    />
   </div>
 </template>
 
