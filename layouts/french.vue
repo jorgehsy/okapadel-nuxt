@@ -171,9 +171,7 @@
           <div class="col-12 col-lg-3 text-md-center">
             <h5><strong>Trouve nous</strong></h5>
             <ul class="widget-list">
-              <li class="widget-list-item">Linkedin</li>
-              <li class="widget-list-item">Instagram</li>
-              <li class="widget-list-item">Facebook</li>
+              <li class="widget-list-item"> <a href="https://www.instagram.com/okapadel_official/" target="_blank"> Instagram </a></li>
             </ul>
           </div>
         </div>
