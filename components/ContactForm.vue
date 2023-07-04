@@ -79,6 +79,7 @@ export default {
       loading: false,
       error: false,
       sendSuccess: false,
+      autorizar: true,
       nombre: '',
       empresa: '',
       telefono: '',

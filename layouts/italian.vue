@@ -171,14 +171,12 @@
             </ul>
           </div>
         </div>
-        <div class="row pt-5">
-          <!-- <div class="bottom-bar d-flex justify-content-between">
-            <div class="bottom-bar-link pr-5">Aviso legal</div>|
-            <div class="bottom-bar-link pr-5 pl-5">Condiciones de uso</div>|
-            <div class="bottom-bar-link pr-5 pl-5">Políticas de cookies</div>|
-            <div class="bottom-bar-link pl-5">Política de datos y privacidad</div>
-            <div class="text-right px-5">&copy; Okapadel 2022</div>
-          </div> -->
+        <div class="row">
+          <div class="bottom-bar d-flex w-100 justify-content-center">
+            <div class="bottom-bar-link pr-5 pl-5"> <a href="https://okatent.com/it/note-legali/" target="_blank" ref="noopener noreferrer nofollow"> Note Legali </a></div>|
+            <div class="bottom-bar-link pr-5 pl-5"> <a href="https://okatent.com/it/politica-dei-cookie/"  target="_blank" ref="noopener noreferrer nofollow">Politica dei Cookie </a></div>|
+            <div class="text-right px-5">Okapadel &copy; 2023 </div>
+          </div>
         </div>
       </div>
     </footer>
