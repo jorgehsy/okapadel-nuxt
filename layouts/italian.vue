@@ -18,11 +18,11 @@
                 </NuxtLink>
                 <div class="nav-item-submenu">
                   <ul>
-                    <li class="nav-item">
-                      <NuxtLink class="nav-link" rel="" to="/it/campi">
-                        <i class="fa-fw fa-solid fa-plus g-text"></i>Campi
-                      </NuxtLink>
-                    </li>
+                    <!--<li class="nav-item">-->
+                    <!--  <NuxtLink class="nav-link" rel="" to="/it/campi">-->
+                    <!--    <i class="fa-fw fa-solid fa-plus g-text"></i>Campi-->
+                    <!--  </NuxtLink>-->
+                    <!--</li>-->
                     <li class="nav-item">
                       <NuxtLink class="nav-link" rel="" to="/it/coperture">
                         <i class="fa-fw fa-solid fa-plus g-text"></i>Coperture

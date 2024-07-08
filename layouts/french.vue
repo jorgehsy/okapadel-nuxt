@@ -18,11 +18,11 @@
                 </NuxtLink>
                 <div class="nav-item-submenu">
                   <ul>
-                    <li class="nav-item">
-                      <NuxtLink class="nav-link" rel="" to="/fr/courts">
-                        <i class="fa-fw fa-solid fa-plus g-text"></i>Courts
-                      </NuxtLink>
-                    </li>
+                    <!--<li class="nav-item">-->
+                    <!--  <NuxtLink class="nav-link" rel="" to="/fr/courts">-->
+                    <!--    <i class="fa-fw fa-solid fa-plus g-text"></i>Courts-->
+                    <!--  </NuxtLink>-->
+                    <!--</li>-->
                     <li class="nav-item">
                       <NuxtLink class="nav-link" rel="" to="/fr/couvertures">
                         <i class="fa-fw fa-solid fa-plus g-text"></i>Couvertures

@@ -13,6 +13,12 @@ export default defineNuxtConfig({
     'bootstrap-vue/nuxt',
     '@nuxtjs/strapi',
   ],
+  ignore:  [
+    'pages/es/pistas/*',
+    'pages/en/courts/*',
+    'pages/fr/courts/*',
+    'pages/it/campi/*'
+  ],
   image:{
     dir: 'assets'
   },
