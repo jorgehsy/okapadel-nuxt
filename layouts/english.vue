@@ -13,28 +13,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/en/solutions">
-                  Products
+                <NuxtLink
+                  class="nav-link"
+                  rel=""
+                  to="/en/covers-and-canopies"
+                >
+                  Covers and Canopies
                 </NuxtLink>
-                <div class="nav-item-submenu">
-                  <ul>
-                    <!--<li class="nav-item">-->
-                    <!--  <NuxtLink class="nav-link" rel="" to="/en/courts">-->
-                    <!--    <i class="fa-fw fa-solid fa-plus g-text"></i>Courts-->
-                    <!--  </NuxtLink>-->
-                    <!--</li>-->
-                    <li class="nav-item">
-                      <NuxtLink
-                        class="nav-link"
-                        rel=""
-                        to="/en/covers-and-canopies"
-                      >
-                        <i class="fa-fw fa-solid fa-plus g-text"></i>Covers and
-                        Canopies
-                      </NuxtLink>
-                    </li>
-                  </ul>
-                </div>
               </li>
               <li class="nav-item">
                 <NuxtLink class="nav-link" rel="" to="/en/padel-facilities"

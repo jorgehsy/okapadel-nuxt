@@ -13,23 +13,9 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <NuxtLink class="nav-link" rel="" to="/fr/solutions">
-                  Produits
+                <NuxtLink class="nav-link" rel="" to="/fr/couvertures">
+                  Couvertures
                 </NuxtLink>
-                <div class="nav-item-submenu">
-                  <ul>
-                    <!--<li class="nav-item">-->
-                    <!--  <NuxtLink class="nav-link" rel="" to="/fr/courts">-->
-                    <!--    <i class="fa-fw fa-solid fa-plus g-text"></i>Courts-->
-                    <!--  </NuxtLink>-->
-                    <!--</li>-->
-                    <li class="nav-item">
-                      <NuxtLink class="nav-link" rel="" to="/fr/couvertures">
-                        <i class="fa-fw fa-solid fa-plus g-text"></i>Couvertures
-                      </NuxtLink>
-                    </li>
-                  </ul>
-                </div>
               </li>
               <li class="nav-item">
                 <NuxtLink
