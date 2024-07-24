@@ -18,14 +18,6 @@
                 </NuxtLink>
               </li>
               <li class="nav-item">
-                <NuxtLink
-                  class="nav-link"
-                  rel=""
-                  to="/it/installazioni-di-padel"
-                  >Installazioni di Padel</NuxtLink
-                >
-              </li>
-              <li class="nav-item">
                 <NuxtLink class="nav-link" rel="" to="/it/progetti"
                   >Progetti</NuxtLink
                 >
